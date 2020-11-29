@@ -1,0 +1,1738 @@
+[
+ {
+   "Name": "",
+   "Area": "Policing and Surveillance",
+   "Purpose": "Facial Recognition",
+   "Algorithm": {
+      "Model": "Machine Learning for Image Recognition"
+   },
+   "Jurisdiction ": {
+      " Location": "New Delhi"
+   },
+   "Manner of Procurement": "",
+   "Developed For": "Delhi Police",
+   "Developed By": "Innefu Labs",
+   "Used In": "",
+   "Proposed": {
+      "Implemented": "Implemented"
+   },
+   "Affected Persons": "",
+   "Users (Citizens, Police, etc)": "Delhi Police",
+   "Issues": "Privacy, Discrimination, Police Violence",
+   "Legal framework": "No",
+   "Databases Relied On (Training": {
+      "Matching)": "Voter ID, Driver's License, CCTNS"
+   },
+   "Government Agency": "",
+   "Examples from other jurisdictions": "",
+   "date of adoption": "",
+   "Public documentation": "",
+   "News reports": "",
+   "Notes": ""
+},
+ {
+   "Name": "",
+   "Area": "Policing and Surveillance",
+   "Purpose": "Facial Recognition",
+   "Algorithm": {
+      "Model": "Machine Learning for Image Recognition"
+   },
+   "Jurisdiction ": {
+      " Location": "Chennai"
+   },
+   "Manner of Procurement": "",
+   "Developed For": "Chennai Police",
+   "Developed By": "FaceTagr by Haliscape Business Solutions",
+   "Used In": "",
+   "Proposed": {
+      "Implemented": "Implemented"
+   },
+   "Affected Persons": "",
+   "Users (Citizens, Police, etc)": "Chenai Police",
+   "Issues": "Privacy, Discrimination, Police Violence",
+   "Legal framework": "No",
+   "Databases Relied On (Training": {
+      "Matching)": "SCRB Database, CCTNS"
+   },
+   "Government Agency": "",
+   "Examples from other jurisdictions": "",
+   "date of adoption": "",
+   "Public documentation": "",
+   "News reports": "",
+   "Notes": ""
+},
+ {
+   "Name": "",
+   "Area": "Policing and Surveillance",
+   "Purpose": "Facial Recognition",
+   "Algorithm": {
+      "Model": "Machine Learning for Image Recognition"
+   },
+   "Jurisdiction ": {
+      " Location": "Chitoor"
+   },
+   "Manner of Procurement": "",
+   "Developed For": "Chitoor Police",
+   "Developed By": "FaceTagr by Haliscape Business Solutions",
+   "Used In": "",
+   "Proposed": {
+      "Implemented": "Implemented"
+   },
+   "Affected Persons": "",
+   "Users (Citizens, Police, etc)": "Chitoor Police",
+   "Issues": "Privacy, Discrimination, Police Violence",
+   "Legal framework": "No",
+   "Databases Relied On (Training": {
+      "Matching)": "SCRB Database, CCTNS"
+   },
+   "Government Agency": "",
+   "Examples from other jurisdictions": "",
+   "date of adoption": "",
+   "Public documentation": "",
+   "News reports": "",
+   "Notes": "Microsoft Smart City Project"
+},
+ {
+   "Name": "",
+   "Area": "Policing and Surveillance",
+   "Purpose": "Facial Recognition",
+   "Algorithm": {
+      "Model": "Machine Learning for Image Recognition"
+   },
+   "Jurisdiction ": {
+      " Location": "Surat"
+   },
+   "Manner of Procurement": "",
+   "Developed For": "Surat City Police (Picture Intelligence Unit)",
+   "Developed By": "NeoFace by NEC",
+   "Used In": "",
+   "Proposed": {
+      "Implemented": "Implemented"
+   },
+   "Affected Persons": "",
+   "Users (Citizens, Police, etc)": "Mumbai Police",
+   "Issues": "Privacy, Discrimination, Police Violence",
+   "Legal framework": "No",
+   "Databases Relied On (Training": {
+      "Matching)": ""
+   },
+   "Government Agency": "",
+   "Examples from other jurisdictions": "",
+   "date of adoption": "",
+   "Public documentation": "",
+   "News reports": "",
+   "Notes": ""
+},
+ {
+   "Name": "AMBIS",
+   "Area": "Policing and Surveillance",
+   "Purpose": "Facial Recognition",
+   "Algorithm": {
+      "Model": "Machine Learning for Image Recognition"
+   },
+   "Jurisdiction ": {
+      " Location": "Maharasthra"
+   },
+   "Manner of Procurement": "Open Tender",
+   "Developed For": "Maharashtra Policy",
+   "Developed By": "",
+   "Used In": "",
+   "Proposed": {
+      "Implemented": "Implemented"
+   },
+   "Affected Persons": "",
+   "Users (Citizens, Police, etc)": "Vijaywada Police",
+   "Issues": "Privacy, Discrimination, Police Violence",
+   "Legal framework": "No",
+   "Databases Relied On (Training": {
+      "Matching)": ""
+   },
+   "Government Agency": "",
+   "Examples from other jurisdictions": "",
+   "date of adoption": "",
+   "Public documentation": "",
+   "News reports": "",
+   "Notes": ""
+},
+ {
+   "Name": "",
+   "Area": "Policing and Surveillance",
+   "Purpose": "Facial Recognition",
+   "Algorithm": {
+      "Model": "Machine Learning for Image Recognition"
+   },
+   "Jurisdiction ": {
+      " Location": "Vijaywada"
+   },
+   "Manner of Procurement": "",
+   "Developed For": "Vijaywada City Policy",
+   "Developed By": "NEC",
+   "Used In": "",
+   "Proposed": {
+      "Implemented": "Implemented"
+   },
+   "Affected Persons": "",
+   "Users (Citizens, Police, etc)": "",
+   "Issues": "Privacy, Discrimination, Police Violence",
+   "Legal framework": "",
+   "Databases Relied On (Training": {
+      "Matching)": ""
+   },
+   "Government Agency": "",
+   "Examples from other jurisdictions": "",
+   "date of adoption": "",
+   "Public documentation": "",
+   "News reports": "",
+   "Notes": ""
+},
+ {
+   "Name": "",
+   "Area": "Policing and Surveillance",
+   "Purpose": "Facial Recognition",
+   "Algorithm": {
+      "Model": "Machine Learning for Image Recognition"
+   },
+   "Jurisdiction ": {
+      " Location": "Jaipur"
+   },
+   "Manner of Procurement": "",
+   "Developed For": "Jaipur City Police",
+   "Developed By": "Tech Mahindra",
+   "Used In": "",
+   "Proposed": {
+      "Implemented": "Implemented"
+   },
+   "Affected Persons": "",
+   "Users (Citizens, Police, etc)": "",
+   "Issues": "Privacy, Discrimination, Police Violence",
+   "Legal framework": "",
+   "Databases Relied On (Training": {
+      "Matching)": ""
+   },
+   "Government Agency": "",
+   "Examples from other jurisdictions": "",
+   "date of adoption": "",
+   "Public documentation": "",
+   "News reports": "",
+   "Notes": ""
+},
+ {
+   "Name": "Mumbai City Surveillance Project",
+   "Area": "Policing and Surveillance",
+   "Purpose": "Facial Recognition",
+   "Algorithm": {
+      "Model": "Machine Learning for Image Recognition"
+   },
+   "Jurisdiction ": {
+      " Location": "Mumbai"
+   },
+   "Manner of Procurement": "",
+   "Developed For": "Mumbai Police",
+   "Developed By": "L&T",
+   "Used In": "",
+   "Proposed": {
+      "Implemented": "Implemented"
+   },
+   "Affected Persons": "",
+   "Users (Citizens, Police, etc)": "",
+   "Issues": "",
+   "Legal framework": "",
+   "Databases Relied On (Training": {
+      "Matching)": ""
+   },
+   "Government Agency": "",
+   "Examples from other jurisdictions": "",
+   "date of adoption": "",
+   "Public documentation": "",
+   "News reports": "",
+   "Notes": ""
+},
+ {
+   "Name": "Punjab Artificial Intelligence System (PAIS)",
+   "Area": "Policing and Surveillance",
+   "Purpose": "Facial Recognition",
+   "Algorithm": {
+      "Model": "Machine Learning for Image Recognition"
+   },
+   "Jurisdiction ": {
+      " Location": "Punjab"
+   },
+   "Manner of Procurement": "",
+   "Developed For": "Punjab Police",
+   "Developed By": "Staqu",
+   "Used In": "",
+   "Proposed": {
+      "Implemented": "Implemented"
+   },
+   "Affected Persons": "",
+   "Users (Citizens, Police, etc)": "",
+   "Issues": "Privacy, Discrimination, Police Violence",
+   "Legal framework": "",
+   "Databases Relied On (Training": {
+      "Matching)": "Database of 150,000"
+   },
+   "Government Agency": "",
+   "Examples from other jurisdictions": "",
+   "date of adoption": "",
+   "Public documentation": "",
+   "News reports": "",
+   "Notes": ""
+},
+ {
+   "Name": "",
+   "Area": "Policing and Surveillance",
+   "Purpose": "Facial Recognition",
+   "Algorithm": {
+      "Model": "Machine Learning for Image Recognition"
+   },
+   "Jurisdiction ": {
+      " Location": "Uttarakhand"
+   },
+   "Manner of Procurement": "",
+   "Developed For": "Uttarakhand Police",
+   "Developed By": "Staqu",
+   "Used In": "",
+   "Proposed": {
+      "Implemented": "Implemented"
+   },
+   "Affected Persons": "",
+   "Users (Citizens, Police, etc)": "",
+   "Issues": "Privacy, Discrimination, Police Violence",
+   "Legal framework": "",
+   "Databases Relied On (Training": {
+      "Matching)": ""
+   },
+   "Government Agency": "",
+   "Examples from other jurisdictions": "",
+   "date of adoption": "",
+   "Public documentation": "",
+   "News reports": "",
+   "Notes": ""
+},
+ {
+   "Name": "",
+   "Area": "Policing and Surveillance",
+   "Purpose": "Facial Recognition",
+   "Algorithm": {
+      "Model": "Machine Learning for Image Recognition"
+   },
+   "Jurisdiction ": {
+      " Location": "Gurgaon"
+   },
+   "Manner of Procurement": "Single Source",
+   "Developed For": "Gurugram Metropolitan Development Authority",
+   "Developed By": "Cisco",
+   "Used In": "",
+   "Proposed": {
+      "Implemented": "Implemented"
+   },
+   "Affected Persons": "",
+   "Users (Citizens, Police, etc)": "",
+   "Issues": "",
+   "Legal framework": "",
+   "Databases Relied On (Training": {
+      "Matching)": ""
+   },
+   "Government Agency": "",
+   "Examples from other jurisdictions": "",
+   "date of adoption": "",
+   "Public documentation": "",
+   "News reports": "",
+   "Notes": ""
+},
+ {
+   "Name": "",
+   "Area": "Policing and Surveillance",
+   "Purpose": "Facial Recognition",
+   "Algorithm": {
+      "Model": "Machine Learning for Image Recognition"
+   },
+   "Jurisdiction ": {
+      " Location": "Rajasthan"
+   },
+   "Manner of Procurement": "",
+   "Developed For": "Rajasthan Police",
+   "Developed By": "Staqu",
+   "Used In": "",
+   "Proposed": {
+      "Implemented": "Implemented"
+   },
+   "Affected Persons": "",
+   "Users (Citizens, Police, etc)": "",
+   "Issues": "Privacy, Discrimination, Police Violence",
+   "Legal framework": "",
+   "Databases Relied On (Training": {
+      "Matching)": ""
+   },
+   "Government Agency": "",
+   "Examples from other jurisdictions": "",
+   "date of adoption": "",
+   "Public documentation": "",
+   "News reports": "",
+   "Notes": ""
+},
+ {
+   "Name": "",
+   "Area": "Policing and Surveillance",
+   "Purpose": "Facial Recognition",
+   "Algorithm": {
+      "Model": "Machine Learning for Image Recognition"
+   },
+   "Jurisdiction ": {
+      " Location": "Bihar"
+   },
+   "Manner of Procurement": "",
+   "Developed For": "Bihar Police",
+   "Developed By": "Staqu",
+   "Used In": "",
+   "Proposed": {
+      "Implemented": "Implemented"
+   },
+   "Affected Persons": "",
+   "Users (Citizens, Police, etc)": "",
+   "Issues": "Privacy, Discrimination, Police Violence",
+   "Legal framework": "",
+   "Databases Relied On (Training": {
+      "Matching)": ""
+   },
+   "Government Agency": "",
+   "Examples from other jurisdictions": "",
+   "date of adoption": "",
+   "Public documentation": "",
+   "News reports": "",
+   "Notes": ""
+},
+ {
+   "Name": "TSCOP",
+   "Area": "Policing and Surveillance",
+   "Purpose": "Facial Recognition",
+   "Algorithm": {
+      "Model": "Machine Learning for Image Recognition"
+   },
+   "Jurisdiction ": {
+      " Location": "Telangana"
+   },
+   "Manner of Procurement": "",
+   "Developed For": "Telangana Police",
+   "Developed By": "",
+   "Used In": "",
+   "Proposed": {
+      "Implemented": "Implemented"
+   },
+   "Affected Persons": "",
+   "Users (Citizens, Police, etc)": "",
+   "Issues": "Privacy, Discrimination, Police Violence",
+   "Legal framework": "",
+   "Databases Relied On (Training": {
+      "Matching)": "CCTNS, 'other police databases'"
+   },
+   "Government Agency": "",
+   "Examples from other jurisdictions": "",
+   "date of adoption": "",
+   "Public documentation": "",
+   "News reports": "",
+   "Notes": ""
+},
+ {
+   "Name": "",
+   "Area": "Policing and Surveillance",
+   "Purpose": "Facial Recognition",
+   "Algorithm": {
+      "Model": "Machine Learning for Image Recognition"
+   },
+   "Jurisdiction ": {
+      " Location": "Nagpur"
+   },
+   "Manner of Procurement": "",
+   "Developed For": "Nagpur Police",
+   "Developed By": "",
+   "Used In": "",
+   "Proposed": {
+      "Implemented": "Implemented"
+   },
+   "Affected Persons": "",
+   "Users (Citizens, Police, etc)": "",
+   "Issues": "Privacy, Discrimination, Police Violence",
+   "Legal framework": "",
+   "Databases Relied On (Training": {
+      "Matching)": ""
+   },
+   "Government Agency": "",
+   "Examples from other jurisdictions": "",
+   "date of adoption": "",
+   "Public documentation": "",
+   "News reports": "",
+   "Notes": ""
+},
+ {
+   "Name": "Trinetra",
+   "Area": "Policing and Surveillance",
+   "Purpose": "Facial Recognition",
+   "Algorithm": {
+      "Model": "Machine Learning for Image Recognition"
+   },
+   "Jurisdiction ": {
+      " Location": "Uttar Pradesh"
+   },
+   "Manner of Procurement": "",
+   "Developed For": "Uttar Pradesh Police",
+   "Developed By": "Staqu",
+   "Used In": "",
+   "Proposed": {
+      "Implemented": "Implemented"
+   },
+   "Affected Persons": "",
+   "Users (Citizens, Police, etc)": "",
+   "Issues": "Privacy, Discrimination, Police Violence",
+   "Legal framework": "",
+   "Databases Relied On (Training": {
+      "Matching)": ""
+   },
+   "Government Agency": "",
+   "Examples from other jurisdictions": "",
+   "date of adoption": "",
+   "Public documentation": "",
+   "News reports": "",
+   "Notes": ""
+},
+ {
+   "Name": "",
+   "Area": "Policing and Surveillance",
+   "Purpose": "Facial Recognition",
+   "Algorithm": {
+      "Model": "Machine Learning for Image Recognition"
+   },
+   "Jurisdiction ": {
+      " Location": "Gujarat"
+   },
+   "Manner of Procurement": "",
+   "Developed For": "Gujarat Police",
+   "Developed By": "Clearview AI (?)",
+   "Used In": "",
+   "Proposed": {
+      "Implemented": "Implemented"
+   },
+   "Affected Persons": "",
+   "Users (Citizens, Police, etc)": "",
+   "Issues": "",
+   "Legal framework": "",
+   "Databases Relied On (Training": {
+      "Matching)": "database of absconders, lacking children, and criminals who have not been arrested"
+   },
+   "Government Agency": "",
+   "Examples from other jurisdictions": "",
+   "date of adoption": "",
+   "Public documentation": "",
+   "News reports": "",
+   "Notes": ""
+},
+ {
+   "Name": "",
+   "Area": "Policing and Surveillance",
+   "Purpose": "Facial Recognition",
+   "Algorithm": {
+      "Model": "Machine Learning for Image Recognition"
+   },
+   "Jurisdiction ": {
+      " Location": "Kolkata"
+   },
+   "Manner of Procurement": "",
+   "Developed For": "Kolkata Police",
+   "Developed By": "",
+   "Used In": "",
+   "Proposed": {
+      "Implemented": "Proposed"
+   },
+   "Affected Persons": "",
+   "Users (Citizens, Police, etc)": "",
+   "Issues": "",
+   "Legal framework": "",
+   "Databases Relied On (Training": {
+      "Matching)": ""
+   },
+   "Government Agency": "",
+   "Examples from other jurisdictions": "",
+   "date of adoption": "",
+   "Public documentation": "",
+   "News reports": "",
+   "Notes": ""
+},
+ {
+   "Name": "Prahaar",
+   "Area": "Policing and Surveillance",
+   "Purpose": "Facial Recognition",
+   "Algorithm": {
+      "Model": "Machine Learning for Image Recognition"
+   },
+   "Jurisdiction ": {
+      " Location": "Bihar"
+   },
+   "Manner of Procurement": "",
+   "Developed For": "Bihar Police",
+   "Developed By": "",
+   "Used In": "",
+   "Proposed": {
+      "Implemented": "Proposed"
+   },
+   "Affected Persons": "",
+   "Users (Citizens, Police, etc)": "",
+   "Issues": "",
+   "Legal framework": "",
+   "Databases Relied On (Training": {
+      "Matching)": ""
+   },
+   "Government Agency": "",
+   "Examples from other jurisdictions": "",
+   "date of adoption": "",
+   "Public documentation": "",
+   "News reports": "",
+   "Notes": ""
+},
+ {
+   "Name": "",
+   "Area": "Policing and Surveillance",
+   "Purpose": "Facial Recognition",
+   "Algorithm": {
+      "Model": "Machine Learning for Image Recognition"
+   },
+   "Jurisdiction ": {
+      " Location": "Across India"
+   },
+   "Manner of Procurement": "Open Tender",
+   "Developed For": "RailTel, Other Railyway Police Systems",
+   "Developed By": "",
+   "Used In": "",
+   "Proposed": {
+      "Implemented": "In Process/ Proposed"
+   },
+   "Affected Persons": "",
+   "Users (Citizens, Police, etc)": "",
+   "Issues": "",
+   "Legal framework": "",
+   "Databases Relied On (Training": {
+      "Matching)": ""
+   },
+   "Government Agency": "",
+   "Examples from other jurisdictions": "",
+   "date of adoption": "",
+   "Public documentation": "",
+   "News reports": "",
+   "Notes": ""
+},
+ {
+   "Name": "Cyberdome",
+   "Area": "Policing and Surveillance",
+   "Purpose": "Facial Recognition",
+   "Algorithm": {
+      "Model": "Machine Learning for Image Recognition"
+   },
+   "Jurisdiction ": {
+      " Location": "Kerala"
+   },
+   "Manner of Procurement": "",
+   "Developed For": "Kerala Police",
+   "Developed By": "",
+   "Used In": "",
+   "Proposed": {
+      "Implemented": "Proposed"
+   },
+   "Affected Persons": "",
+   "Users (Citizens, Police, etc)": "",
+   "Issues": "",
+   "Legal framework": "",
+   "Databases Relied On (Training": {
+      "Matching)": ""
+   },
+   "Government Agency": "",
+   "Examples from other jurisdictions": "",
+   "date of adoption": "",
+   "Public documentation": "",
+   "News reports": "",
+   "Notes": ""
+},
+ {
+   "Name": "AFRS",
+   "Area": "Policing and Surveillance",
+   "Purpose": "Facial Recognition",
+   "Algorithm": {
+      "Model": "Machine Learning for Image Recognition"
+   },
+   "Jurisdiction ": {
+      " Location": "Across India"
+   },
+   "Manner of Procurement": "Open Tender",
+   "Developed For": "NCRB",
+   "Developed By": "",
+   "Used In": "",
+   "Proposed": {
+      "Implemented": "Proposed"
+   },
+   "Affected Persons": "",
+   "Users (Citizens, Police, etc)": "",
+   "Issues": "",
+   "Legal framework": "",
+   "Databases Relied On (Training": {
+      "Matching)": ""
+   },
+   "Government Agency": "",
+   "Examples from other jurisdictions": "",
+   "date of adoption": "",
+   "Public documentation": "",
+   "News reports": "",
+   "Notes": ""
+},
+ {
+   "Name": "Maharashtra Big Data Analysis Tool",
+   "Area": "Policing and Surveillance",
+   "Purpose": "Social Media Surveillance",
+   "Algorithm": {
+      "Model": ""
+   },
+   "Jurisdiction ": {
+      " Location": ""
+   },
+   "Manner of Procurement": "Open Tender",
+   "Developed For": "Maharashtra Police",
+   "Developed By": "",
+   "Used In": "",
+   "Proposed": {
+      "Implemented": "Proposed"
+   },
+   "Affected Persons": "",
+   "Users (Citizens, Police, etc)": "",
+   "Issues": "",
+   "Legal framework": "",
+   "Databases Relied On (Training": {
+      "Matching)": ""
+   },
+   "Government Agency": "",
+   "Examples from other jurisdictions": "",
+   "date of adoption": "",
+   "Public documentation": "https://maharashtra.etenders.in/tpoimages/MAPO/tender/Tender2185.pdf",
+   "News reports": "",
+   "Notes": ""
+},
+ {
+   "Name": "CMAPS",
+   "Area": "Policing and Surveillance",
+   "Purpose": "Predictive Policing",
+   "Algorithm": {
+      "Model": ""
+   },
+   "Jurisdiction ": {
+      " Location": ""
+   },
+   "Manner of Procurement": "",
+   "Developed For": "Delhi Police",
+   "Developed By": "ISRO",
+   "Used In": "",
+   "Proposed": {
+      "Implemented": "Implemented"
+   },
+   "Affected Persons": "",
+   "Users (Citizens, Police, etc)": "",
+   "Issues": "",
+   "Legal framework": "",
+   "Databases Relied On (Training": {
+      "Matching)": ""
+   },
+   "Government Agency": "",
+   "Examples from other jurisdictions": "",
+   "date of adoption": "",
+   "Public documentation": "",
+   "News reports": "",
+   "Notes": ""
+},
+ {
+   "Name": "",
+   "Area": "Policing and Surveillance",
+   "Purpose": "Crime Data Analytics",
+   "Algorithm": {
+      "Model": ""
+   },
+   "Jurisdiction ": {
+      " Location": ""
+   },
+   "Manner of Procurement": "",
+   "Developed For": "NCRB",
+   "Developed By": "ADRIN",
+   "Used In": "",
+   "Proposed": {
+      "Implemented": ""
+   },
+   "Affected Persons": "",
+   "Users (Citizens, Police, etc)": "",
+   "Issues": "",
+   "Legal framework": "",
+   "Databases Relied On (Training": {
+      "Matching)": ""
+   },
+   "Government Agency": "",
+   "Examples from other jurisdictions": "",
+   "date of adoption": "",
+   "Public documentation": "",
+   "News reports": "",
+   "Notes": ""
+},
+ {
+   "Name": "Trinetra",
+   "Area": "Policing and Surveillance",
+   "Purpose": "Crime Data Analytics",
+   "Algorithm": {
+      "Model": ""
+   },
+   "Jurisdiction ": {
+      " Location": ""
+   },
+   "Manner of Procurement": "",
+   "Developed For": "Uttar Pradesh Police",
+   "Developed By": "Staqu",
+   "Used In": "",
+   "Proposed": {
+      "Implemented": "Implemented"
+   },
+   "Affected Persons": "",
+   "Users (Citizens, Police, etc)": "",
+   "Issues": "",
+   "Legal framework": "",
+   "Databases Relied On (Training": {
+      "Matching)": "database of 500,000"
+   },
+   "Government Agency": "",
+   "Examples from other jurisdictions": "",
+   "date of adoption": "",
+   "Public documentation": "",
+   "News reports": "",
+   "Notes": ""
+},
+ {
+   "Name": "",
+   "Area": "Policing and Surveillance",
+   "Purpose": "Crime Data Analytics",
+   "Algorithm": {
+      "Model": ""
+   },
+   "Jurisdiction ": {
+      " Location": ""
+   },
+   "Manner of Procurement": "Open Tender",
+   "Developed For": "Orissa Police",
+   "Developed By": "",
+   "Used In": "",
+   "Proposed": {
+      "Implemented": "Proposed"
+   },
+   "Affected Persons": "",
+   "Users (Citizens, Police, etc)": "",
+   "Issues": "",
+   "Legal framework": "",
+   "Databases Relied On (Training": {
+      "Matching)": "CCTNS"
+   },
+   "Government Agency": "",
+   "Examples from other jurisdictions": "",
+   "date of adoption": "",
+   "Public documentation": "",
+   "News reports": "",
+   "Notes": ""
+},
+ {
+   "Name": "PRAHAAR ",
+   "Area": "Policing and Surveillance",
+   "Purpose": "Crime Data Analytics",
+   "Algorithm": {
+      "Model": ""
+   },
+   "Jurisdiction ": {
+      " Location": ""
+   },
+   "Manner of Procurement": "Open Tender",
+   "Developed For": "Bihar Police",
+   "Developed By": "",
+   "Used In": "",
+   "Proposed": {
+      "Implemented": "Proposed"
+   },
+   "Affected Persons": "",
+   "Users (Citizens, Police, etc)": "",
+   "Issues": "",
+   "Legal framework": "",
+   "Databases Relied On (Training": {
+      "Matching)": ""
+   },
+   "Government Agency": "",
+   "Examples from other jurisdictions": "",
+   "date of adoption": "",
+   "Public documentation": "",
+   "News reports": "",
+   "Notes": ""
+},
+ {
+   "Name": "",
+   "Area": "Policing and Surveillance",
+   "Purpose": "Crime Data Analytics",
+   "Algorithm": {
+      "Model": ""
+   },
+   "Jurisdiction ": {
+      " Location": ""
+   },
+   "Manner of Procurement": "",
+   "Developed For": "Rajasthan Police",
+   "Developed By": "",
+   "Used In": "",
+   "Proposed": {
+      "Implemented": "Implemented"
+   },
+   "Affected Persons": "",
+   "Users (Citizens, Police, etc)": "",
+   "Issues": "",
+   "Legal framework": "",
+   "Databases Relied On (Training": {
+      "Matching)": ""
+   },
+   "Government Agency": "",
+   "Examples from other jurisdictions": "",
+   "date of adoption": "",
+   "Public documentation": "",
+   "News reports": "",
+   "Notes": ""
+},
+ {
+   "Name": "Social Media Lab",
+   "Area": "Policing and Surveillance",
+   "Purpose": "Sentiment Analysis",
+   "Algorithm": {
+      "Model": ""
+   },
+   "Jurisdiction ": {
+      " Location": ""
+   },
+   "Manner of Procurement": "",
+   "Developed For": "Mumbai Police",
+   "Developed By": "NASSCOM",
+   "Used In": "",
+   "Proposed": {
+      "Implemented": "Implemented"
+   },
+   "Affected Persons": "",
+   "Users (Citizens, Police, etc)": "",
+   "Issues": "",
+   "Legal framework": "",
+   "Databases Relied On (Training": {
+      "Matching)": ""
+   },
+   "Government Agency": "",
+   "Examples from other jurisdictions": "",
+   "date of adoption": "",
+   "Public documentation": "",
+   "News reports": "",
+   "Notes": ""
+},
+ {
+   "Name": "",
+   "Area": "Policing and Surveillance",
+   "Purpose": "Sentiment Analysis",
+   "Algorithm": {
+      "Model": ""
+   },
+   "Jurisdiction ": {
+      " Location": ""
+   },
+   "Manner of Procurement": "",
+   "Developed For": "Uttar Pradesh Police",
+   "Developed By": "",
+   "Used In": "",
+   "Proposed": {
+      "Implemented": "Implemented"
+   },
+   "Affected Persons": "",
+   "Users (Citizens, Police, etc)": "",
+   "Issues": "",
+   "Legal framework": "",
+   "Databases Relied On (Training": {
+      "Matching)": ""
+   },
+   "Government Agency": "",
+   "Examples from other jurisdictions": "",
+   "date of adoption": "",
+   "Public documentation": "",
+   "News reports": "https://timesofindia.indiatimes.com/india/police-using-online-tools-to-gauge-post-ayodhya-mood/articleshow/71999523.cms",
+   "Notes": ""
+},
+ {
+   "Name": "AASMA (Advanced Application for Social Media Analytics)",
+   "Area": "Policing and Surveillance",
+   "Purpose": "Sentiment Analysis",
+   "Algorithm": {
+      "Model": ""
+   },
+   "Jurisdiction ": {
+      " Location": ""
+   },
+   "Manner of Procurement": "",
+   "Developed For": "40 Government Departments",
+   "Developed By": "IIT Delhi + Meity",
+   "Used In": "",
+   "Proposed": {
+      "Implemented": "Implemented"
+   },
+   "Affected Persons": "",
+   "Users (Citizens, Police, etc)": "",
+   "Issues": "",
+   "Legal framework": "",
+   "Databases Relied On (Training": {
+      "Matching)": ""
+   },
+   "Government Agency": "",
+   "Examples from other jurisdictions": "",
+   "date of adoption": "",
+   "Public documentation": "",
+   "News reports": "",
+   "Notes": ""
+},
+ {
+   "Name": "",
+   "Area": "Policing and Surveillance",
+   "Purpose": "Sentiment Analysis, Social Media Surveillance, Counter-Disinformation",
+   "Algorithm": {
+      "Model": "Machine Learning, Clustering, "
+   },
+   "Jurisdiction ": {
+      " Location": ""
+   },
+   "Manner of Procurement": "Open Tender",
+   "Developed For": "BECIL",
+   "Developed By": "",
+   "Used In": "",
+   "Proposed": {
+      "Implemented": "Proposed"
+   },
+   "Affected Persons": "",
+   "Users (Citizens, Police, etc)": "",
+   "Issues": "",
+   "Legal framework": "",
+   "Databases Relied On (Training": {
+      "Matching)": ""
+   },
+   "Government Agency": "",
+   "Examples from other jurisdictions": "",
+   "date of adoption": "",
+   "Public documentation": "EOI on File",
+   "News reports": "https://www.medianama.com/2020/06/223-india-social-media-surveillance-proposal-fake-news/",
+   "Notes": ""
+},
+ {
+   "Name": "",
+   "Area": "Welfare",
+   "Purpose": "Beneficiary Identification for Farm Loan Waiver ",
+   "Algorithm": {
+      "Model": "Deduplication algorithm"
+   },
+   "Jurisdiction ": {
+      " Location": ""
+   },
+   "Manner of Procurement": "Internally Developed",
+   "Developed For": "Revenue Dept., Govt. of Karnataka",
+   "Developed By": "Munish Moudgil (IAS)",
+   "Used In": "",
+   "Proposed": {
+      "Implemented": "Implemented"
+   },
+   "Affected Persons": "",
+   "Users (Citizens, Police, etc)": "",
+   "Issues": "",
+   "Legal framework": "",
+   "Databases Relied On (Training": {
+      "Matching)": "Solution to identify same name in multiple database using an artificial intelligence algorithm, developed using Microsoft .Net framework can be downloaded through the website and may be used by the government departments free of cost, with due acknowledgement to the author of the algorithm. "
+   },
+   "Government Agency": "",
+   "Examples from other jurisdictions": "",
+   "date of adoption": "",
+   "Public documentation": "",
+   "News reports": "https://www.deccanherald.com/state/meet-code-coder-behind-hdk-s-711566.html",
+   "Notes": ""
+},
+ {
+   "Name": "",
+   "Area": "Welfare",
+   "Purpose": "Farm Loan Waiver Identification",
+   "Algorithm": {
+      "Model": "Deduplication algorithm"
+   },
+   "Jurisdiction ": {
+      " Location": ""
+   },
+   "Manner of Procurement": "",
+   "Developed For": "Govt. of Maharashtra (CSMSSY)",
+   "Developed By": "",
+   "Used In": "",
+   "Proposed": {
+      "Implemented": "Implemented"
+   },
+   "Affected Persons": "",
+   "Users (Citizens, Police, etc)": "",
+   "Issues": "",
+   "Legal framework": "",
+   "Databases Relied On (Training": {
+      "Matching)": ""
+   },
+   "Government Agency": "",
+   "Examples from other jurisdictions": "",
+   "date of adoption": "",
+   "Public documentation": "",
+   "News reports": "https://www.firstpost.com/politics/farm-loan-waivers-aadhaar-linkage-and-the-role-of-mahaonline-maharashtra-it-secretarys-claims-debunked-4258065.html",
+   "Notes": ""
+},
+ {
+   "Name": "",
+   "Area": "Health",
+   "Purpose": "Health Inusrance Fraud Analaysis (Ayushman Bharat)",
+   "Algorithm": {
+      "Model": "ML Classification"
+   },
+   "Jurisdiction ": {
+      " Location": ""
+   },
+   "Manner of Procurement": "",
+   "Developed For": "National Health Authority",
+   "Developed By": "SAS",
+   "Used In": "",
+   "Proposed": {
+      "Implemented": "Implemented"
+   },
+   "Affected Persons": "",
+   "Users (Citizens, Police, etc)": "",
+   "Issues": "",
+   "Legal framework": "",
+   "Databases Relied On (Training": {
+      "Matching)": ""
+   },
+   "Government Agency": "",
+   "Examples from other jurisdictions": "",
+   "date of adoption": "",
+   "Public documentation": "",
+   "News reports": "",
+   "Notes": ""
+},
+ {
+   "Name": "Project Insight",
+   "Area": "Taxation",
+   "Purpose": "Tax Fraud Analytics",
+   "Algorithm": {
+      "Model": "ML Classification"
+   },
+   "Jurisdiction ": {
+      " Location": ""
+   },
+   "Manner of Procurement": "Open Tender",
+   "Developed For": "Central Board of Direct Taxes",
+   "Developed By": "L&T India",
+   "Used In": "",
+   "Proposed": {
+      "Implemented": "Implemented"
+   },
+   "Affected Persons": "",
+   "Users (Citizens, Police, etc)": "",
+   "Issues": "",
+   "Legal framework": "",
+   "Databases Relied On (Training": {
+      "Matching)": "registrars of property, banks, financial institutions, stock exchanges, tax deductors etc."
+   },
+   "Government Agency": "",
+   "Examples from other jurisdictions": "",
+   "date of adoption": "",
+   "Public documentation": "",
+   "News reports": "",
+   "Notes": ""
+},
+ {
+   "Name": "Samagra Vedika",
+   "Area": "Welfare",
+   "Purpose": "Pension Fraud Analytics",
+   "Algorithm": {
+      "Model": "ML Classification"
+   },
+   "Jurisdiction ": {
+      " Location": ""
+   },
+   "Manner of Procurement": "",
+   "Developed For": "Government of Telangana",
+   "Developed By": "",
+   "Used In": "",
+   "Proposed": {
+      "Implemented": "Implemented"
+   },
+   "Affected Persons": "",
+   "Users (Citizens, Police, etc)": "",
+   "Issues": "",
+   "Legal framework": "",
+   "Databases Relied On (Training": {
+      "Matching)": ""
+   },
+   "Government Agency": "",
+   "Examples from other jurisdictions": "",
+   "date of adoption": "",
+   "Public documentation": "",
+   "News reports": "",
+   "Notes": ""
+},
+ {
+   "Name": "Samagra Vedika",
+   "Area": "Welfare",
+   "Purpose": "Beneficiary Identification for Housing Allotment",
+   "Algorithm": {
+      "Model": "ML Classification"
+   },
+   "Jurisdiction ": {
+      " Location": ""
+   },
+   "Manner of Procurement": "",
+   "Developed For": "Government of Telangana",
+   "Developed By": "",
+   "Used In": "",
+   "Proposed": {
+      "Implemented": "Implemented"
+   },
+   "Affected Persons": "",
+   "Users (Citizens, Police, etc)": "",
+   "Issues": "",
+   "Legal framework": "",
+   "Databases Relied On (Training": {
+      "Matching)": "Vehicles, Electricity, Water, Ration Card, Pension, House and Land"
+   },
+   "Government Agency": "",
+   "Examples from other jurisdictions": "",
+   "date of adoption": "",
+   "Public documentation": "",
+   "News reports": "",
+   "Notes": ""
+},
+ {
+   "Name": "KALIA",
+   "Area": "Welfare ",
+   "Purpose": "Beneficiary Identification for Welfare Schemes",
+   "Algorithm": {
+      "Model": "Deduplication algorithm"
+   },
+   "Jurisdiction ": {
+      " Location": ""
+   },
+   "Manner of Procurement": "",
+   "Developed For": "",
+   "Developed By": "",
+   "Used In": "",
+   "Proposed": {
+      "Implemented": ""
+   },
+   "Affected Persons": "",
+   "Users (Citizens, Police, etc)": "",
+   "Issues": "",
+   "Legal framework": "",
+   "Databases Relied On (Training": {
+      "Matching)": ""
+   },
+   "Government Agency": "",
+   "Examples from other jurisdictions": "",
+   "date of adoption": "",
+   "Public documentation": "",
+   "News reports": "",
+   "Notes": ""
+},
+ {
+   "Name": "Integrated Social Protection Delivery Platform",
+   "Area": "Welfare ",
+   "Purpose": "Beneficiary Identification for Welfare Schemes",
+   "Algorithm": {
+      "Model": ""
+   },
+   "Jurisdiction ": {
+      " Location": ""
+   },
+   "Manner of Procurement": "",
+   "Developed For": "Government of Orissa",
+   "Developed By": "",
+   "Used In": "",
+   "Proposed": {
+      "Implemented": "Proposed"
+   },
+   "Affected Persons": "",
+   "Users (Citizens, Police, etc)": "",
+   "Issues": "",
+   "Legal framework": "",
+   "Databases Relied On (Training": {
+      "Matching)": ""
+   },
+   "Government Agency": "",
+   "Examples from other jurisdictions": "",
+   "date of adoption": "",
+   "Public documentation": "",
+   "News reports": "",
+   "Notes": ""
+},
+ {
+   "Name": "Samagra Vedika",
+   "Area": "Welfare",
+   "Purpose": "Beneficiary Identification for Welfare Schemes",
+   "Algorithm": {
+      "Model": "Deduplication algorithm"
+   },
+   "Jurisdiction ": {
+      " Location": ""
+   },
+   "Manner of Procurement": "",
+   "Developed For": "Government of Telangana",
+   "Developed By": "",
+   "Used In": "",
+   "Proposed": {
+      "Implemented": "Implemented"
+   },
+   "Affected Persons": "",
+   "Users (Citizens, Police, etc)": "",
+   "Issues": "",
+   "Legal framework": "",
+   "Databases Relied On (Training": {
+      "Matching)": "Ration Card/ Aadhaar"
+   },
+   "Government Agency": "",
+   "Examples from other jurisdictions": "",
+   "date of adoption": "",
+   "Public documentation": "",
+   "News reports": "",
+   "Notes": ""
+},
+ {
+   "Name": "PMUY",
+   "Area": "Welfare",
+   "Purpose": "Beneficiary Identification for LPG Scheme",
+   "Algorithm": {
+      "Model": "Text and Demographic De-Duplication"
+   },
+   "Jurisdiction ": {
+      " Location": ""
+   },
+   "Manner of Procurement": "",
+   "Developed For": "",
+   "Developed By": "",
+   "Used In": "",
+   "Proposed": {
+      "Implemented": ""
+   },
+   "Affected Persons": "",
+   "Users (Citizens, Police, etc)": "",
+   "Issues": "",
+   "Legal framework": "",
+   "Databases Relied On (Training": {
+      "Matching)": ""
+   },
+   "Government Agency": "",
+   "Examples from other jurisdictions": "",
+   "date of adoption": "",
+   "Public documentation": "",
+   "News reports": "Detailed study on NIC Website (file on record - ujjwala scheme)",
+   "Notes": ""
+},
+ {
+   "Name": "MNREGA / Aadhaar",
+   "Area": "Welfare",
+   "Purpose": "Beneficiary Identification for Welfare Schemes",
+   "Algorithm": {
+      "Model": "Deduplication algorithm"
+   },
+   "Jurisdiction ": {
+      " Location": ""
+   },
+   "Manner of Procurement": "",
+   "Developed For": "UIDAI, Government of India",
+   "Developed By": "",
+   "Used In": "",
+   "Proposed": {
+      "Implemented": "Implemented"
+   },
+   "Affected Persons": "",
+   "Users (Citizens, Police, etc)": "",
+   "Issues": "",
+   "Legal framework": "",
+   "Databases Relied On (Training": {
+      "Matching)": ""
+   },
+   "Government Agency": "",
+   "Examples from other jurisdictions": "",
+   "date of adoption": "",
+   "Public documentation": "",
+   "News reports": "See National Electronic Funds Management Programme Documents",
+   "Notes": ""
+},
+ {
+   "Name": "PDS / Aadhaar",
+   "Area": "Welfare",
+   "Purpose": "Beneficiary Identification for Welfare Schemes",
+   "Algorithm": {
+      "Model": "Deduplication algorithm"
+   },
+   "Jurisdiction ": {
+      " Location": ""
+   },
+   "Manner of Procurement": "",
+   "Developed For": "UIDAI, Government of India",
+   "Developed By": "",
+   "Used In": "",
+   "Proposed": {
+      "Implemented": ""
+   },
+   "Affected Persons": "",
+   "Users (Citizens, Police, etc)": "",
+   "Issues": "",
+   "Legal framework": "",
+   "Databases Relied On (Training": {
+      "Matching)": ""
+   },
+   "Government Agency": "",
+   "Examples from other jurisdictions": "",
+   "date of adoption": "",
+   "Public documentation": "",
+   "News reports": "",
+   "Notes": ""
+},
+ {
+   "Name": "",
+   "Area": "Welfare",
+   "Purpose": "Beneficiary Identification for Welfare Schemes",
+   "Algorithm": {
+      "Model": "Matching Algorithm"
+   },
+   "Jurisdiction ": {
+      " Location": ""
+   },
+   "Manner of Procurement": "",
+   "Developed For": "Food Supplies and Consumer Welfare Department, Government of Orissa",
+   "Developed By": "IBM",
+   "Used In": "",
+   "Proposed": {
+      "Implemented": "Implemented"
+   },
+   "Affected Persons": "",
+   "Users (Citizens, Police, etc)": "",
+   "Issues": "",
+   "Legal framework": "",
+   "Databases Relied On (Training": {
+      "Matching)": ""
+   },
+   "Government Agency": "",
+   "Examples from other jurisdictions": "",
+   "date of adoption": "",
+   "Public documentation": "",
+   "News reports": "https://www.ibm.com/case-studies/governmentofodisha",
+   "Notes": ""
+},
+ {
+   "Name": "Big Data Environment",
+   "Area": "Welfare",
+   "Purpose": "",
+   "Algorithm": {
+      "Model": ""
+   },
+   "Jurisdiction ": {
+      " Location": ""
+   },
+   "Manner of Procurement": "Open Tender",
+   "Developed For": "Government of Rajasthan",
+   "Developed By": "Teradata",
+   "Used In": "",
+   "Proposed": {
+      "Implemented": "Proposed"
+   },
+   "Affected Persons": "",
+   "Users (Citizens, Police, etc)": "",
+   "Issues": "",
+   "Legal framework": "",
+   "Databases Relied On (Training": {
+      "Matching)": ""
+   },
+   "Government Agency": "",
+   "Examples from other jurisdictions": "",
+   "date of adoption": "",
+   "Public documentation": "",
+   "News reports": "",
+   "Notes": ""
+},
+ {
+   "Name": "NERPAP",
+   "Area": "Elections",
+   "Purpose": "Voter Identification",
+   "Algorithm": {
+      "Model": "Deduplication"
+   },
+   "Jurisdiction ": {
+      " Location": ""
+   },
+   "Manner of Procurement": "",
+   "Developed For": "Election Commission of India",
+   "Developed By": "",
+   "Used In": "",
+   "Proposed": {
+      "Implemented": "Implemented"
+   },
+   "Affected Persons": "",
+   "Users (Citizens, Police, etc)": "",
+   "Issues": "",
+   "Legal framework": "",
+   "Databases Relied On (Training": {
+      "Matching)": ""
+   },
+   "Government Agency": "",
+   "Examples from other jurisdictions": "",
+   "date of adoption": "",
+   "Public documentation": "",
+   "News reports": "",
+   "Notes": ""
+},
+ {
+   "Name": "Real Time Authentication of Voter Identity",
+   "Area": "Elections",
+   "Purpose": "Voter Identification",
+   "Algorithm": {
+      "Model": "Machine Learning, Image Recognition"
+   },
+   "Jurisdiction ": {
+      " Location": "Kompally Municipality"
+   },
+   "Manner of Procurement": "",
+   "Developed For": "Telangana State Election Commission",
+   "Developed By": "",
+   "Used In": "",
+   "Proposed": {
+      "Implemented": ""
+   },
+   "Affected Persons": "",
+   "Users (Citizens, Police, etc)": "",
+   "Issues": "",
+   "Legal framework": "",
+   "Databases Relied On (Training": {
+      "Matching)": ""
+   },
+   "Government Agency": "",
+   "Examples from other jurisdictions": "",
+   "date of adoption": "",
+   "Public documentation": "",
+   "News reports": "https://internetfreedom.in/the-telangana-ec/",
+   "Notes": ""
+},
+ {
+   "Name": "",
+   "Area": "Education",
+   "Purpose": "School Allocation",
+   "Algorithm": {
+      "Model": ""
+   },
+   "Jurisdiction ": {
+      " Location": ""
+   },
+   "Manner of Procurement": "",
+   "Developed For": "Department of Public Instruction, Government of Karnataka",
+   "Developed By": "",
+   "Used In": "",
+   "Proposed": {
+      "Implemented": "Implemented"
+   },
+   "Affected Persons": "",
+   "Users (Citizens, Police, etc)": "",
+   "Issues": "",
+   "Legal framework": "",
+   "Databases Relied On (Training": {
+      "Matching)": ""
+   },
+   "Government Agency": "",
+   "Examples from other jurisdictions": "",
+   "date of adoption": "",
+   "Public documentation": "",
+   "News reports": "https://www.newskarnataka.com/bangalore/rte-free-quota-rules-changed-first-preference-to-government-schools",
+   "Notes": ""
+},
+ {
+   "Name": "",
+   "Area": "Education",
+   "Purpose": "School Allocation",
+   "Algorithm": {
+      "Model": ""
+   },
+   "Jurisdiction ": {
+      " Location": ""
+   },
+   "Manner of Procurement": "",
+   "Developed For": "Education Department",
+   "Developed By": "NIC",
+   "Used In": "",
+   "Proposed": {
+      "Implemented": "Implemented"
+   },
+   "Affected Persons": "",
+   "Users (Citizens, Police, etc)": "",
+   "Issues": "",
+   "Legal framework": "",
+   "Databases Relied On (Training": {
+      "Matching)": ""
+   },
+   "Government Agency": "",
+   "Examples from other jurisdictions": "",
+   "date of adoption": "",
+   "Public documentation": "",
+   "News reports": "https://timesofindia.indiatimes.com/city/nagpur/fix-rte-mapping-software/articleshow/73850161.cms; https://timesofindia.indiatimes.com/city/nagpur/incorporating-various-quotas-in-software-delays-rte-admissions/articleshow/68118991.cms",
+   "Notes": ""
+},
+ {
+   "Name": "",
+   "Area": "Education",
+   "Purpose": "Student Performance ",
+   "Algorithm": {
+      "Model": "Predictive Analytics / Profiling"
+   },
+   "Jurisdiction ": {
+      " Location": ""
+   },
+   "Manner of Procurement": "Single Source",
+   "Developed For": "Niti Aayog",
+   "Developed By": "Microsoft",
+   "Used In": "",
+   "Proposed": {
+      "Implemented": "Implemented"
+   },
+   "Affected Persons": "",
+   "Users (Citizens, Police, etc)": "",
+   "Issues": "",
+   "Legal framework": "",
+   "Databases Relied On (Training": {
+      "Matching)": ""
+   },
+   "Government Agency": "",
+   "Examples from other jurisdictions": "",
+   "date of adoption": "",
+   "Public documentation": "",
+   "News reports": "https://thewire.in/politics/aadhaar-in-andhra-chandrababu-naidu-microsoft-have-a-plan-for-curbing-school-dropouts",
+   "Notes": ""
+},
+ {
+   "Name": "",
+   "Area": "Education",
+   "Purpose": "Facial Recognition for Student Attendance",
+   "Algorithm": {
+      "Model": "Machine Learning for Image Recognition"
+   },
+   "Jurisdiction ": {
+      " Location": ""
+   },
+   "Manner of Procurement": "",
+   "Developed For": "",
+   "Developed By": "",
+   "Used In": "",
+   "Proposed": {
+      "Implemented": ""
+   },
+   "Affected Persons": "",
+   "Users (Citizens, Police, etc)": "",
+   "Issues": "",
+   "Legal framework": "",
+   "Databases Relied On (Training": {
+      "Matching)": ""
+   },
+   "Government Agency": "",
+   "Examples from other jurisdictions": "",
+   "date of adoption": "",
+   "Public documentation": "",
+   "News reports": "",
+   "Notes": ""
+},
+ {
+   "Name": "",
+   "Area": "Banking and Finance",
+   "Purpose": "Credit Risk Scoring",
+   "Algorithm": {
+      "Model": "ML Classification"
+   },
+   "Jurisdiction ": {
+      " Location": ""
+   },
+   "Manner of Procurement": "",
+   "Developed For": "",
+   "Developed By": "",
+   "Used In": "",
+   "Proposed": {
+      "Implemented": "Proposed"
+   },
+   "Affected Persons": "",
+   "Users (Citizens, Police, etc)": "",
+   "Issues": "",
+   "Legal framework": "",
+   "Databases Relied On (Training": {
+      "Matching)": ""
+   },
+   "Government Agency": "",
+   "Examples from other jurisdictions": "",
+   "date of adoption": "",
+   "Public documentation": "",
+   "News reports": "https://www.medianama.com/2020/02/223-economic-survey-january-2020-public-sector-banks-gstn-loans//",
+   "Notes": ""
+},
+ {
+   "Name": "",
+   "Area": "Banking and Finance",
+   "Purpose": "Credit Risk Scoring ",
+   "Algorithm": {
+      "Model": "Machine Learning"
+   },
+   "Jurisdiction ": {
+      " Location": ""
+   },
+   "Manner of Procurement": "",
+   "Developed For": "Consumer Tech / Multiple Banks and NBFCs",
+   "Developed By": "Multiple FinTech Companies and Credit Information Bureaus",
+   "Used In": "",
+   "Proposed": {
+      "Implemented": ""
+   },
+   "Affected Persons": "",
+   "Users (Citizens, Police, etc)": "",
+   "Issues": "",
+   "Legal framework": "",
+   "Databases Relied On (Training": {
+      "Matching)": ""
+   },
+   "Government Agency": "",
+   "Examples from other jurisdictions": "",
+   "date of adoption": "",
+   "Public documentation": "",
+   "News reports": "",
+   "Notes": ""
+},
+ {
+   "Name": "",
+   "Area": "Employment",
+   "Purpose": "Hiring and Screening Scoring",
+   "Algorithm": {
+      "Model": "Machine Learning"
+   },
+   "Jurisdiction ": {
+      " Location": ""
+   },
+   "Manner of Procurement": "",
+   "Developed For": "",
+   "Developed By": "",
+   "Used In": "",
+   "Proposed": {
+      "Implemented": ""
+   },
+   "Affected Persons": "",
+   "Users (Citizens, Police, etc)": "",
+   "Issues": "",
+   "Legal framework": "",
+   "Databases Relied On (Training": {
+      "Matching)": ""
+   },
+   "Government Agency": "",
+   "Examples from other jurisdictions": "",
+   "date of adoption": "",
+   "Public documentation": "",
+   "News reports": "",
+   "Notes": ""
+}
+]
