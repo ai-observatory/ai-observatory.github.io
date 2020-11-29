@@ -12,7 +12,7 @@
         footer="this is a footer"
         >
         <b-card-text>
-          Lorem
+          {{desc}}
         </b-card-text>
         <b-button variant="secondary"> Apply </b-button>
       </b-card>
@@ -23,7 +23,7 @@
 
 <script>
 export default{
-  props : ["name"]
+  props : ["name", "desc"]
 };
 </script>
 

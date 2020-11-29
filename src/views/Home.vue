@@ -1,7 +1,7 @@
 <template>
   <b-container>
     <b-row align-v="center" align-h="center">
-      <ADMSCard v-for="card in displayCards" :key="card.ID" :name="card.Name"> </ADMSCard>
+      <ADMSCard v-for="card in displayCards" :key="card.ID" :name="card.Name" :desc="card.Area"> </ADMSCard>
       <!-- <ADMSCard> </ADMSCard> -->
       <!-- <ADMSCard> </ADMSCard> -->
       <!-- <ADMSCard> </ADMSCard> -->
