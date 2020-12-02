@@ -1,6 +1,6 @@
 {
-  "name": "basic-app",
-  "version": "0.1.0",
+  "name": "algosite",
+  "version": "0.2.0",
   "private": true,
   "scripts": {
     "serve": "vue-cli-service serve",
@@ -11,6 +11,7 @@
   "dependencies": {
     "bootstrap-vue": "^2.17.3",
     "core-js": "^3.6.5",
+    "underscore": "^1.12.0",
     "vue": "^2.6.11",
     "vue-router": "^3.2.0",
     "vuex": "^3.4.0"
@@ -33,6 +34,7 @@
     "popper.js": "^1.16.1",
     "portal-vue": "^2.1.7",
     "prettier": "^1.19.1",
+    "random": "^2.2.0",
     "sass": "^1.29.0",
     "sass-loader": "^10.1.0",
     "vue-cli-plugin-bootstrap-vue": "~0.7.0",

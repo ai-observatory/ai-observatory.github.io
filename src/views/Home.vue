@@ -1,10 +1,19 @@
 <template>
   <b-container>
+    <Dropdown></Dropdown>
+    <!-- write a checkbox container -->
+    <!-- since we need two sets of for -->
+    <!--   1 for column names and other for the possible filters -->
+    <!--   load data from here -->
+    <Checkboxes></Checkboxes>
     <b-row align-v="center" align-h="center">
-      <ADMSCard v-for="card in displayCards" :key="card.ID" :name="card.Name" :desc="card.Area"> </ADMSCard>
-      <!-- <ADMSCard> </ADMSCard> -->
-      <!-- <ADMSCard> </ADMSCard> -->
-      <!-- <ADMSCard> </ADMSCard> -->
+      <ADMSCard
+        v-for="card in displayCards"
+        :key="card.ID"
+        :name="card.Name"
+        :desc="card.Area"
+      >
+      </ADMSCard>
     </b-row>
     <b-pagination
       v-model="currentPage"
@@ -16,19 +25,28 @@
       last-text="Last"
       pills
       @input="paginate(currentPage)"
-      >
+      style="justify-content:center"
+    >
     </b-pagination>
   </b-container>
 </template>
 
 <script>
 // @ is an alias to /src
-  import ADMSCard from "@/components/ADMSCard.vue";
+import { keys } from "underscore";
+import { values } from "underscore";
+import { filter } from "underscore";
+// import { each } from "underscore";
+import ADMSCard from "@/components/ADMSCard.vue";
+import Dropdown from "@/components/Dropdown.vue";
+import Checkboxes from "@/components/Checkboxes.vue";
 export default {
   name: "Home",
 
   components: {
-    ADMSCard: ADMSCard
+    ADMSCard: ADMSCard,
+    Dropdown: Dropdown,
+    Checkboxes: Checkboxes
   },
   mounted() {
     this.fetchData();
@@ -39,21 +57,48 @@ export default {
       displayCards: [],
       currentPage: 1,
       rows: 1,
-      perPage: 9
+      perPage: 9,
+      keySet: [],
+      filterHard: [],
+      filterSet: []
     };
   },
   methods: {
     async fetchData() {
-      const res = await fetch("adms2.json");
+      const res = await fetch("adms_array.json");
       const val = await res.json();
       this.cards = val;
-      this.displayCards = val.slice(0,this.perPage);
+      this.displayCards = val.slice(0, this.perPage);
       this.rows = this.cards.length;
+      this.keySet = keys(this.cards[0]);
+      this.filterHard = {
+        Area: ["Policing and Surveillance", "Welfare"],
+        Purpose: ["Facial Recognition"]
+      };
       console.log(val);
+      this.cardFiltering();
     },
-    paginate(currentPage){
-    const start = (currentPage-1) * this.perPage;
-    this.displayCards = this.cards.slice(start, start+ this.perPage)
+    paginate(currentPage) {
+      const start = (currentPage - 1) * this.perPage;
+      this.displayCards = this.cards.slice(start, start + this.perPage);
+    },
+    cardFiltering() {
+      //console.log(this.keySet);
+      console.log(this.filterHard);
+      var filters = this.filterHard;
+      var filteredCards = filter(this.cards, function(card) {
+        //console.log(values(filters[keys(filters)[0]])[0]);
+        //return card["Area"] == "Policing and Surveillance";
+        for (let i = 0; i < keys(filters).length; i++) {
+          for (let j = 0; j < values(filters[keys(filters)[i]]).length; j++) {
+            console.log(
+              card[keys(filters)[i]] == values(filters[keys(filters)[i]])[j]
+            );
+          }
+        }
+        return card[keys(filters)[0]] == values(filters[keys(filters)[0]])[0];
+      });
+      console.log(filteredCards);
     }
   }
 };
