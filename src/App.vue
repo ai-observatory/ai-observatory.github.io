@@ -11,7 +11,7 @@
 
 <script>
 // @ is an alias to /src
-import Header from "@/components/Header.vue";
+  import Header from "@/components/Header.vue";
 export default {
   name: "Home",
   components: {
@@ -30,13 +30,20 @@ export default {
 @import "~bootstrap-vue/src/index.scss";
 
 $primary: #000000;
+// #fff5dc, #e7a201, #72cb79, #f95d23, #ffffff, #6eb5ef
+body{
+  background-color: #fff5dc;
+}
 #app {
   font-family: Avenir, Helvetica, Arial, sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
-  text-align: center;
+  text-align: left;
+  max-width: 940px;
+  margin: auto;
   color: #2c3e50;
-  background-color: #000000;
+  // color: #f95d23;
+  font-size:22px;
 }
 
 #nav {
@@ -50,5 +57,11 @@ $primary: #000000;
       color: #42b983;
     }
   }
+}
+.modal-button{
+  margin-top: 20px;
+  margin-bottom: 20px;
+  width: 100%;
+  background-color: black;
 }
 </style>

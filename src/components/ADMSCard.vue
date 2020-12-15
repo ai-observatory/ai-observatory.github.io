@@ -6,8 +6,8 @@
         img-src="https://loremflickr.com/640/360"
         img-alt="info"
         tag="article"
-        style="max-width:20rem"
-        class="mb-2 dark-card"
+        style="max-width:15rem"
+        class="mb-2"
         footer="this is a footer"
       >
         <b-card-text>

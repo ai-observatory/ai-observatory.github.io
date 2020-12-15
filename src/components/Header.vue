@@ -8,10 +8,12 @@
           <b-nav-item href="/">Home</b-nav-item>
           <b-nav-item href="/database">Database</b-nav-item>
           <b-nav-item href="/about">About</b-nav-item>
-          <b-nav-item href="/aiobservatory">AI Observatory</b-nav-item>
           <b-nav-item href="/context">Context</b-nav-item>
           <b-nav-item href="/admsharms">ADMS Harms</b-nav-item>
-          <b-nav-item href="/takeaction">Take Action</b-nav-item>
+          <b-nav-item href="/glossary">Glossary</b-nav-item>
+          <b-nav-item href="/takeaction" disabled>Take Action</b-nav-item>
+          <!-- <router-link to="/">Home</router-link>
+          <router-link to="/about">About</router-link> -->
           <!-- <b-nav-item href="#" disabled>Disabled</b-nav-item> -->
         </b-navbar-nav>
         <!-- Right aligned nav items -->
