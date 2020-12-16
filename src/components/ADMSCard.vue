@@ -2,18 +2,35 @@
   <div>
     <b-col>
       <b-card
-        :title="name"
-        img-src="https://loremflickr.com/640/360"
-        img-alt="info"
         tag="article"
-        style="max-width:15rem"
-        class="mb-2"
-        footer="this is a footer"
+        style="max-width:17rem; height:400px; font-size:16px"
+        class="mb-4"
+        :footer="name"
       >
-        <b-card-text>
-          {{ desc }}
+        <b-card-text style="padding:0">
+          <p>
+            <span> <strong>Year:</strong> </span> {{ year }}
+          </p>
+          <p>
+            <span> <strong>Area:</strong> </span> {{ area }}
+          </p>
+          <p>
+            <span> <strong>Jurisdiction:</strong> </span> {{ jurisdiction }}
+          </p>
+          <p>
+            <span> <strong>Purpose:</strong> </span> {{ purpose }}
+          </p>
         </b-card-text>
-        <b-button variant="secondary"> Details </b-button>
+
+        <div>
+          <b-button
+            class="modal-button"
+            v-b-modal="'card-details'"
+            squared
+            variant="dark"
+            >More</b-button
+          >
+        </div>
       </b-card>
     </b-col>
     <!-- <button class="btn btn-primary"> test </button> -->
@@ -22,7 +39,7 @@
 
 <script>
 export default {
-  props: ["name", "desc"]
+  props: ["name", "area", "year", "jurisdiction", "purpose"]
 };
 </script>
 

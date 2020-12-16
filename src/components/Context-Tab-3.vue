@@ -168,6 +168,15 @@
       to be suitable for computation, data must be classified, structured and
       organised in particular ways.&nbsp;
     </p>
+    <div>
+      <b-img
+        center
+        style="width:100%"
+        src="../../public/pimg5.png"
+        fluid
+        alt="out of the box ml"
+      ></b-img>
+    </div>
     <p>
       Various kinds of databases can go into the operation of a single ADMS. In
       a Machine Learning system, one database from which the algorithmic model
@@ -249,6 +258,15 @@
             the data is measured, or how it is matched with other entries in the
             database.&nbsp;
           </p>
+          <div>
+            <b-img
+              center
+              style="width:100%"
+              src="../../public/pimg6.png"
+              fluid
+              alt="seeding the raw data begun"
+            ></b-img>
+          </div>
           <p>
             Another algorithmic component of Aadhaar has been the
             &lsquo;seeding&rsquo; of Aadhaar numbers within multiple other

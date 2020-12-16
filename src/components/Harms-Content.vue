@@ -1,6 +1,6 @@
 <template>
   <div>
-    <b-tabs content-class="mt-3">
+    <b-tabs content-class="my-3">
       <Harms1></Harms1>
       <Harms2></Harms2>
       <Harms3></Harms3>

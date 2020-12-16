@@ -1,5 +1,18 @@
 <template>
   <div class="about">
-    <h1>This is an about page</h1>
+    <About></About>
   </div>
 </template>
+
+<script>
+import About from "@/components/About-Content.vue";
+export default {
+  name: "Home",
+
+  components: {
+    About: About
+  },
+  mounted() {},
+  methods: {}
+};
+</script>

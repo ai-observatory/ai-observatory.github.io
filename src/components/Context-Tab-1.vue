@@ -310,7 +310,7 @@
         >Case Study: ADMS in Welfare Administration</b-button
       >
       <b-modal id="case-study-11" size="xl" hide-footer>
-        <div></div>
+
         <div class="d-block text-left">
           <h3>Case Study: ADMS in Welfare Administration</h3>
           <p>
@@ -323,6 +323,15 @@
             afforded access to social welfare could not be invalidated on the
             grounds of &lsquo;exclusion of a few&rsquo;.
           </p>
+          <div>
+            <b-img
+              center
+              style="width:100%"
+              src="../../public/pimg2.png"
+              fluid
+              alt="till link do us apart"
+            ></b-img>
+          </div>
           <p>
             <em>Aadhaar </em>laid the foundation for a proliferation of ADMS and
             algorithmic tools within government welfare schemes &ndash; from

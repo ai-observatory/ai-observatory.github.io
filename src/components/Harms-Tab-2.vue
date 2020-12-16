@@ -1,5 +1,14 @@
 <template>
   <b-tab title="ADMS – Surveillance and Profiling">
+    <div>
+      <b-img
+        center
+        style="width:100%; height: 650px; object-fit:cover"
+        src="../../public/pimg9.png"
+        fluid
+        alt="surveillance and profiling harms"
+      ></b-img>
+    </div>
     <p>
       Automated Decision-Making Systems are becoming integral to the
       proliferation of surveillance enabled through information technology

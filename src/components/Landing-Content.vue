@@ -1,65 +1,143 @@
 <template>
   <div>
-    <h1> Introduction </h1>
-    <p> ‘Artificial Intelligence’, ‘Machine Learning’, ‘Big Data’ and ‘Automation’ are routinely used to invoke utopian vistas of objective, efficient and incorruptible systems with the potential to revolutionise society. We are told, repeatedly, that with enough data and computational power, applying the unbiased logic of machines and computer software, long-standing social problems – from crime to poverty – can be alleviated.</p>
-
-
     <div>
-      <b-button v-b-modal="'modal-1'">
-        Excerpts from AI policies in India
+      <b-img
+        center
+        style="width:80%; height: 660px; object-fit:cover"
+        src="../../public/pimg1.png"
+        fluid
+        alt="ml and big data walk into a bar"
+      ></b-img>
+    </div>
+    <h1>Introduction</h1>
+    <p>
+      &lsquo;Artificial Intelligence&rsquo;, &lsquo;Machine Learning&rsquo;,
+      &lsquo;Big Data&rsquo; and &lsquo;Automation&rsquo; are routinely used to
+      invoke utopian vistas of objective, efficient and incorruptible systems
+      with the potential to revolutionise society. We are told, repeatedly, that
+      with enough data and computational power, applying the unbiased logic of
+      machines and computer software, long-standing social problems &ndash; from
+      crime to poverty &ndash; can be alleviated.&nbsp;
+    </p>
+    <p>
+      The potential of data, computers and networked technologies for social and
+      scientific progress is undoubtable &ndash; they can possess the capacity
+      for processing information and performing cognitive tasks which far
+      surpass human ability.&nbsp;
+    </p>
+    <p>
+      The language of &lsquo;AI&rsquo; and the &lsquo;digital revolution&rsquo;,
+      however, hides the crossed wires, the missing parts and the poisonous
+      exhaust underneath the gleaming hoods of computers and data
+      machines.&nbsp;
+    </p>
+    <p>
+      This project is an attempt to critique the dominant narrative of
+      &lsquo;Artificial Intelligence&rsquo; and &lsquo;data-driven
+      governance&rsquo; in India, by <strong>documenting </strong>the use of
+      Automated Decision Making Systems or ADMS, exploring their
+      <strong>social</strong
+      ><strong>, political and technological contexts</strong>, and documenting
+      the actual and potential <strong>harms </strong>that they pose to
+      individual and collective rights. It also provides activists, journalists,
+      lawyers and affected individuals with the <strong>tools</strong> to
+      understand and mitigate these harms using participatory legal processes
+      and principles for design and regulation.&nbsp;
+    </p>
+    <div>
+      <b-button squared class="modal-button" v-b-modal="'note-method'"
+        >Brief Note on Method
       </b-button>
-
-      <b-modal id="modal-1" title="Excerpts from AI policies in India">
-        <p class="my-4"></p>
-        <p class="my-4">example 1</p>
-        <p class="my-4">example 2</p>
-        <p class="my-4"></p>
+      <b-modal id="note-method" size="xl" hide-footer>
+        <div class="d-block text-left">
+          <h3>Brief Note on Method</h3>
+          <p>
+            <strong>Definitions</strong>: For the purpose of this toolkit, we
+            shed the obfuscatory language of &lsquo;AI&rsquo; and artificial
+            intelligence, which centres technology and data science, and use the
+            term &lsquo;Automated Decision Making Systems&rsquo; or ADMS. ADMS
+            is defined as &ldquo;any system which utilises computational and
+            algorithmic tools to automatically process information and generate
+            an output or decision which is of consequence to an individual or a
+            community.&rdquo;&nbsp;
+          </p>
+          <p>
+            A broad definition of ADMS has been used in order to invoke and
+            re-center these systems as social and technical assemblages which
+            operate within particular institutional and political contexts, and
+            are used to make decisions which have consequences for individuals
+            and communities &ndash; such as decisions about who to police, how
+            to identify trustworthy citizens or when to provide credit and
+            employment. ADMS and AI, are, however, closely related &ndash; the
+            laws, policies, actors and institutions forming around
+            &lsquo;AI&rsquo; are increasingly encouraging the automation and
+            delegation of decision-making functions away from humans, as well as
+            from democratic and participatory systems of decisions.
+          </p>
+          <p>
+            <strong>Scope: </strong>While this toolkit covers some areas of
+            private and consumer applications of ADMS, its primary focus is on
+            the use of ADMS within public agencies and within contexts which
+            have directly consequential impacts on individuals and communities,
+            such as policing, government welfare, urban planning, and credit and
+            finance. This focus is also in recognition of the impact that ADMS
+            has on individuals and communities, often without their knowledge or
+            ability to choose to participate in these systems &ndash; and as
+            these technologies increasingly creep outside our online lives and
+            into our material lives in ways which are often not recognised.
+          </p>
+        </div>
       </b-modal>
     </div>
-    <p>
-    The potential of data, computers and networked technologies for social and scientific progress is undoubtable – they can possess the capacity for processing information and performing cognitive tasks which far surpass human ability.
-    </p>
-    <p>
-    The language of ‘AI’ and the ‘digital revolution’, however, hides the crossed wires, the missing parts and the poisonous exhaust underneath the gleaming hoods of computers and data machines #ADMS
-    </p>
-    <p></p>
-    <img src="https://loremflickr.com/640/360">
 
-    <div>
-      <b-button v-b-modal="'modal-2'"> Modal Paragraph</b-button>
+    <h2>This toolkit is divided in the following parts:</h2>
 
-      <b-modal id="modal-2" title="First Fold">
-        <p class="my-4">
-        This project is an attempt to critique the dominant narrative of ‘Artificial Intelligence’ and ‘data-driven governance’ in India, by documenting the use of Automated Decision Making Systems or ADMS, exploring their #social, #political and technological contexts, and documenting the actual and potential #harms that they pose to individual and collective rights. It also provides activists, journalists, lawyers and affected individuals with the #tools to understand and mitigate these harms using participatory legal processes.
-        </p>
-      </b-modal>
-    </div>
-
-    <div>
-      <b-button v-b-modal="'modal-3'"> Brief Note on Method</b-button>
-
-      <b-modal id="modal-3" title="Brief Note on Method">
-        <h1></h1>
-        <p class="my-4"> </p>
-        <h1>Definitions</h1>
-        <p class="my-4">For the purpose of this toolkit, we shed the obfuscatory language of ‘AI’ and artificial intelligence, which centres technology and data science, and use the term ‘Automated Decision Making Systems’ or ADMS. ADMS is defined as “any system which utilises computational and algorithmic tools to automatically process information and generate an output or decision which is of consequence to an individual or a community.” </p>
-        <p class="my-4">A broad definition of ADMS has been used in order to invoke and re-center these systems as social and technical assemblages which operate within particular institutional and political contexts, and are used to make decisions which have consequences for individuals and communities – such as decisions about who to police, how to identify trustworthy citizens or when to provide credit and employment. ADMS and AI, are, however, closely related – turn to the section on the ‘political economy of AI in India’, to explore how the laws, policies, actors and institutions forming around ‘AI’ are increasingly encouraging the automation and delegation of decision-making functions away from humans, as well as from democratic and participatory systems of decisions.  </p>
-        <h1>Scope</h1>
-        <p class="my-4">While this toolkit covers some areas of private and consumer applications of ADMS, its primary focus is on the use of ADMS within public agencies and within contexts which have directly consequential impacts on individuals and communities, such as policing, government welfare, urban planning, and credit and finance. This focus is also in recognition of the impact that ADMS has on individuals and communities, often without their knowledge or ability to choose to participate in these systems – and as these technologies increasingly creep outside our online lives and into our material lives in ways which are often not recognised. </p>
-      </b-modal>
-    </div>
     <ul>
-      <li>A navigable database of ADMS in India</li>
-      <li>The Legal, Institutional and Technical Infrastructures of ADMS in India</li>
-      <li>Laws and Policies</li>
-      <li>Actors and Institutions</li>
-      <li>Databases and Algorithms</li>
-      <li>Understanding Algorithmic Harms</li>
-      <li>Tools and Agendas for Rights Against the Machine</li>
+      <li>
+        <p><strong>A navigable database of ADMS in India&nbsp;</strong></p>
+      </li>
+
+      <li>
+        <p>
+          <strong
+            >The Legal, Institutional and Technical Infrastructures of ADMS in
+            India</strong
+          >
+        </p>
+        <ul>
+          <li><p>Laws, Policies, Institutions and Actors</p></li>
+          <li><p>Databases&nbsp;</p></li>
+          <li><p>Algorithms</p></li>
+        </ul>
+      </li>
+
+      <li>
+        <p><strong>Unpacking Algorithmic Harms</strong></p>
+        <ul>
+          <li><p>ADMS + Transparency and Accountability</p></li>
+          <li><p>ADMS + Surveillance and Profiling</p></li>
+          <li><p>ADMS + Dispossession</p></li>
+          <li><p>ADMS + Discrimination</p></li>
+        </ul>
+      </li>
+
+      <li>
+        <p><strong>Tools and Agendas for Rights Against the Machine</strong></p>
+        <ul>
+          <li>
+            <p>
+              Applying Constitutional Principles to ADMS Design and Regulation
+            </p>
+          </li>
+          <li>
+            <p>Take Action! Participatory Tools for ADMS Accountability</p>
+          </li>
+        </ul>
+      </li>
     </ul>
+
   </div>
 </template>
-
 
 <script></script>
 

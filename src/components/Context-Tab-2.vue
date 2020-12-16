@@ -64,6 +64,15 @@
       are suitable for wide-scale use to store and retrieve information with
       ease.&nbsp;
     </p>
+    <div>
+      <b-img
+        center
+        style="width:80%"
+        src="../../public/pimg3.png"
+        fluid
+        alt="census data to datasets"
+      ></b-img>
+    </div>
     <p>
       The ADMS documented in this project reflect a number of diverse databases
       and databasing practices being used. Some of these demonstrate clear
@@ -282,8 +291,7 @@
           </p>
           <p><br /><br /></p>
           <p>
-            <strong
-              >This quote is a response from a government official to the
+            This quote is a response from a government official to the
               possibilities of failure in the machine learning component of
               Samagra Vedika. It is indicative of the prevalent view within
               policy and government administration in India, that uncritically
@@ -291,9 +299,18 @@
               public administration can lead to improved and objective
               decision-making, without looking into how data is created, what
               assumptions and biases it embodies, and what the limitations of
-              its utility are.&nbsp;</strong
-            >
+              its utility are.&nbsp;
           </p>
+          <div>
+            <b-img
+              center
+              style="width:80%"
+              src="../../public/pimg4.png"
+              fluid
+              alt="samagra vedika"
+            ></b-img>
+
+          </div>
           <p>
             <strong
               >The Samagra Vedika system is now being utilised to determine
@@ -324,7 +341,6 @@
         </div>
       </b-modal>
     </div>
-
   </b-tab>
 </template>
 

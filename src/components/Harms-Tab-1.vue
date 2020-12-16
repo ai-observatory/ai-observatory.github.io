@@ -11,6 +11,17 @@
       public trust in the operation of these systems. It is important to
       interrogate how these constraints arise and what their consequences are.
     </p>
+
+    <div>
+      <b-img
+        center
+        style="width:80%"
+        src="../../public/pimg7.png"
+        fluid
+        alt="black box problems"
+      ></b-img>
+    </div>
+
     <p>
       Transparency is an essential element of a democratic society. Without
       adequate information about decisions that affect their lives, people
@@ -151,6 +162,15 @@
       attribution of responsibility difficult.
     </blockquote>
 
+        <div>
+          <b-img
+            center
+            style="width:80%"
+            src="../../public/pimg8.png"
+            fluid
+            alt="algo vagueness"
+          ></b-img>
+        </div>
     <p>
       This is particularly true for contemporary machine learning systems which
       may make non-intuitive decisions, the logic of which would be difficult to
