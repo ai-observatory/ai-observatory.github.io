@@ -57,6 +57,11 @@
       allocating welfare resources. This analysis informs the decisions of the
       Government for the purpose of welfare administration.
     </p>
+    <p><strong>Big Data</strong></p>
+    <p>
+      Big Data generally refers to the use of computational analytics to find
+      patterns among large and diverse sets of data.&nbsp;
+    </p>
     <p><strong>Biometric Data</strong></p>
     <p>
       Biometric data refers to data which measure biological human
@@ -186,11 +191,6 @@
       It also protects against arbitrary and unreasonable government action,
       particularly in the creation of unreasonable and irrational
       classifications used to discriminate against people.&nbsp;
-    </p>
-    <p><strong>Big Data</strong></p>
-    <p>
-      Big Data generally refers to the use of computational analytics to find
-      patterns among large and diverse sets of data.
     </p>
   </div>
 </template>

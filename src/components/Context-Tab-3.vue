@@ -11,16 +11,20 @@
       of algorithms which can inform the approaches we take towards addressing
       the concerns of ADMS use in India.
     </p>
-    <p>
-      Algorithmic systems encode particular forms of knowledge and logic,
-      including biases and assumptions about the behaviour of individuals and
-      society. These systems are particularly important to study because these
-      logics become embedded within computational and networked infrastructure
-      which is replicated and operates at scale and speed &ndash; affecting
-      large populations and creating systemic changes, often without the
-      foresight or caution to understand and mitigate their potential harmful
-      consequences.
-    </p>
+
+    <blockquote cite="http://">
+      <p>
+        Algorithmic systems encode particular forms of knowledge and logic,
+        including biases and assumptions about the behaviour of individuals and
+        society. These systems are particularly important to study because these
+        logics become embedded within computational and networked infrastructure
+        which is replicated and operates at scale and speed &ndash; affecting
+        large populations and creating systemic changes, often without the
+        foresight or caution to understand and mitigate their potential harmful
+        consequences.
+      </p>
+    </blockquote>
+
     <p>
       The &lsquo;worldview&rsquo; of an algorithm is context-specific,
       inheriting the knowledge and biases of the designers of the technology.
@@ -35,11 +39,11 @@
     </p>
     <div>
       <b-button class="modal-button" v-b-modal="'case-study-15'"
-        >Automated Censorship In Online Platforms</b-button
+        >[Case Study: Automated Censorship In Online Platforms]</b-button
       >
       <b-modal id="case-study-15" size="xl" hide-footer>
         <div class="d-block text-left">
-          <h3>Automated Censorship In Online Platforms</h3>
+          <h3>Case Study: Automated Censorship In Online Platforms</h3>
           <p>
             In December, 2018, the Government of India made public draft rules
             for regulating online platforms, the draft &lsquo;Intermediary
@@ -177,20 +181,22 @@
         alt="out of the box ml"
       ></b-img>
     </div>
-    <p>
-      Various kinds of databases can go into the operation of a single ADMS. In
-      a Machine Learning system, one database from which the algorithmic model
-      &lsquo;learns&rsquo; is known as a training database. The &lsquo;trained
-      model&rsquo; is often evaluated against a different database to judge its
-      efficacy, through a &lsquo;benchmark database&rsquo;. Finally, the model
-      operates on &lsquo;new&rsquo; databases which it has not previously
-      encountered, at the point of deployment. Each of these databases
-      ultimately impacts how an algorithm performs, as well as how it is
-      evaluated or audited. For example, when a Machine Learning process is
-      identified as being &lsquo;accurate&rsquo;, it is essential to understand
-      the conditions and context in which the algorithm has been tested, and
-      against what kinds of benchmark datasets.
-    </p>
+    <blockquote cite="http://">
+      <p>
+        Various kinds of databases can go into the operation of a single ADMS.
+        In a Machine Learning system, one database from which the algorithmic
+        model &lsquo;learns&rsquo; is known as a training database. The
+        &lsquo;trained model&rsquo; is often evaluated against a different
+        database to judge its efficacy, through a &lsquo;benchmark
+        database&rsquo;. Finally, the model operates on &lsquo;new&rsquo;
+        databases which it has not previously encountered, at the point of
+        deployment. Each of these databases ultimately impacts how an algorithm
+        performs, as well as how it is evaluated or audited. For example, when a
+        Machine Learning process is identified as being &lsquo;accurate&rsquo;,
+        it is essential to understand the conditions and context in which the
+        algorithm has been tested, and against what kinds of benchmark datasets.
+      </p>
+    </blockquote>
     <p>
       Reliance on algorithms for decision-making can reproduce and magnify
       inaccuracies or biases at scale, particularly when these algorithms are
@@ -202,30 +208,16 @@
       responsibility for inaccuracies or problems in the design of the algorithm
       difficult to understand or study.
     </p>
-    <blockquote cite="http://">
-      Various kinds of databases can go into the operation of a single ADMS. In
-      a Machine Learning system, one database from which the algorithmic model
-      &lsquo;learns&rsquo; is known as a training database. The &lsquo;trained
-      model&rsquo; is often evaluated against a different database to judge its
-      efficacy, through a &lsquo;benchmark database&rsquo;. Finally, the model
-      operates on &lsquo;new&rsquo; databases which it has not previously
-      encountered, at the point of deployment. Each of these databases
-      ultimately impacts how an algorithm performs, as well as how it is
-      evaluated or audited. For example, when a Machine Learning process is
-      identified as being &lsquo;accurate&rsquo;, it is essential to understand
-      the conditions and context in which the algorithm has been tested, and
-      against what kinds of benchmark datasets.
-    </blockquote>
 
     <div>
       <b-button class="modal-button" v-b-modal="'case-study-16'"
-        >Algorithmic Assemblages and the Ghosts in India’s Welfare
-        Machine</b-button
+        >[Case Study: Algorithmic Assemblages and the Ghosts in India’s Welfare
+        Machine]</b-button
       >
       <b-modal id="case-study-16" size="xl" hide-footer>
         <div class="d-block text-left">
           <h3>
-            Algorithmic Assemblages and the Ghosts in India’s Welfare Machine
+            Case Study: Algorithmic Assemblages and the Ghosts in India’s Welfare Machine
           </h3>
           <p>
             The <em>Aadhaar </em>Unique ID project of the Government of India is
@@ -297,7 +289,7 @@
             error, government processes continue to rely heavily on their
             &lsquo;objectivity&rsquo; of algorithmic systems, without designing
             for how these failures can be contested or overturned by affected
-            persons.&nbsp;
+            persons.
           </p>
         </div>
       </b-modal>

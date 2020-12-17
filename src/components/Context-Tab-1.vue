@@ -73,23 +73,29 @@
       accountability.
     </p>
 
+    <p>
+      The vision of &lsquo;AI&rsquo; articulated in these documents is one of a
+      &lsquo;public good&rsquo;, championed by private firms and companies
+      developing these technologies, and incentivised and legitimised through
+      government policy, investment,and &lsquo;public-private
+      partnerships&rsquo;. This vision of AI has also influenced key regulatory
+      and policy developments in India, particularly regarding the governance of
+      digital data. Government policy documents, such as Economic Survey of
+      India of 2018-2019, the Draft E-Commerce Policy and the Report of the
+      Committee of Experts on Non-Personal Data, have attempted to reclassify
+      &lsquo;data&rsquo; within digital environments as an economic asset, whose
+      value can be &lsquo;unlocked&rsquo; or exploited through appropriately
+      channeling them within AI or data analytics systems.
+    </p>
+
     <blockquote cite="http://">
       The vision of &lsquo;AI&rsquo; articulated in these documents is one of a
       &lsquo;public good&rsquo;, championed by private firms and companies
       developing these technologies, and incentivised and legitimised through
       government policy, investment,and &lsquo;public-private
-      partnerships&rsquo;
+      partnerships&rsquo;.
     </blockquote>
-    <p>
-      This vision of AI has also influenced key regulatory and policy
-      developments in India, particularly regarding the governance of digital
-      data. Government policy documents, such as Economic Survey of India of
-      2018-2019, the Draft E-Commerce Policy and the Report of the Committee of
-      Experts on Non-Personal Data, have attempted to reclassify
-      &lsquo;data&rsquo; within digital environments as an economic asset, whose
-      value can be &lsquo;unlocked&rsquo; or exploited through appropriately
-      channeling them within AI or data analytics systems.
-    </p>
+
     <p>
       The policy focus on spurring innovation through the deployment of
       government regulation has had a direct influence on legislative policy as
@@ -143,7 +149,7 @@
 
     <div>
       <b-button class="modal-button" v-b-modal="'case-study-9'"
-        >Case Study: ADMS in Policing</b-button
+        >[Case Study: ADMS in Policing]</b-button
       >
       <b-modal id="case-study-9" size="xl" hide-footer>
         <div></div>
@@ -220,6 +226,10 @@
             to forensic practice &ndash; to contend with or govern the use of
             ADMS.
           </p>
+          <p>
+            How can we ensure that ADMS in policing and criminal justice
+            institutions is not used for unjust surveillance and punishment?
+          </p>
           <blockquote cite="http://">
             How can we ensure that ADMS in policing and criminal justice
             institutions is not used for unjust surveillance and punishment?
@@ -230,7 +240,7 @@
 
     <div>
       <b-button class="modal-button" v-b-modal="'case-study-10'"
-        >Case Study: ADMS in Smart Cities</b-button
+        >[Case Study: ADMS in Smart Cities]</b-button
       >
       <b-modal id="case-study-10" size="xl" hide-footer>
         <div></div>
@@ -293,7 +303,13 @@
           <p>
             The institution of the Smart City may be leading us towards
             privatised, opaque and exclusionary digital infrastructures, and
-            routine surveillance of urban residents.
+            routine surveillance of urban residents. How do citizens participate
+            in and demand accountability for automated decision-making in our
+            &lsquo;Smart Cities&rsquo;?
+          </p>
+          <p>
+            How do citizens participate in and demand accountability for
+            automated decision-making in our &lsquo;Smart Cities&rsquo;?
           </p>
           <blockquote cite="http://">
             <p>
@@ -307,10 +323,9 @@
 
     <div>
       <b-button class="modal-button" v-b-modal="'case-study-11'"
-        >Case Study: ADMS in Welfare Administration</b-button
+        >[Case Study: ADMS in Welfare Administration]</b-button
       >
       <b-modal id="case-study-11" size="xl" hide-footer>
-
         <div class="d-block text-left">
           <h3>Case Study: ADMS in Welfare Administration</h3>
           <p>
@@ -481,8 +496,8 @@
     </p>
     <div>
       <b-button class="modal-button" v-b-modal="'case-study-12'"
-        >Case Study: India’s privacy law needs to incorporate rights against the
-        machine</b-button
+        >[Case Study: India’s privacy law needs to incorporate rights against the
+        machine]</b-button
       >
       <b-modal id="case-study-12" size="xl" hide-footer>
         <div></div>
@@ -565,7 +580,12 @@
             >
             that decisional autonomy &ndash; the freedom to make informed
             choices for oneself &ndash; is a core component of the fundamental
-            right to privacy under the constitution.
+            right to privacy under the constitution. However, AI systems limit
+            our ability to make such informed decisions by classifying and
+            typecasting us according to their own secret rules. As we hurl
+            headfirst into the age of &lsquo;AI&rsquo;, our legal systems must
+            stand up to the task of protecting our privacy and decisional
+            autonomy.
           </p>
           <blockquote cite="http://">
             However, AI systems limit our ability to make such informed
@@ -577,8 +597,6 @@
         </div>
       </b-modal>
     </div>
-
-
   </b-tab>
 </template>
 

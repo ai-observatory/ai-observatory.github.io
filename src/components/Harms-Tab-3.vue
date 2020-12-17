@@ -82,6 +82,17 @@
       priority&rsquo; will only be considered after disbursal to the
       &lsquo;qualified&rsquo; candidates).
     </p>
+
+    <div>
+      <b-img
+        center
+        style="width:100%; height: 650px; object-fit:cover"
+        src="../../public/icon2.png"
+        fluid
+        alt="surveillance and profiling harms"
+      ></b-img>
+    </div>
+
     <p>
       The outputs of algorithmic systems are also being used to
       &lsquo;screen&rsquo; individuals and determine their access to public
@@ -96,11 +107,13 @@
     </p>
 
     <div>
-      <b-button class="modal-button" v-b-modal="'case-study-5'">Aarogya Setu</b-button>
+      <b-button class="modal-button" v-b-modal="'case-study-5'"
+        >[Case Study: Algorithmic Health Screening Through Aarogya Setu]</b-button
+      >
       <b-modal id="case-study-5" size="xl" hide-footer>
         <div class="d-block text-left">
           <h3>
-            Aarogya Setu
+            Case Study: Algorithmic Health Screening Through Aarogya Setu
           </h3>
           <p>
             Automated screening tools have been widely utilised to prevent
@@ -110,6 +123,15 @@
             their associations with other people, in order to model their risk
             of infection of COVID-19.
           </p>
+          <div>
+            <b-img
+              center
+              style="width:100%; height: 650px; object-fit:cover"
+              src="../../public/icon3.png"
+              fluid
+              alt="aarogya setu"
+            ></b-img>
+          </div>
           <p>
             Aarogya Setu embodied the failure of legal and government
             institutions to recognise and account for the failure of ADMS. While
@@ -157,12 +179,12 @@
 
     <div>
       <b-button class="modal-button" v-b-modal="'case-study-6'"
-        >Case Study: Disenfranchising Voters</b-button
+        >[Case Study: Disenfranchising Voters Through Algorithmic Purification]</b-button
       >
       <b-modal id="case-study-6" size="xl" hide-footer>
         <div class="d-block text-left">
           <h3>
-            Case Study: Disenfranchising Voters
+            Case Study: Disenfranchising Voters Through Algorithmic Purification
           </h3>
           <p>
             The National Electoral Roll Purification and Authentication
@@ -177,6 +199,17 @@
             &ndash; the implementation of the NERPAP ADMS has resulted in the
             wide-scale disenfranchisement.&nbsp;
           </p>
+
+          <div>
+            <b-img
+              center
+              style="width:100%; height: 650px; object-fit:cover"
+              src="../../public/icon5.png"
+              fluid
+              alt="voters"
+            ></b-img>
+          </div>
+
           <p>
             <br />The NERPAP programme identified potential duplicate or
             &lsquo;fraudulent&rsquo; voters through the process of matching
@@ -211,12 +244,12 @@
 
     <div>
       <b-button class="modal-button" v-b-modal="'case-study-7'"
-        >Ayushman Bharat Fraud Detection</b-button
+        >[Case Study: Automated Fraud Detection in the Ayushman Bharat Universal Health Scheme]</b-button
       >
       <b-modal id="case-study-7" size="xl" hide-footer>
         <div class="d-block text-left">
           <h3>
-            Ayushman Bharat Fraud Detection
+            [Case Study: Automated Fraud Detection in the Ayushman Bharat Universal Health Scheme]
           </h3>
           <p>
             Ayushman Bharat is the Government of India&rsquo;s ambitious
@@ -229,6 +262,17 @@
             Analytics Control and Tracking System&rsquo;, developed by the firm
             SAS.&nbsp;
           </p>
+
+          <div>
+            <b-img
+              center
+              style="width:100%; height: 650px; object-fit:cover"
+              src="../../public/icon4.png"
+              fluid
+              alt=""
+            ></b-img>
+          </div>
+          
           <p>
             According to the NHA, the FACTS system will use Artificial
             Intelligence and Machine Learning in order to

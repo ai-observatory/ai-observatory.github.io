@@ -6,6 +6,13 @@
       AI Observatory
     </h1>
 
+    <blockquote cite="http://">
+      The language of &lsquo;AI&rsquo; and the &lsquo;digital revolution&rsquo;,
+      however, hides the crossed wires, the missing parts and the poisonous
+      exhaust underneath the gleaming hoods of computers and data
+      machines.&nbsp;
+    </blockquote>
+
     <p>
       &lsquo;Artificial Intelligence&rsquo;, &lsquo;Machine Learning&rsquo;,
       &lsquo;Big Data&rsquo; and &lsquo;Automation&rsquo; are routinely used to
@@ -21,12 +28,14 @@
       for processing information and performing cognitive tasks which far
       surpass human ability.&nbsp;
     </p>
+
     <p>
       The language of &lsquo;AI&rsquo; and the &lsquo;digital revolution&rsquo;,
       however, hides the crossed wires, the missing parts and the poisonous
       exhaust underneath the gleaming hoods of computers and data
       machines.&nbsp;
     </p>
+
     <div>
       <b-img
         center
@@ -105,7 +114,7 @@
       <li>
         <p>
           <strong
-            >The Legal, Institutional and Technical Infrastructures of ADMS in
+            >The Legal, Institutional and Technical Architecture of ADMS in
             India</strong
           >
           <a href="../../public/Section1.pdf">(pdf)</a>

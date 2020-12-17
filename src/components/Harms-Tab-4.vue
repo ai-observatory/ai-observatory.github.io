@@ -14,6 +14,17 @@
       people and populations and how this can lead to systemic and structural
       discrimination.
     </p>
+
+    <div>
+      <b-img
+        center
+        style="width:100%; height: 650px; object-fit:cover"
+        src="../../public/icon7.png"
+        fluid
+        alt=""
+      ></b-img>
+    </div>
+
     <p>
       ADMS can be systematically biased against, or in favour of, groups of
       people who share particular attributes. Often, these biases reproduce
@@ -54,12 +65,14 @@
     </p>
     <div>
       <b-button class="modal-button" v-b-modal="'case-study-8'"
-        >Automated Facial Recognition System and the NIST Standards</b-button
+        >[Case Study: Automated Facial Recognition System and the NIST
+        Standards]</b-button
       >
       <b-modal id="case-study-8" size="xl" hide-footer>
         <div class="d-block text-left">
           <h3>
-            Automated Facial Recognition System and the NIST Standards
+            Case Study: Automated Facial Recognition System and the NIST
+            Standards
           </h3>
           <p>
             In July, 2019, the National Crime Records Bureau began the process
@@ -84,18 +97,34 @@
             real-world scenarios.
           </blockquote>
           <p>
-            The NIST itself recognises this and creates distinct benchmarks for
-            its Facial Recognition Vendor Test (FRVT), relied upon by the NCRB.
-            The &lsquo;accuracy&rsquo; ultimately depends on the underlying data
-            presented to the system, as well as the new data on which it is
-            expected to operate. Therefore, a single test or number, such as the
-            one indicated under the RFP, is insufficient to understand whether
-            the system will function &lsquo;correctly&rsquo; across
-            demographics. A testing process which does not account for potential
-            discrimination could, therefore, falsely categorise a system as
-            being &lsquo;accurate&rsquo; based only on its performance on a
-            particular group.&nbsp;
+            Accuracy, however, is a highly contingent metric. As per the NIST
+            itself, facial recognition algorithms perform differently across
+            different demographics &ndash; along lines of gender and ethnicity.
+            Additionally, these systems perform very differently under
+            &lsquo;test conditions&rsquo; as against when they are deployed in
+            real-world scenarios. The NIST itself recognises this and creates
+            distinct benchmarks for its Facial Recognition Vendor Test (FRVT),
+            relied upon by the NCRB. The &lsquo;accuracy&rsquo; ultimately
+            depends on the underlying data presented to the system, as well as
+            the new data on which it is expected to operate. Therefore, a single
+            test or number, such as the one indicated under the RFP, is
+            insufficient to understand whether the system will function
+            &lsquo;correctly&rsquo; across demographics. A testing process which
+            does not account for potential discrimination could, therefore,
+            falsely categorise a system as being &lsquo;accurate&rsquo; based
+            only on its performance on a particular group.&nbsp;
           </p>
+
+          <div>
+            <b-img
+              center
+              style="width:100%; height: 650px; object-fit:cover"
+              src="../../public/icon6.png"
+              fluid
+              alt="surveillance and profiling harms"
+            ></b-img>
+          </div>
+
           <p>
             Discriminatory FRT use in law enforcement can have severe
             consequences &ndash; not only for individuals who may be falsely
@@ -108,6 +137,7 @@
         </div>
       </b-modal>
     </div>
+
     <p>
       Another source of discrimination is in the modelling of the algorithmic
       system and the biases inherent in the task of selecting the inputs and
@@ -126,10 +156,24 @@
       of the Delhi Police&rsquo;s &lsquo;Crime Mapping&rsquo; software C-MAPS
       indicated that the filters used to identify areas for policing or crime
       hotspots are classified using filters for immigrant settlements or
-      minority areas. Examples like this also show how proxy characteristics
-      &ndash; or indirect discrimination &ndash; can be built into algorithmic
-      systems, even if the algorithm does not directly consider protected
-      attributes like race or gender as an input in making decisions.
+      minority areas. Such biases may also be embedded within algorithmic design
+      unintentionally, through the lack of testing or considerations of diverse
+      populations. For example, the Aadhar systems fingerprinting and biometric
+      pattern matching algorithm has been shown to underperform on particular
+      demographics, including based on age and gender. Examples like this also
+      show how proxy characteristics &ndash; or indirect discrimination &ndash;
+      can be built into algorithmic systems, even if the algorithm does not
+      directly consider protected attributes like race or gender as an input in
+      making decisions.&nbsp;
+    </p>
+    <p>
+      The various sources of biases inherent withing ADMS, coupled with the
+      failures of accountability and transparency outlined in this toolkit, make
+      discrimination within the large technological systems used by public
+      agencies difficult to uncover and challenge. Moving ahead with governance
+      through ADMS without critically reflecting on how these challenges of
+      discrimination can be resolved is antithetical to principles of
+      substantive equality and non-discrimination that we value.
     </p>
   </b-tab>
 </template>

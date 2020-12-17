@@ -62,7 +62,7 @@
       enumerate citizens and their relationship with the state - from
       electricity bills to housing registries. Each of these digital databases
       are suitable for wide-scale use to store and retrieve information with
-      ease.&nbsp;
+      ease.
     </p>
     <div>
       <b-img
@@ -118,80 +118,70 @@
 
     <div>
       <b-button class="modal-button" v-b-modal="'case-study-13'"
-        >CCTNs And The Haunting Legacy of Criminal Tribes</b-button
+        >[Case Study: CCTNS And The Haunting Legacy of Criminal
+        Tribes]</b-button
       >
       <b-modal id="case-study-13" size="xl" hide-footer>
         <div></div>
         <div class="d-block text-left">
-          <h3>CCTNs And The Haunting Legacy of Criminal Tribes</h3>
+          <h3>Case Study: CCTNS And The Haunting Legacy of Criminal Tribes</h3>
 
           <p>
-            <strong
-              >The Government of India&rsquo;s Crime and Criminal Tracking
-              Network System is an ongoing project to build a digital network
-              infrastructure for policing across India.</strong
-            ><strong>
-              The system intends to &lsquo;connect&rsquo; the millions of police
-              records and databases which form part of the routine work of law
-              enforcement agencies in India, in order to make data and
-              information practices more secure, consistent and ultimately more
-              central to the work of law enforcement agencies in India. CCTNS
-              includes data from &lsquo;real time&rsquo; sources like sensors,
-              legacy data from police records, and data &lsquo;merged&rsquo;
-              from other databases used by policing and law enforcement.</strong
-            >
+            The Government of India&rsquo;s Crime and Criminal Tracking Network
+            System is an ongoing project to build a digital network
+            infrastructure for policing across India. The system intends to
+            &lsquo;connect&rsquo; the millions of police records and databases
+            which form part of the routine work of law enforcement agencies in
+            India, in order to make data and information practices more secure,
+            consistent and ultimately more central to the work of law
+            enforcement agencies in India. CCTNS includes data from &lsquo;real
+            time&rsquo; sources like sensors, legacy data from police records,
+            and data &lsquo;merged&rsquo; from other databases used by policing
+            and law enforcement
           </p>
           <br />
           <p>
-            <strong
-              >While the state of CCTNS implementation remains woeful, including
-              databases being populated by junk records,</strong
-            ><strong>
-              it is being used to provide the digital data to undertake
-              sophisticated &lsquo;crime data analytics&rsquo; at a nation-wide
-              level, which can further inform policing practice. The analytical
-              softwares will build upon and analyse the &lsquo;raw data&rsquo;
-              provided by various police registers, diaries and other records,
-              including criminal records.&nbsp;</strong
-            >
+            While the state of CCTNS implementation remains woeful, including
+            databases being populated by junk records, it is being used to
+            provide the digital data to undertake sophisticated &lsquo;crime
+            data analytics&rsquo; at a nation-wide level, which can further
+            inform policing practice. The analytical softwares will build upon
+            and analyse the &lsquo;raw data&rsquo; provided by various police
+            registers, diaries and other records, including criminal
+            records.&nbsp;
           </p>
           <br />
           <p>
-            <strong
-              >These criminal records carry forward and entrench a haunting
-              legacy of historical caste and ethnic discrimination in policing
-              in India. In many states, the practices of criminal databasing
-              have clear historical lineages with the colonial practice of
-              surveilling and criminalising entire castes and tribes, the
-              so-called &lsquo;criminal tribes&rsquo; which were categorised as
-              tribes &lsquo;habitually addicted to crime&rsquo;. This
-              unscientific and deeply prejudiced system of classification
-              continues to shape policing practice in India. Despite the
-              official &lsquo;denotification&rsquo; of criminal tribes, the
-              biases and prejudices of criminality associated with such castes
-              continue within contemporary policing practices, including in the
-              maintenance of routine police records, such as the Rowdy Register
-              maintained by the Tamil Nadu police under its implementation of
-              the CCTNS, the Goonda Registers maintained in the Bihar CCTNS, or
-              &lsquo;History Sheeters&rsquo; registers maintained in Karnataka.
-              Each of these carry forward explicit continuities with the
-              casteist and racial practices of surveilling and punishing
-              &lsquo;criminal tribes&rsquo; and institutionally embedding
-              discrimination, including through the technologies of digital
-              databases.</strong
-            >
+            These criminal records carry forward and entrench a haunting legacy
+            of historical caste and ethnic discrimination in policing in India.
+            In many states, the practices of criminal databasing have clear
+            historical lineages with the colonial practice of surveilling and
+            criminalising entire castes and tribes, the so-called
+            &lsquo;criminal tribes&rsquo; which were categorised as tribes
+            &lsquo;habitually addicted to crime&rsquo;. This unscientific and
+            deeply prejudiced system of classification continues to shape
+            policing practice in India. Despite the official
+            &lsquo;denotification&rsquo; of criminal tribes, the biases and
+            prejudices of criminality associated with such castes continue
+            within contemporary policing practices, including in the maintenance
+            of routine police records, such as the Rowdy Register maintained by
+            the Tamil Nadu police under its implementation of the CCTNS, the
+            Goonda Registers maintained in the Bihar CCTNS, or &lsquo;History
+            Sheeters&rsquo; registers maintained in Karnataka. Each of these
+            carry forward explicit continuities with the casteist and racial
+            practices of surveilling and punishing &lsquo;criminal tribes&rsquo;
+            and institutionally embedding discrimination, including through the
+            technologies of digital databases.
           </p>
           <br />
           <p>
-            <strong
-              >As systems like Automated Facial Recognition and predictive
-              analytics are built upon these discriminatory categories and
-              databases, we must introspect on what it means to embed these
-              categories into technological infrastructures which assume
-              &lsquo;neutral&rsquo; or &lsquo;data-based&rsquo; decisions as the
-              basis for police practice, and how we can interrogate and
-              challenge these systems which form the basis of ADMS.
-            </strong>
+            As systems like Automated Facial Recognition and predictive
+            analytics are built upon these discriminatory categories and
+            databases, we must introspect on what it means to embed these
+            categories into technological infrastructures which assume
+            &lsquo;neutral&rsquo; or &lsquo;data-based&rsquo; decisions as the
+            basis for police practice, and how we can interrogate and challenge
+            these systems which form the basis of ADMS.
           </p>
         </div>
       </b-modal>
@@ -211,7 +201,7 @@
       for the purpose of querying or for performing operations across multiple
       disparate databases. More recently, database models like NoSQL are being
       utilised to deal with unstructured forms of data, particularly
-      &lsquo;real-time&rsquo; data retrieved from the information.
+      &lsquo;real-time&rsquo; data retrieved from multiple sources.
     </p>
     <p>
       Public agencies in India are progressively seeking to merge or create
@@ -245,7 +235,7 @@
 
     <div>
       <b-button class="modal-button" v-b-modal="'case-study-14'"
-        >Case Study: Data Linkages in Samagra Vedika Scheme</b-button
+        >[Case Study: Data Linkages in Samagra Vedika Scheme]</b-button
       >
       <b-modal id="case-study-14" size="xl" hide-footer>
         <div>
@@ -260,46 +250,50 @@
         <div class="d-block text-left">
           <h3>Case Study: Data Linkages in Samagra Vedika Scheme</h3>
           <p>
-            <strong
-              >On August 19, 2014, the Government of Telangana conducted the
-              unprecedented exercise of collecting household statistical data
-              across the state, as part of its &lsquo;Samagra Kutumba&rsquo;
-              Intensive Household Survey. Extensive personal information was
-              collected &ndash; from assets to health information about
-              individuals in the state.</strong
-            >
+            On August 19, 2014, the Government of Telangana conducted the
+            unprecedented exercise of collecting household statistical data
+            across the state, as part of its &lsquo;Samagra Kutumba&rsquo;
+            Intensive Household Survey. Extensive personal information was
+            collected &ndash; from assets to health information about
+            individuals in the state.
           </p>
           <p>
-            <strong
-              >Subsequently, the Samagra Kutumba survey has morphed into the
-              Samagra Vedika programme (alternatively known as the Samagra
-              Telangana Smart Governance Platform) &ndash; a databasing system
-              which allows for the querying of data across 30 Government
-              databases, including utility, land, and vehicle registration
-              databases. According to the Government of Telangana, utilising
-              data across multiple databases has allowed them to create a
-              &lsquo;360 Degree Profile&rsquo; of citizens, which has been
-              praised by the Government of India (which has attempted to emulate
-              the practice through the creation of a National Social Registry -
-              a combination of public databases).</strong
-            ><strong>
-              These databases are held within government administrations, with
-              citizens themselves given no notification of whether they are
-              included within the databases, or how their information is
-              eventually utilised, including within ADMS.</strong
-            >
+            Subsequently, the Samagra Kutumba survey has morphed into the
+            Samagra Vedika programme (alternatively known as the Samagra
+            Telangana Smart Governance Platform) &ndash; a databasing system
+            which allows for the querying of data across 30 Government
+            databases, including utility, land, and vehicle registration
+            databases. According to the Government of Telangana, utilising data
+            across multiple databases has allowed them to create a &lsquo;360
+            Degree Profile&rsquo; of citizens, which has been praised by the
+            Government of India (which has attempted to emulate the practice
+            through the creation of a National Social Registry - a combination
+            of public databases). These databases are held within government
+            administrations, with citizens themselves given no notification of
+            whether they are included within the databases, or how their
+            information is eventually utilised, including within ADMS.
           </p>
           <p><br /><br /></p>
+          <blockquote cite="http://">
+            <p>
+              <em
+                >&nbsp;&ldquo;This is the whole principle of machine learning.
+                There is a concept called ML. The more data you feed, all the
+                inaccuracies are ironed out. This is how it will be. This is the
+                meaning of big data.&rdquo;</em
+              >
+            </p>
+          </blockquote>
           <p>
             This quote is a response from a government official to the
-              possibilities of failure in the machine learning component of
-              Samagra Vedika. It is indicative of the prevalent view within
-              policy and government administration in India, that uncritically
-              assumes that increasing the volume and variety of data used in
-              public administration can lead to improved and objective
-              decision-making, without looking into how data is created, what
-              assumptions and biases it embodies, and what the limitations of
-              its utility are.&nbsp;
+            possibilities of failure in the machine learning component of
+            Samagra Vedika. It is indicative of the prevalent view within policy
+            and government administration in India, that uncritically assumes
+            that increasing the volume and variety of data used in public
+            administration can lead to improved and objective decision-making,
+            without looking into how data is created, what assumptions and
+            biases it embodies, and what the limitations of its utility
+            are.&nbsp;
           </p>
           <div>
             <b-img
@@ -309,25 +303,21 @@
               fluid
               alt="samagra vedika"
             ></b-img>
-
           </div>
           <p>
-            <strong
-              >The Samagra Vedika system is now being utilised to determine
-              eligibility of residents for welfare schemes, through the use of
-              statistical modelling and &lsquo;predictive analytics&rsquo;.
-              According to publicly available documents, a pilot of the project
-              in Hyderabad to assess the eligibility of welfare beneficiaries
-              led to the removal of 100,000 ration-card holders, ostensibly for
-              being &lsquo;ghost beneficiaries&rsquo; or fraudulent applicants
-              flagged by the system software. After &lsquo;public
-              resistance&rsquo;, an appeals and verification process was carried
-              out to reinstate wrongly removed beneficiaries.</strong
-            >
+            The Samagra Vedika system is now being utilised to determine
+            eligibility of residents for welfare schemes, through the use of
+            statistical modelling and &lsquo;predictive analytics&rsquo;.
+            According to publicly available documents, a pilot of the project in
+            Hyderabad to assess the eligibility of welfare beneficiaries led to
+            the removal of 100,000 ration-card holders, ostensibly for being
+            &lsquo;ghost beneficiaries&rsquo; or fraudulent applicants flagged
+            by the system software. After &lsquo;public resistance&rsquo;, an
+            appeals and verification process was carried out to reinstate
+            wrongly removed beneficiaries.
           </p>
           <p>
-            <strong
-              >Public administrations in India are keen to utilise &lsquo;big
+            Public administrations in India are keen to utilise &lsquo;big
               data&rsquo; technologies and link databases across sectors and
               contexts in order to inform their decision-making. The example of
               Samagra Vedika is indicative of the manner in which database
@@ -335,8 +325,7 @@
               as well as the possible consequences of utilising this
               infrastructure without more critical interrogation. With such
               deference being given to &lsquo;data&rsquo;, will people become an
-              afterthought?</strong
-            >
+              afterthought?
           </p>
         </div>
       </b-modal>

@@ -1,15 +1,15 @@
 <template>
   <b-tab title="Transparency and Accountability in ADMS" active>
     <h2>Transparency</h2>
-
     <p>
-      Algorithmic systems are frequently referred to as ‘black boxes’ – as
-      instruments into which inputs and outputs are visible, but the precise
-      mechanism of its function is inscrutable. Such ‘black box’ Automated
-      Decision-Making Systems pose structural challenges to democratic ideals of
-      transparency, accountability and participation, and consequently, to
-      public trust in the operation of these systems. It is important to
-      interrogate how these constraints arise and what their consequences are.
+      Algorithmic systems are frequently referred to as &lsquo;black
+      boxes&rsquo; &ndash; as instruments into which inputs and outputs are
+      visible, but the precise mechanism of its function is inscrutable. Such
+      &lsquo;black box&rsquo; Automated Decision-Making Systems pose structural
+      challenges to democratic ideals of transparency, accountability and
+      participation, and consequently, to public trust in the operation of these
+      systems. It is important to interrogate how these constraints arise and
+      what their consequences are.
     </p>
 
     <div>
@@ -21,7 +21,6 @@
         alt="black box problems"
       ></b-img>
     </div>
-
     <p>
       Transparency is an essential element of a democratic society. Without
       adequate information about decisions that affect their lives, people
@@ -35,17 +34,17 @@
     </p>
     <p>
       The technical opacity of ADMS is a well-known phenomenon. As explained
-      previously, computer algorithms within ADMS are essentially ‘models’ or
-      abstractions of the decision-making metrics which are employed by human
-      beings. However, in the process of creating these algorithmic models, many
-      aspects of the decision-making logic may be altered. One area where
-      technical opacity arises is from the inability to be able to read or parse
-      the computer programme and understand how this decision-making logic has
-      been altered in its translation to software or code. Given that not
-      everyone is able to understand how the decision-making logic is reflected
-      in source code, even where the source code of a computer programme and
-      algorithm is made available, the logic always be obvious or accessible to
-      users or affected persons.
+      previously, computer algorithms within ADMS are essentially
+      &lsquo;models&rsquo; or abstractions of the decision-making metrics which
+      are employed by human beings. However, in the process of creating these
+      algorithmic models, many aspects of the decision-making logic may be
+      altered. One area where technical opacity arises is from the inability to
+      be able to read or parse the computer programme and understand how this
+      decision-making logic has been altered in its translation to software or
+      code. Given that not everyone is able to understand how the
+      decision-making logic is reflected in source code, even where the source
+      code of a computer programme and algorithm is made available, the logic
+      always be obvious or accessible to users or affected persons.
     </p>
     <p>
       With the increasing scale and complexity of algorithmic tools, which rely
@@ -55,13 +54,13 @@
       of these systems. This may particularly be true for contemporary machine
       learning practices like image recognition through neural networks, where
       the algorithmic system can produce accurate outputs, but using metrics
-      which have been ‘learned’ by the system, that are so abstracted from the
-      initial logic of the designers of the algorithm, as to be technically
-      un-interpretable by humans.
+      which have been &lsquo;learned&rsquo; by the system, that are so
+      abstracted from the initial logic of the designers of the algorithm, as to
+      be technically un-interpretable by humans.
     </p>
     <p>
-      Another source of the opacity of ADMS is institutional – caused by the
-      legal and institutional mechanisms which govern the operation of these
+      Another source of the opacity of ADMS is institutional &ndash; caused by
+      the legal and institutional mechanisms which govern the operation of these
       systems. Many of the ADMS documented here include computational algorithms
       developed by and procured from private firms, which have deployed
       resources into the creation of these systems, and have an economic
@@ -70,21 +69,25 @@
       of these private firms, which are protected as trade secrets of copyrights
       of these firms. These laws prevent the databases, algorithms and other
       associated components of ADMS from being accessed or scrutinised by the
-      public, and often even by government agencies procuring such systems.
+      public, and often even by government agencies procuring such systems. With
+      governments increasingly outsourcing important infrastructure, including
+      ADMS infrastructure, to private firms, there is correspondingly a shift in
+      the norms of transparency &ndash; from public and transparent by default,
+      as recognised under a right to information, to private and protected by
+      default, protected both by laws like trade secrets, as well as by the
+      forms and governance practices of private companies.
     </p>
-
-    <blockquote cite="">
+    <blockquote cite="http://">
       With governments increasingly outsourcing important infrastructure,
       including ADMS infrastructure, to private firms, there is correspondingly
-      a shift in the norms of transparency – from public and transparent by
-      default, as recognised under a right to information, to private and
+      a shift in the norms of transparency &ndash; from public and transparent
+      by default, as recognised under a right to information, to private and
       protected by default, protected both by laws like trade secrets, as well
       as by the forms and governance practices of private companies.
     </blockquote>
-
     <div>
       <b-button class="modal-button" v-b-modal="'case-study-1'"
-        >Case Study - RTI and Algorithmic Systems</b-button
+        >[Case Study: RTI and Algorithmic Systems]</b-button
       >
       <b-modal id="case-study-1" size="xl" hide-footer>
         <div>
@@ -95,9 +98,14 @@
             fluid
             alt="RTI and Algorithmic Systems"
           ></b-img>
+          <p>
+            [Image: Excerpt from an RTI response by the Mumbai Police, on the
+            Mumbai City Surveillance Project]
+          </p>
         </div>
         <div class="d-block text-left">
-          <h3>Case Study - RTI and Algorithmic Systems</h3>
+          <h3>Case Study: RTI and Algorithmic Systems</h3>
+
           <p>
             The Right to Information Act in India was a landmark moment which
             made concrete the constitutional right to information, recognising
@@ -109,18 +117,18 @@
           </p>
           <p>
             Algorithmic systems have denuded the democratic safeguards that laws
-            like the RTI Act provide. While the definition of ‘information’
-            under the RTI Act is broad enough to cover source code, or
-            algorithmic models, this information is often not provided by
-            claiming exemptions which exist under the RTI Act, such as Section
-            8(1)(d), which exempts the disclosure of confidential information
-            and intellectual property in some circumstances; or Section 8(1)(a),
-            which exempts the disclosure of information on grounds of the
-            sovereignty and security of the nation. Further, disclosure of
-            components of an ADMS, like the databases on which an algorithmic
-            system operates, may pose risks to other interests like privacy and
-            personal data protection, which are also recognised in the RTI Act
-            under Section 8(1)(j).
+            like the RTI Act provide. While the definition of
+            &lsquo;information&rsquo; under the RTI Act is broad enough to cover
+            source code, or algorithmic models, this information is often not
+            provided by claiming exemptions which exist under the RTI Act, such
+            as Section 8(1)(d), which exempts the disclosure of confidential
+            information and intellectual property in some circumstances; or
+            Section 8(1)(a), which exempts the disclosure of information on
+            grounds of the sovereignty and security of the nation. Further,
+            disclosure of components of an ADMS, like the databases on which an
+            algorithmic system operates, may pose risks to other interests like
+            privacy and personal data protection, which are also recognised in
+            the RTI Act under Section 8(1)(j).
           </p>
           <p>
             The proliferation of ADMS is systematically incapacitating important
@@ -132,7 +140,14 @@
         </div>
       </b-modal>
     </div>
-
+    <p>
+      Transparency is not an end in itself &ndash; it is a necessary but not a
+      sufficient means of ensuring democratic and equitable ADMS use. In
+      particular, it is necessary to understand what forms of transparency can
+      lead to better democratic participation and outcomes, and how transparency
+      can be balanced against other legitimate considerations like privacy, or
+      the need to prevent unintended uses of algorithmic systems.
+    </p>
     <h2>Accountability</h2>
 
     <p>
@@ -154,23 +169,39 @@
       or even leading to circumstances where the absence of responsibility
       implies no accountability or redress for affected persons.
     </p>
+    <p>
+      Another reason that ADMS obscures clear accountability is due to the
+      increasing autonomous decision-making capabilities of computer systems
+      &ndash; there are many instances where an algorithmic system malfunctions
+      or performs in a manner which could not be reasonably foreseen, making
+      attribution of responsibility difficult. This is particularly true for
+      contemporary machine learning systems which may make non-intuitive
+      decisions, the logic of which would be difficult to comprehend (as
+      explained in the section above).
+    </p>
+    <div>
+      <b-img
+        center
+        style="width:80%"
+        src="../../public/pimg8.png"
+        fluid
+        alt="algo vagueness"
+      ></b-img>
+    </div>
+    <p>
+      Accounting for accountability requires providing clear lines of
+      responsibility for the harms or failures caused by ADMS, including
+      establishing clear liability for the damage caused by ADMS, and clear
+      channels of redress to affected persons.
+    </p>
     <blockquote cite="http://">
       Another reason that ADMS obscures clear accountability is due to the
-      increasing autonomous decision-making capabilities of computer systems –
-      there are many instances where an algorithmic system malfunctions or
-      performs in a manner which could not be reasonably foreseen, making
+      increasing autonomous decision-making capabilities of computer systems
+      &ndash; there are many instances where an algorithmic system malfunctions
+      or performs in a manner which could not be reasonably foreseen, making
       attribution of responsibility difficult.
     </blockquote>
 
-        <div>
-          <b-img
-            center
-            style="width:80%"
-            src="../../public/pimg8.png"
-            fluid
-            alt="algo vagueness"
-          ></b-img>
-        </div>
     <p>
       This is particularly true for contemporary machine learning systems which
       may make non-intuitive decisions, the logic of which would be difficult to
@@ -179,7 +210,7 @@
 
     <div>
       <b-button class="modal-button" v-b-modal="'case-study-2'"
-        >Case Study: Aadhaar and Unaccountable Authentication Failures</b-button
+        >[Case Study: Aadhaar and Unaccountable Authentication Failures]</b-button
       >
       <b-modal id="case-study-2" size="xl" hide-footer>
         <div class="d-block text-left">

@@ -1,5 +1,5 @@
 <template>
-  <b-tab title="ADMS – Surveillance and Profiling">
+  <b-tab title="ADMS + Surveillance and Profiling">
     <div>
       <b-img
         center
@@ -117,21 +117,33 @@
     <p>
       Another way in which ADMS implicate privacy is through the inference and
       production of information about individuals or groups in ways which were
-      not consensually disclosed, known as automated profiling.
+      not consensually disclosed, known as automated profiling. Automated
+      profiling often concerns seemingly innocuous information which is
+      aggregated and algorithmically computed in ways which can reveal sensitive
+      information, including preferences, attributes and behaviours about
+      individuals and groups. The information generated through profiling may be
+      inaccurate or incomplete, or, even when accurate, may reveal information
+      contrary to an individual&rsquo;s agency and self-determination. Further,
+      this inferred information is subsequently used to make decisions
+      concerning individuals.
     </p>
+
     <blockquote cite="http://">
       Automated profiling often concerns seemingly innocuous information which
       is aggregated and algorithmically computed in ways which can reveal
       sensitive information, including preferences, attributes and behaviours
       about individuals and groups.
     </blockquote>
-    <p>
-      The information generated through profiling may be inaccurate or
-      incomplete, or, even when accurate, may reveal information contrary to an
-      individual&rsquo;s agency and self-determination. Further, this inferred
-      information is subsequently used to make decisions concerning individuals.
-    </p>
 
+    <div>
+      <b-img
+        center
+        style="width:100%; height: 650px; object-fit:cover"
+        src="../../public/icon1.png"
+        fluid
+        alt="icon 1"
+      ></b-img>
+    </div>
     <p>
       Profiling through automated means are now a common feature of our online
       lives &ndash; programmatic and behavioral targeting of advertisements on
@@ -156,12 +168,12 @@
 
     <div>
       <b-button class="modal-button" v-b-modal="'case-study-4'"
-        >Social Media Surveillance and Profiling</b-button
+        >[Case Study: Social Media Surveillance and Profiling in India&rsquo;s Policing Agencies]</b-button
       >
       <b-modal id="case-study-4" size="xl" hide-footer>
         <div class="d-block text-left">
           <h3>
-            Social Media Surveillance and Profiling
+            Case Study: Social Media Surveillance and Profiling in India&rsquo;s Policing Agencies
           </h3>
           <p>
             The surveillance capabilities of government agencies and law

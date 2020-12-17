@@ -139,4 +139,14 @@ a {
 .modal-class {
   border: none;
 }
+
+blockquote {
+  // font: 14px/22px normal helvetica, sans-serif;
+  font-size: 26px;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  margin-left: 150px;
+  padding-left: 15px;
+  border-left: 5px solid #e7a201;
+}
 </style>

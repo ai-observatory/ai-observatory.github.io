@@ -10,7 +10,7 @@
           <b-nav-item to="/database">Database</b-nav-item>
           <b-nav-item to="/about">About</b-nav-item>
           <b-nav-item to="/context">Context</b-nav-item>
-          <b-nav-item to="/admsharms">ADMS Harms</b-nav-item>
+          <b-nav-item to="/admsharms">Harms</b-nav-item>
           <b-nav-item to="/glossary">Glossary</b-nav-item>
           <b-nav-item to="/takeaction" disabled>Take Action</b-nav-item>
           <!-- <router-link to="/">Home</router-link>
