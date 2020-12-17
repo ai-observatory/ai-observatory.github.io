@@ -1,6 +1,6 @@
 <template>
   <div>
-    <h1>Unpacking Algorithmic Harms</h1>
+    <h1 style="padding-top: 15px">Unpacking Algorithmic Harms</h1>
     <b-tabs content-class="my-3">
       <Harms1></Harms1>
       <Harms2></Harms2>

@@ -104,6 +104,25 @@
       </b-row>
     </div>
 
+    <p v-if="publicDocLinks != ''"></p>
+
+    <div v-if="selected.length===0" class="">
+      <b-row align-v="center" align-h="center">
+        <Card
+          v-on:card-callback="constructModal"
+          v-for="card in allCards"
+          :key="card.ID"
+          :name="card.Name"
+          :area="card.Area"
+          :year="card['Year of Deployment']"
+          :jurisdiction="card.Jurisdiction"
+          :purpose="card.Purpose"
+          :id="card.ID"
+          :imgsrc="card['Icon Name']"
+        >
+        </Card>
+      </b-row>
+    </div>
     <b-modal id="card-details" size="xl" hide-footer>
       <div></div>
       <div class="d-block text-left">
@@ -193,9 +212,9 @@ export default {
   },
   methods: {
     async fetchData(){
-      this.df = await DataFrame.fromJSON("adms_array6.json");
+      this.df = await DataFrame.fromJSON("adms_array7.json");
       // this.df.cast("Year of Deployment", Number);
-      this.df = this.df.fillMissingValues("NA",['Manner of Procurement']);
+      this.allCards = this.df.toCollection();
       this.constructModal();
     },
     updateSelected() {
@@ -266,6 +285,7 @@ export default {
   },
   data() {
     return {df: [],
+      allCards: [],
       displayCards: [],
       filterDf: [],
       selected: [],

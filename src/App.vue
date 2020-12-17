@@ -6,6 +6,17 @@
       <!-- <router-link to="/about">About</router-link> -->
     </div>
     <router-view />
+    <div class="">
+      <a rel="license" href="http://creativecommons.org/licenses/by/4.0/"
+        ><img
+          alt="Creative Commons License"
+          style="border-width:0"
+          src="https://i.creativecommons.org/l/by/4.0/88x31.png"/></a
+      ><br />This work is licensed under a
+      <a rel="license" href="http://creativecommons.org/licenses/by/4.0/"
+        >Creative Commons Attribution 4.0 International License</a
+      >
+    </div>
   </div>
 </template>
 
@@ -28,8 +39,8 @@ export default {
 @import "assets/custom-vars.scss";
 @import "~bootstrap/scss/bootstrap.scss";
 @import "~bootstrap-vue/src/index.scss";
-@import url('https://fonts.googleapis.com/css2?family=Raleway:wght@500;600&display=swap');  // Raleway
-@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400&display=swap'); // Open Sans
+@import url("https://fonts.googleapis.com/css2?family=Raleway:wght@500;600&display=swap"); // Raleway
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400&display=swap"); // Open Sans
 
 $primary: #000000;
 // #fff5dc, #e7a201, #72cb79, #f95d23, #ffffff, #6eb5ef
@@ -37,28 +48,30 @@ body {
   background-color: #fff5dc;
 }
 #app {
-  font-family: 'Open Sans', sans-serif;
+  font-family: "Open Sans", sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
   text-align: left;
   margin: auto;
   color: #2c3e50;
-  // color: #f95d23;
   font-size: 20px;
   max-width: 940px;
-  border: 1px solid #000000;
 }
 
 p,
 h1,
 h2,
-h3 {
+h3,
+h4 {
   padding-left: 10px;
   padding-right: 10px;
 }
 
-h1,h2,h3{
-  font-family: 'Raleway', sans-serif;
+h1,
+h2,
+h3,
+h4 {
+  font-family: "Raleway", sans-serif;
 }
 
 #nav {
@@ -85,7 +98,7 @@ a {
   overflow: hidden;
   text-decoration: none;
   color: #72cb79;
-  &:hover{
+  &:hover {
     color: #6eb5ef;
   }
   &::after {
@@ -106,10 +119,11 @@ a {
     height: 100%;
   }
 }
-.modal-body{
-   background-color: #fff5dc;
+.modal-body {
+  background-color: #6eb5ef;
+  color: #fff5dc;
 }
-.modal-header{
+.modal-header {
   background-color: #000000;
 }
 </style>

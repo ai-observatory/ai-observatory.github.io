@@ -8,23 +8,24 @@
         tag="article"
         style="max-width:17rem; height:500px; font-size:13px; border: none"
         class="mb-4"
-        :footer="name"
       >
         <b-card-text style="padding:0">
-          <div class="" style="display:grid; grid-template-columns:1fr 1fr">
-            <p>
+          <div style="padding-bottom:15px">
+            <span> <strong>Name:</strong> </span> {{ name }}
+          </div>
+          <div class="" style="display:grid; grid-template-columns:1fr 1fr; grid-gap:1px">
+            <div>
               <span> <strong>Year:</strong> </span> {{ year }}
-            </p>
-            <p>{{ imgsrc }}</p>
-            <p>
+            </div>
+            <div>
               <span> <strong>Area:</strong> </span> {{ area }}
-            </p>
-            <p>
+            </div>
+            <div>
               <span> <strong>Jurisdiction:</strong> </span> {{ jurisdiction }}
-            </p>
-            <p>
+            </div>
+            <div>
               <span> <strong>Purpose:</strong> </span> {{ purpose }}
-            </p>
+            </div>
           </div>
         </b-card-text>
 

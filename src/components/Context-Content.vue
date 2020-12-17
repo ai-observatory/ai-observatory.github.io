@@ -1,6 +1,6 @@
 <template>
   <div>
-    <h1>The Legal, Institutional and Technical Architecture of ADMS in India</h1>
+    <h1 style="padding-top: 15px">The Legal, Institutional and Technical Architecture of ADMS in India</h1>
     <b-tabs content-class="mt-3">
       <Context1></Context1>
       <Context2></Context2>

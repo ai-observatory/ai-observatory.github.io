@@ -112,7 +112,7 @@
       </li>
 
       <li>
-        <p><strong>Unpacking Algorithmic Harms</strong></p>
+        <p><strong>Unpacking Algorithmic Harms</strong> <a href="../../public/Section2.pdf">(pdf)</a> </p>
         <ul>
           <li><p>ADMS + Transparency and Accountability</p></li>
           <li><p>ADMS + Surveillance and Profiling</p></li>
