@@ -16,9 +16,7 @@
           </b-form-checkbox-group>
         </div>
         <b-dropdown-divider></b-dropdown-divider>
-        <div>
-          Selected: <strong>{{ selected }}</strong>
-        </div>
+
         <!-- <b-dropdown-item active>Crime Data Analysis</b-dropdown-item> -->
         <!-- <b-dropdown-item disabled>Sentiment Analysis</b-dropdown-item> -->
       </b-dropdown>
@@ -37,9 +35,6 @@
           </b-form-checkbox-group>
         </div>
         <b-dropdown-divider></b-dropdown-divider>
-        <div>
-          Selected: <strong>{{ selected }}</strong>
-        </div>
       </b-dropdown>
 
       <b-dropdown id="dropdown-3" text="Year" class="m-md-2 dropdown">
@@ -56,9 +51,6 @@
           </b-form-checkbox-group>
         </div>
         <b-dropdown-divider></b-dropdown-divider>
-        <div>
-          Selected: <strong>{{ selected }}</strong>
-        </div>
       </b-dropdown>
 
       <b-dropdown id="dropdown-4" text="Name" class="m-md-2 dropdown">
@@ -75,9 +67,6 @@
           </b-form-checkbox-group>
         </div>
         <b-dropdown-divider></b-dropdown-divider>
-        <div>
-          Selected: <strong>{{ selected }}</strong>
-        </div>
       </b-dropdown>
 
       <b-dropdown id="dropdown-5" text="Jurisdiction" class="m-md-2 dropdown">
@@ -94,9 +83,6 @@
           </b-form-checkbox-group>
         </div>
         <b-dropdown-divider></b-dropdown-divider>
-        <div>
-          Selected: <strong>{{ selected }}</strong>
-        </div>
       </b-dropdown>
     </div>
 
