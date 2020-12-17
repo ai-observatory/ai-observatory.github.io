@@ -99,22 +99,40 @@
         </div>
       </b-dropdown>
     </div>
-    <b-row align-v="center" align-h="center">
-      <Card
-        v-for="card in filteredCards"
-        :key="card.ID"
-        :name="card.Name"
-        :area="card.Area"
-        :year="card['Year of Deployment']"
-        :jurisdiction="card.Jurisdiction"
-        :purpose="card.Purpose"
-      >
-      </Card>
-    </b-row>
+
+    <div class="">
+      <b-row align-v="center" align-h="center">
+        <Card
+          v-on:card-callback="constructModal"
+          v-for="card in filteredCards"
+          :key="card.ID"
+          :name="card.Name"
+          :area="card.Area"
+          :year="card['Year of Deployment']"
+          :jurisdiction="card.Jurisdiction"
+          :purpose="card.Purpose"
+          :id="card.ID"
+        >
+        </Card>
+      </b-row>
+    </div>
+
     <b-modal id="card-details" size="xl" hide-footer>
       <div></div>
       <div class="d-block text-left">
-        <h3>ss</h3>
+        <h3>{{ id }}</h3>
+        <p> Name: {{modalContent["Name"]}}</p>
+        <p>{{modalContent["Purpose"]}}</p>
+        <p>{{modalContent["Year of Deployment"]}}</p>
+        <p>Manner of Procurement: {{modalContent["Manner of Procurement"]}}</p>
+        <p>{{modalContent["Name"]}}</p>
+        <p>{{modalContent["Name"]}}</p>
+        <p>{{modalContent["Name"]}}</p>
+        <p>{{modalContent["Name"]}}</p>
+        <p>{{modalContent["Name"]}}</p>
+        <p>{{modalContent["Name"]}}</p>
+        <p>{{modalContent["Name"]}}</p>
+        <p> News Report: {{modalContent["News Reports"]}}</p>
       </div>
     </b-modal>
   </div>
@@ -126,7 +144,7 @@ import DataFrame from "dataframe-js";
 import Card from "@/components/ADMSCard.vue";
 
 export default {
-  props: ["name", "area", "nme", "year", "jurisdiction", "purpose"],
+  props: ["name", "area", "nme", "year", "jurisdiction", "purpose", "id"],
   components: {
     Card: Card
   },
@@ -137,7 +155,8 @@ export default {
   methods: {
     async fetchData(){
       this.df = await DataFrame.fromJSON("adms_array2.json");
-      this.df.cast("Year of Deployment", Number);
+      // this.df.cast("Year of Deployment", Number);
+      this.constructModal();
     },
     updateSelected() {
       let s = JSON.parse(JSON.stringify(this.selected));
@@ -182,13 +201,22 @@ export default {
       }
       this.displayCards.select("Name", "Year of Deployment", "ID").show();
       this.filteredCards = this.displayCards.toCollection();
+    },
+    constructModal(value){
+      // console.log(value);
+      let modalContentDf = this.df.chain(row => row.get('ID') == value)
+      // modalContentDf.select("ID","Purpose").show();
+      this.modalContent = modalContentDf.toDict();
+      console.log(this.modalContent);
     }
   },
   data() {
-    return {df: [], displayCards: [],
+    return {df: [],
+      displayCards: [],
       filterDf: [],
       selected: [],
       filteredCards: [],
+      modalContent:[],
       purposeFilters: [
       {item: "Facial Recognition",  name: { Purpose: "Facial Recognition" }},
       {item: "Social Media Surveillance",  name: { Purpose: "Social Media Surveillance" }},

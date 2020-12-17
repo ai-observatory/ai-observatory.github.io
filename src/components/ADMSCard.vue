@@ -3,23 +3,26 @@
     <b-col>
       <b-card
         tag="article"
-        style="max-width:17rem; height:400px; font-size:16px"
+        style="max-width:17rem; height:400px; font-size:14px"
         class="mb-4"
         :footer="name"
       >
         <b-card-text style="padding:0">
-          <p>
-            <span> <strong>Year:</strong> </span> {{ year }}
-          </p>
-          <p>
-            <span> <strong>Area:</strong> </span> {{ area }}
-          </p>
-          <p>
-            <span> <strong>Jurisdiction:</strong> </span> {{ jurisdiction }}
-          </p>
-          <p>
-            <span> <strong>Purpose:</strong> </span> {{ purpose }}
-          </p>
+          <div class="" style="display:grid; grid-template-columns:1fr 1fr">
+            <p>
+              <span> <strong>Year:</strong> </span> {{ year }}
+            </p>
+            <p>
+              <span> <strong>Area:</strong> </span> {{ area }}
+            </p>
+            <p>
+              <span> <strong>Jurisdiction:</strong> </span> {{ jurisdiction }}
+            </p>
+            <p>
+              <span> <strong>Purpose:</strong> </span> {{ purpose }}
+            </p>
+          </div>
+
         </b-card-text>
 
         <div>
@@ -28,6 +31,8 @@
             v-b-modal="'card-details'"
             squared
             variant="dark"
+            v-on:click="modalClick"
+            :value="id"
             >More</b-button
           >
         </div>
@@ -39,7 +44,12 @@
 
 <script>
 export default {
-  props: ["name", "area", "year", "jurisdiction", "purpose"]
+  props: ["name", "area", "year", "jurisdiction", "purpose", "id"],
+  methods: {
+    modalClick() {
+      this.$emit('card-callback', this.id);
+    }
+  }
 };
 </script>
 
