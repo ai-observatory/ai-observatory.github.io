@@ -3,7 +3,7 @@
     <div style="margin:auto; display:flex;">
       <b-dropdown id="dropdown-1" text="Purpose" class="m-md-2 dropdown">
         <!-- <b-dropdown-item>Facial Recognition</b-dropdown-item> -->
-        <div>
+        <div class="px-2">
           <b-form-checkbox-group
             v-model="selected"
             :options="purposeFilters"
@@ -22,7 +22,7 @@
       </b-dropdown>
 
       <b-dropdown id="dropdown-2" text="Area" class="m-md-2 dropdown">
-        <div>
+        <div class="px-2">
           <b-form-checkbox-group
             v-model="selected"
             :options="areaFilters"
@@ -38,7 +38,7 @@
       </b-dropdown>
 
       <b-dropdown id="dropdown-3" text="Year" class="m-md-2 dropdown">
-        <div>
+        <div class="px-2">
           <b-form-checkbox-group
             v-model="selected"
             :options="yearFilters"
@@ -54,7 +54,7 @@
       </b-dropdown>
 
       <b-dropdown id="dropdown-4" text="Name" class="m-md-2 dropdown">
-        <div>
+        <div class="px-2">
           <b-form-checkbox-group
             v-model="selected"
             :options="nameFilters"
@@ -70,7 +70,7 @@
       </b-dropdown>
 
       <b-dropdown id="dropdown-5" text="Jurisdiction" class="m-md-2 dropdown">
-        <div>
+        <div class="px-2">
           <b-form-checkbox-group
             v-model="selected"
             :options="jurisdictionFilters"
@@ -104,7 +104,32 @@
       </b-row>
     </div>
 
-    <b-modal id="card-details" size="xl" hide-footer>
+    <div class="" v-if="selected.length === 0">
+      <b-row align-v="center" align-h="center">
+        <Card
+          v-on:card-callback="constructModal"
+          v-for="card in allCards"
+          :key="card.ID"
+          :name="card.Name"
+          :area="card.Area"
+          :year="card['Year of Deployment']"
+          :jurisdiction="card.Jurisdiction"
+          :purpose="card.Purpose"
+          :id="card.ID"
+          :imgsrc="card['Icon Name']"
+        >
+        </Card>
+      </b-row>
+    </div>
+
+    <b-modal
+      id="card-details"
+      body-class="modal-second"
+      header-class="modal-second"
+      modal-class="modal-no-border"
+      size="xl"
+      hide-footer
+    >
       <div></div>
       <div class="d-block text-left">
         <!-- style="display:grid; grid-template-columns:1fr 1fr" -->
@@ -144,8 +169,8 @@
               {{ modalContent["Proposed or Implemented"] }}
             </p>
             <p>
-              <strong>Databases Relied On Training or Matching </strong>:&nbsp;
-              {{ modalContent["Databases Relied On Training or Matching"] }}
+              <strong>Databases Relied On</strong>:&nbsp;
+              {{ modalContent["Databases Relied On"] }}
             </p>
 
             <p v-if="publicDocLinks != ''">
@@ -193,9 +218,10 @@ export default {
   },
   methods: {
     async fetchData(){
-      this.df = await DataFrame.fromJSON("adms_array6.json");
+      this.df = await DataFrame.fromJSON("adms_array7.json");
       // this.df.cast("Year of Deployment", Number);
       this.df = this.df.fillMissingValues("NA",['Manner of Procurement']);
+      this.allCards = this.df.toCollection();
       this.constructModal();
     },
     updateSelected() {
@@ -269,6 +295,7 @@ export default {
       displayCards: [],
       filterDf: [],
       selected: [],
+      allCards:[],
       filteredCards: [],
       modalContent:[],
       modalLinks:[],

@@ -1,15 +1,6 @@
 <template>
   <div>
-    <div>
-      <b-img
-        center
-        style="width:80%; height: 660px; object-fit:cover"
-        src="../../public/pimg1.png"
-        fluid
-        alt="ml and big data walk into a bar"
-      ></b-img>
-    </div>
-    <h1>Introduction</h1>
+    <h1 class="site-header">AI Observatory</h1>
     <p>
       &lsquo;Artificial Intelligence&rsquo;, &lsquo;Machine Learning&rsquo;,
       &lsquo;Big Data&rsquo; and &lsquo;Automation&rsquo; are routinely used to
@@ -31,6 +22,15 @@
       exhaust underneath the gleaming hoods of computers and data
       machines.&nbsp;
     </p>
+    <div>
+      <b-img
+        center
+        style="width:80%; height: 660px; object-fit:cover"
+        src="../../public/animation.gif"
+        fluid
+        alt="ml and big data walk into a bar"
+      ></b-img>
+    </div>
     <p>
       This project is an attempt to critique the dominant narrative of
       &lsquo;Artificial Intelligence&rsquo; and &lsquo;data-driven
@@ -141,4 +141,11 @@
 
 <script></script>
 
-<style lang="scss" scoped></style>
+<style lang="scss" scoped>
+.site-header{
+  font-family: 'Big Shoulders Inline Text', cursive;
+  padding-top: 10px;
+  font-size: 80px;
+  font-weight: 700;
+}
+</style>
