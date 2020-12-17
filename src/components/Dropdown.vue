@@ -112,6 +112,7 @@
           :jurisdiction="card.Jurisdiction"
           :purpose="card.Purpose"
           :id="card.ID"
+          :imgsrc="card['Icon Name']"
         >
         </Card>
       </b-row>
@@ -120,19 +121,71 @@
     <b-modal id="card-details" size="xl" hide-footer>
       <div></div>
       <div class="d-block text-left">
-        <h3>{{ id }}</h3>
-        <p> Name: {{modalContent["Name"]}}</p>
-        <p>{{modalContent["Purpose"]}}</p>
-        <p>{{modalContent["Year of Deployment"]}}</p>
-        <p>Manner of Procurement: {{modalContent["Manner of Procurement"]}}</p>
-        <p>{{modalContent["Name"]}}</p>
-        <p>{{modalContent["Name"]}}</p>
-        <p>{{modalContent["Name"]}}</p>
-        <p>{{modalContent["Name"]}}</p>
-        <p>{{modalContent["Name"]}}</p>
-        <p>{{modalContent["Name"]}}</p>
-        <p>{{modalContent["Name"]}}</p>
-        <p> News Report: {{modalContent["News Reports"]}}</p>
+        <!-- style="display:grid; grid-template-columns:1fr 1fr" -->
+        <b-row>
+          <b-col>
+            <p><strong>Name </strong>:&nbsp; {{ modalContent["Name"] }}</p>
+            <p><strong>Area </strong>:&nbsp; {{ modalContent["Area"] }}</p>
+            <p>
+              <strong>Purpose </strong>:&nbsp; {{ modalContent["Purpose"] }}
+            </p>
+            <p>
+              <strong>Jurisdiction </strong>:&nbsp;
+              {{ modalContent["Jurisdiction"] }}
+            </p>
+            <p>
+              <strong>Year of Deployment </strong>:&nbsp;
+              {{ modalContent["Year of Deployment"] }}
+            </p>
+            <p>
+              <strong>Algorithm or Model Type </strong>:&nbsp;
+              {{ modalContent["Algorithm or Model Type"] }}
+            </p>
+            <p>
+              <strong>Manner of Procurement </strong>:&nbsp;
+              {{ modalContent["Manner of Procurement"] }}
+            </p>
+            <p>
+              <strong>Developed For or Requested By </strong>:&nbsp;
+              {{ modalContent["Developed For or Requested By"] }}
+            </p>
+            <p>
+              <strong>Developed By </strong>:&nbsp;
+              {{ modalContent["Developed By"] }}
+            </p>
+            <p>
+              <strong>Proposed or Implemented </strong>:&nbsp;
+              {{ modalContent["Proposed or Implemented"] }}
+            </p>
+            <p>
+              <strong>Databases Relied On Training or Matching </strong>:&nbsp;
+              {{ modalContent["Databases Relied On Training or Matching"] }}
+            </p>
+
+            <p v-if="publicDocLinks != ''">
+              <strong> Public Documentation:&nbsp;</strong>
+              <a v-for="link in publicDocLinks" :key="link" :href="link"
+                >link</a
+              >
+            </p>
+            <p v-if="modalLinks != ''">
+              <strong> News Reports:&nbsp; </strong>
+              <a v-for="link in modalLinks" :key="link" :href="link"
+                >link&nbsp; &nbsp;</a
+              >
+            </p>
+          </b-col>
+
+          <div class="col">
+            <b-img
+              left
+              style="width:100%"
+              :src="getImgUrl(iconName)"
+              fluid
+              alt="icon"
+            ></b-img>
+          </div>
+        </b-row>
       </div>
     </b-modal>
   </div>
@@ -142,9 +195,9 @@
 import DataFrame from "dataframe-js";
 // import DataFrame, { Row } from 'dataframe-js';
 import Card from "@/components/ADMSCard.vue";
-
+// import pimg1 from "../../public/pimp1.png"
 export default {
-  props: ["name", "area", "nme", "year", "jurisdiction", "purpose", "id"],
+  props: ["name", "area", "nme", "year", "jurisdiction", "purpose", "id", "imgsrc"],
   components: {
     Card: Card
   },
@@ -154,8 +207,9 @@ export default {
   },
   methods: {
     async fetchData(){
-      this.df = await DataFrame.fromJSON("adms_array2.json");
+      this.df = await DataFrame.fromJSON("adms_array6.json");
       // this.df.cast("Year of Deployment", Number);
+      this.df = this.df.fillMissingValues("NA",['Manner of Procurement']);
       this.constructModal();
     },
     updateSelected() {
@@ -207,8 +261,22 @@ export default {
       let modalContentDf = this.df.chain(row => row.get('ID') == value)
       // modalContentDf.select("ID","Purpose").show();
       this.modalContent = modalContentDf.toDict();
-      console.log(this.modalContent);
-    }
+      let modalLinks = this.modalContent["News Reports"];
+      this.modalLinks = modalLinks[0].split("; ");
+      // console.log(this.modalLinks);
+      let publicDocLinks = this.modalContent["Public Documentation"];
+      this.publicDocLinks = publicDocLinks[0].split("; ");
+      this.iconName =  this.modalContent["Icon Name"];
+      console.log(this.iconName);
+      // this.iconLink="../../public/pimg4.png";
+      // this.iconLink="https://placekitten.com/g/200/300";
+      // console.log(this.iconLink[0]);
+
+    },
+    getImgUrl(img) {
+    var images = require.context('../../public/', false, /\.png$/);
+    return images('./' + img + ".png");
+  }
   },
   data() {
     return {df: [],
@@ -217,6 +285,9 @@ export default {
       selected: [],
       filteredCards: [],
       modalContent:[],
+      modalLinks:[],
+      publicDocLinks:[],
+      iconName:"pimg4",
       purposeFilters: [
       {item: "Facial Recognition",  name: { Purpose: "Facial Recognition" }},
       {item: "Social Media Surveillance",  name: { Purpose: "Social Media Surveillance" }},
