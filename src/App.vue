@@ -6,16 +6,25 @@
       <!-- <router-link to="/about">About</router-link> -->
     </div>
     <router-view />
-    <div class="">
-      <a rel="license" href="http://creativecommons.org/licenses/by/4.0/"
-        ><img
-          alt="Creative Commons License"
-          style="border-width:0"
-          src="https://i.creativecommons.org/l/by/4.0/88x31.png"/></a
-      ><br />This work is licensed under a
-      <a rel="license" href="http://creativecommons.org/licenses/by/4.0/"
-        >Creative Commons Attribution 4.0 International License</a
-      >
+
+    <div
+      style="display: flex; padding-top: 20px; padding-bottom: 10px; flex-direction: column; align-items: center;"
+    >
+      <div class="">
+        <a rel="license" href="http://creativecommons.org/licenses/by/4.0/"
+          ><img
+            alt="Creative Commons License"
+            style="border-width:0"
+            src="https://i.creativecommons.org/l/by/4.0/88x31.png"
+        /></a>
+      </div>
+
+      <div class="">
+        This work is licensed under a
+        <a rel="license" href="http://creativecommons.org/licenses/by/4.0/"
+          >Creative Commons Attribution 4.0 International License</a
+        >
+      </div>
     </div>
   </div>
 </template>
@@ -41,6 +50,7 @@ export default {
 @import "~bootstrap-vue/src/index.scss";
 @import url("https://fonts.googleapis.com/css2?family=Raleway:wght@500;600&display=swap"); // Raleway
 @import url("https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400&display=swap"); // Open Sans
+@import url("https://fonts.googleapis.com/css2?family=Big+Shoulders+Inline+Text:wght@700&display=swap"); // Big Shoulders Inline Text
 
 $primary: #000000;
 // #fff5dc, #e7a201, #72cb79, #f95d23, #ffffff, #6eb5ef
@@ -124,6 +134,9 @@ a {
   color: #fff5dc;
 }
 .modal-header {
-  background-color: #000000;
+  background-color: #6eb5ef;
+}
+.modal-class {
+  border: none;
 }
 </style>

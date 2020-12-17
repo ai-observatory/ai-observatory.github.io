@@ -1,15 +1,11 @@
 <template>
   <div>
-    <div>
-      <b-img
-        center
-        style="width:80%; height: 660px; object-fit:cover"
-        src="../../public/pimg1.png"
-        fluid
-        alt="ml and big data walk into a bar"
-      ></b-img>
-    </div>
-    <h1>Introduction</h1>
+    <h1
+      style="font-family: 'Big Shoulders Inline Text', cursive; font-weight:700; font-size:80px"
+    >
+      AI Observatory
+    </h1>
+
     <p>
       &lsquo;Artificial Intelligence&rsquo;, &lsquo;Machine Learning&rsquo;,
       &lsquo;Big Data&rsquo; and &lsquo;Automation&rsquo; are routinely used to
@@ -31,6 +27,15 @@
       exhaust underneath the gleaming hoods of computers and data
       machines.&nbsp;
     </p>
+    <div>
+      <b-img
+        center
+        style="width:80%; height: 660px; object-fit:cover"
+        src="../../public/animation.gif"
+        fluid
+        alt="ml and big data walk into a bar"
+      ></b-img>
+    </div>
     <p>
       This project is an attempt to critique the dominant narrative of
       &lsquo;Artificial Intelligence&rsquo; and &lsquo;data-driven
@@ -103,6 +108,7 @@
             >The Legal, Institutional and Technical Infrastructures of ADMS in
             India</strong
           >
+          <a href="../../public/Section1.pdf">(pdf)</a>
         </p>
         <ul>
           <li><p>Laws, Policies, Institutions and Actors</p></li>
@@ -112,7 +118,10 @@
       </li>
 
       <li>
-        <p><strong>Unpacking Algorithmic Harms</strong> <a href="../../public/Section2.pdf">(pdf)</a> </p>
+        <p>
+          <strong>Unpacking Algorithmic Harms</strong>
+          <a href="../../public/Section2.pdf">(pdf)</a>
+        </p>
         <ul>
           <li><p>ADMS + Transparency and Accountability</p></li>
           <li><p>ADMS + Surveillance and Profiling</p></li>
@@ -135,7 +144,6 @@
         </ul>
       </li>
     </ul>
-
   </div>
 </template>
 
