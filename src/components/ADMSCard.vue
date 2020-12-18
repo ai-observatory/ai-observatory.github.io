@@ -13,7 +13,10 @@
           <div style="padding-bottom:15px">
             <span> <strong>Name:</strong> </span> {{ name }}
           </div>
-          <div class="" style="display:grid; grid-template-columns:1fr 1fr; grid-gap:1px">
+          <div
+            class=""
+            style="display:grid; grid-template-columns:1fr 1fr; grid-gap:1px"
+          >
             <div>
               <span> <strong>Year:</strong> </span> {{ year }}
             </div>

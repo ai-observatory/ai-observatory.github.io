@@ -3,7 +3,7 @@
     <div style="margin:auto; display:flex;">
       <b-dropdown id="dropdown-1" text="Purpose" class="m-md-2 dropdown">
         <!-- <b-dropdown-item>Facial Recognition</b-dropdown-item> -->
-        <div>
+        <div class="ml-2">
           <b-form-checkbox-group
             v-model="selected"
             :options="purposeFilters"
@@ -22,7 +22,7 @@
       </b-dropdown>
 
       <b-dropdown id="dropdown-2" text="Area" class="m-md-2 dropdown">
-        <div>
+        <div class="ml-2">
           <b-form-checkbox-group
             v-model="selected"
             :options="areaFilters"
@@ -38,7 +38,7 @@
       </b-dropdown>
 
       <b-dropdown id="dropdown-3" text="Year" class="m-md-2 dropdown">
-        <div>
+        <div class="ml-2">
           <b-form-checkbox-group
             v-model="selected"
             :options="yearFilters"
@@ -54,7 +54,7 @@
       </b-dropdown>
 
       <b-dropdown id="dropdown-4" text="Name" class="m-md-2 dropdown">
-        <div>
+        <div class="ml-2">
           <b-form-checkbox-group
             v-model="selected"
             :options="nameFilters"
@@ -70,7 +70,7 @@
       </b-dropdown>
 
       <b-dropdown id="dropdown-5" text="Jurisdiction" class="m-md-2 dropdown">
-        <div>
+        <div class="ml-2">
           <b-form-checkbox-group
             v-model="selected"
             :options="jurisdictionFilters"
@@ -106,7 +106,7 @@
 
     <p v-if="publicDocLinks != ''"></p>
 
-    <div v-if="selected.length===0" class="">
+    <div v-if="selected.length === 0" class="">
       <b-row align-v="center" align-h="center">
         <Card
           v-on:card-callback="constructModal"
@@ -123,7 +123,13 @@
         </Card>
       </b-row>
     </div>
-    <b-modal id="card-details" size="xl" hide-footer>
+    <b-modal
+      body-class="data-modal-button"
+      header-class="data-modal-button"
+      id="card-details"
+      size="xl"
+      hide-footer
+    >
       <div></div>
       <div class="d-block text-left">
         <!-- style="display:grid; grid-template-columns:1fr 1fr" -->

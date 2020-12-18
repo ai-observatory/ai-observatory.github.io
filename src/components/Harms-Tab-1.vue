@@ -12,26 +12,36 @@
       what their consequences are.
     </p>
 
-    <div>
-      <b-img
-        center
-        style="width:80%"
-        src="../../public/pimg7.png"
-        fluid
-        alt="black box problems"
-      ></b-img>
+    <div
+      class=""
+      style="display: flex;  align-items: center;  justify-content: center;"
+    >
+      <div>
+        <b-img
+          center
+          style="margin: auto;"
+          src="../../public/pimg7.png"
+          fluid
+          alt="black box problems"
+        ></b-img>
+      </div>
+
+      <div class="">
+        <p>
+          Transparency is an essential element of a democratic society. Without
+          adequate information about decisions that affect their lives, people
+          cannot comprehend how these decisions are made, how they may affect
+          them, or how they can participate in, and if possible, change such
+          decisions. Similarly, it is impossible to hold the use of ADMS
+          accountable to any legal standard or guiding principles if the
+          mechanisms by which it functions are unknown. Many ADMS pose
+          challenges to these ideals, both by being technically opaque, as well
+          as due to the institutional opacity which often surrounds these
+          systems.
+        </p>
+      </div>
     </div>
-    <p>
-      Transparency is an essential element of a democratic society. Without
-      adequate information about decisions that affect their lives, people
-      cannot comprehend how these decisions are made, how they may affect them,
-      or how they can participate in, and if possible, change such decisions.
-      Similarly, it is impossible to hold the use of ADMS accountable to any
-      legal standard or guiding principles if the mechanisms by which it
-      functions are unknown. Many ADMS pose challenges to these ideals, both by
-      being technically opaque, as well as due to the institutional opacity
-      which often surrounds these systems.
-    </p>
+
     <p>
       The technical opacity of ADMS is a well-known phenomenon. As explained
       previously, computer algorithms within ADMS are essentially
@@ -179,21 +189,31 @@
       decisions, the logic of which would be difficult to comprehend (as
       explained in the section above).
     </p>
-    <div>
-      <b-img
-        center
-        style="width:80%"
-        src="../../public/pimg8.png"
-        fluid
-        alt="algo vagueness"
-      ></b-img>
+
+    <div
+      class=""
+      style="display: flex;  align-items: center;  justify-content: center;"
+    >
+      <div>
+        <b-img
+          center
+          style="width:100%;"
+          src="../../public/pimg8.png"
+          fluid
+          alt="algo vagueness"
+        ></b-img>
+      </div>
+
+      <div class="">
+        <p>
+          Accounting for accountability requires providing clear lines of
+          responsibility for the harms or failures caused by ADMS, including
+          establishing clear liability for the damage caused by ADMS, and clear
+          channels of redress to affected persons.
+        </p>
+      </div>
     </div>
-    <p>
-      Accounting for accountability requires providing clear lines of
-      responsibility for the harms or failures caused by ADMS, including
-      establishing clear liability for the damage caused by ADMS, and clear
-      channels of redress to affected persons.
-    </p>
+
     <blockquote cite="http://">
       Another reason that ADMS obscures clear accountability is due to the
       increasing autonomous decision-making capabilities of computer systems
@@ -210,7 +230,8 @@
 
     <div>
       <b-button class="modal-button" v-b-modal="'case-study-2'"
-        >[Case Study: Aadhaar and Unaccountable Authentication Failures]</b-button
+        >[Case Study: Aadhaar and Unaccountable Authentication
+        Failures]</b-button
       >
       <b-modal id="case-study-2" size="xl" hide-footer>
         <div class="d-block text-left">

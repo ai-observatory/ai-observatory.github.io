@@ -130,11 +130,11 @@ a {
   }
 }
 .modal-body {
-  background-color: #6eb5ef;
+  background-color: #25408f;
   color: #fff5dc;
 }
 .modal-header {
-  background-color: #6eb5ef;
+  background-color: #25408f;
 }
 .modal-class {
   border: none;
@@ -148,5 +148,9 @@ blockquote {
   margin-left: 150px;
   padding-left: 15px;
   border-left: 5px solid #e7a201;
+}
+.data-modal-button{
+  background-color: #fff5dc;
+  color: #2c3e50;
 }
 </style>

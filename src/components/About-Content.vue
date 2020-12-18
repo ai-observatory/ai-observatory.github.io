@@ -1,6 +1,7 @@
 <template>
   <div>
     <h1>About</h1>
+
     <p>
       This project was provoked by the marked difference between the progressive
       and hyperbolic discourse on how digital technologies and &lsquo;Artificial
@@ -12,6 +13,15 @@
       conversations about how these systems should be developed and
       governed.&nbsp;
     </p>
+    <div>
+      <b-img
+        center
+        style="width:80%; height: 660px; object-fit:cover"
+        src="../../public/pimg1.png"
+        fluid
+        alt="ml and big data walk into a bar"
+      ></b-img>
+    </div>
     <p>
       The &lsquo;AI Observatory&rsquo;, is intended to be a participatory
       effort, to be built upon by individuals and communities impacted by ADMS
@@ -54,11 +64,46 @@
       Mozilla Tech Policy Fellow working on Trustworthy AI, in 2019-20. You can
       read more about his work <a href="https://divij.me/">here</a>.&nbsp;
     </p>
-    <p><strong>Design Beku Team</strong></p>
-    <p>Padmini Ray Murray&nbsp;</p>
-    <p>Paulanthony George</p>
-    <p>Pratyush Raman</p>
-    <p><strong>Legend for Illustrations</strong></p>
+    <p><strong>Design Beku&nbsp;</strong></p>
+    <p>
+      <a href="https://designbeku.in/">Design Beku</a> strives to make design
+      and technology more locally rooted and contextually relevant. We are a
+      feminist collective that places an ethics of care at the heart of digital
+      and design practice.
+    </p>
+    <p><strong>Padmini Ray Murray (project lead)&nbsp;</strong></p>
+    <p>
+      Padmini is an independent researcher and founder of Design Beku, and cares
+      deeply about community infrastructures, digital rights and feminism. Find
+      her at @praymurray on Twitter.
+    </p>
+    <p><br /><br /></p>
+    <p><strong>Paulanthony George (illustrations)</strong></p>
+    <p>
+      Paul aka
+      <a href="https://www.instagram.com/memewhile.mp3/">@memewhile.mp3</a> does
+      research on internet memes, spreadable media, online behaviours, and draws
+      comics as a part of this research, while writing bios in the third person,
+      taking care of cats and gardening.<br /><br />
+    </p>
+    <p><strong>Pratyush Raman (fullstack development)</strong></p>
+    <p>
+      Pratyush <a href="https://www.instagram.com/prtyshrmn/">(prtyshrmn)</a> is a teaching-artist, engaging in the confluence of art and
+      technology. He cooks food and makes music for his soul, keeping
+      aspirations of being a polymath.
+    </p>
+    <p><strong>Senjuti Sangia (typesetting)</strong></p>
+    <p>
+      Senjuti is a fairly recent and a very perplexed design graduate. In the
+      immediate future, she hopes to compound feminist theories and elements of
+      theatre.
+    </p>
+    <p><strong>Varun Kurtkoti (animation)</strong></p>
+    <p>
+      Varun is a filmmaker and animator, primarily working in the areas of
+      individual memory in relation to the collective, the politics of identity,
+      and oral cultures.
+    </p>
     <p>Supported by:</p>
 
     <div>

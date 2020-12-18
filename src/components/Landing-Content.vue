@@ -6,13 +6,6 @@
       AI Observatory
     </h1>
 
-    <blockquote cite="http://">
-      The language of &lsquo;AI&rsquo; and the &lsquo;digital revolution&rsquo;,
-      however, hides the crossed wires, the missing parts and the poisonous
-      exhaust underneath the gleaming hoods of computers and data
-      machines.&nbsp;
-    </blockquote>
-
     <p>
       &lsquo;Artificial Intelligence&rsquo;, &lsquo;Machine Learning&rsquo;,
       &lsquo;Big Data&rsquo; and &lsquo;Automation&rsquo; are routinely used to
@@ -22,6 +15,14 @@
       machines and computer software, long-standing social problems &ndash; from
       crime to poverty &ndash; can be alleviated.&nbsp;
     </p>
+
+    <blockquote cite="http://">
+      The language of &lsquo;AI&rsquo; and the &lsquo;digital revolution&rsquo;,
+      however, hides the crossed wires, the missing parts and the poisonous
+      exhaust underneath the gleaming hoods of computers and data
+      machines.&nbsp;
+    </blockquote>
+
     <p>
       The potential of data, computers and networked technologies for social and
       scientific progress is undoubtable &ndash; they can possess the capacity
@@ -39,12 +40,104 @@
     <div>
       <b-img
         center
-        style="width:80%; height: 660px; object-fit:cover"
+        style="width:100%;"
         src="../../public/animation.gif"
         fluid
         alt="ml and big data walk into a bar"
       ></b-img>
     </div>
+
+    <div>
+      <b-button squared class="modal-button" v-b-modal="'illustration-legend'"
+        >Map_Territories and Learning_Knowing
+      </b-button>
+      <b-modal id="illustration-legend" size="xl" hide-footer>
+        <div class="d-block text-left">
+          <p>Maps_Territories and Learning_Knowing:</p>
+          <p>
+            <br /><br />The illustrations in this narrative are an attempt to
+            create a visual language for phenomenon around automated
+            decision-making systems, and the various actors engaged in the
+            structuring, running, subversion and through it, the ones exploited
+            through it.
+          </p>
+          <p>
+            The actors are an extension of an ongoing mapping that started out
+            with the
+            <a href="https://cis-india.github.io/cybersecurityvisuals/index"
+              >Revisualising Cybersecurity project</a
+            >, which shows the origin stories of <em>dineshan</em>. A
+            manifestation of the intermingling of corporate and state interests
+            around platforms and citizen/ user participation. This participation
+            being rich sources of data extraction, referred to in many ways,
+            most recently as "Surveillance Capitalism". These relationships are
+            further explored in the comic "<a
+              href="https://www.epw.in/engage/article/designing-democracy-does-personal-data-protection"
+              >dad and his invisibility mundu</a
+            >" to illustrate what could happen when there is a rift between
+            legality and justice when it comes to legislation around data and
+            privacy.
+          </p>
+          <p>
+            This mapping or extension develops different relationships between
+            dineshan(s) and the people they want to know, keeping in mind the
+            unfolding nature of automated decision-making systems and machine
+            learning models used around the world, but specifically in India.<br /><br />The
+            CCTV&rsquo;d ones leaning heavily towards private and/or corporate
+            interests represented without the crown, the ones with crowns are
+            state bodies, often constituted by an electoral process directly or
+            indirectly. <br /><br />The colour
+            <span style="color:red"> red</span> is used often to indicate
+            something that manifests in a tangible form: subject/citizens of a
+            state, infrastructure that allows for participation/ interaction.
+          </p>
+          <p>
+            The colour blue is usually an indicator of aggregated data and
+            datasets that have been compressed or processed through manual
+            moderation, paperwork and supervised/ unsupervised learning models.
+          </p>
+          <p>
+            A mix of <span style="color:red"> red</span>,
+            <span style="color:blue; background-color:white"> blue</span> and
+            <span style="color:yellow"> yellow</span> indicates an extraction of
+            behaviour that has been quantified in one or more ways, often under
+            the label of "raw data''. Though while drawing these,
+            <em>rawness</em> points more towards a metaphor for vegetables
+            and<em> uncooked-ness</em> as opposed to referring to data as oil,
+            from crude to pure.
+          </p>
+          <p>
+            Green is usually an indicator of learnt (choice-probability based)
+            abstraction that is part of a learning model that recognises human
+            behaviours, through translation and matching depending on the task
+            that is being automated. Typologies for images for facial
+            recognition, or numbers and text for welfare, license plate id'ng.
+          </p>
+          <p>
+            There is only one black box in the scheme of the illustration, it
+            refers only to the environment in which either program are written
+            or where they're parsed.
+          </p>
+          <p>
+            In a mythical landscape of <em>dineshans</em> it is easier to assume
+            transparency to non-anthropomorphised ADMS instead of allowing the
+            persistence of dystopian blackboxes (usually a flowchart mnemonic)
+            which pushes human agency from hope into despair. Which cannot be
+            the consequence of mapping complex things. Dineshan is the only
+            CCTV&rsquo;d anthropomorph, as they are a result of human agency
+            directed one way or subverted in another.
+          </p>
+          <p>
+            <br />The map underscores the importance of the territory, as does a
+            learning model the importance of knowing contextually the lived
+            experiences of people, that can only be categorised and generalised
+            to a limit, linked data is not <em>the</em> map of a person&rsquo;s
+            unique identity.
+          </p>
+        </div>
+      </b-modal>
+    </div>
+
     <p>
       This project is an attempt to critique the dominant narrative of
       &lsquo;Artificial Intelligence&rsquo; and &lsquo;data-driven
@@ -117,7 +210,7 @@
             >The Legal, Institutional and Technical Architecture of ADMS in
             India</strong
           >
-          <a href="../../public/Section1.pdf">(pdf)</a>
+          <a href="/Section1.pdf" download>(pdf)</a>
         </p>
         <ul>
           <li><p>Laws, Policies, Institutions and Actors</p></li>
@@ -129,7 +222,7 @@
       <li>
         <p>
           <strong>Unpacking Algorithmic Harms</strong>
-          <a href="../../public/Section2.pdf">(pdf)</a>
+          <a href="/Section2.pdf" download>(pdf)</a>
         </p>
         <ul>
           <li><p>ADMS + Transparency and Accountability</p></li>

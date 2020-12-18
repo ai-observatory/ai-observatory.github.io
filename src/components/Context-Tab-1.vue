@@ -338,15 +338,7 @@
             afforded access to social welfare could not be invalidated on the
             grounds of &lsquo;exclusion of a few&rsquo;.
           </p>
-          <div>
-            <b-img
-              center
-              style="width:100%"
-              src="../../public/pimg2.png"
-              fluid
-              alt="till link do us apart"
-            ></b-img>
-          </div>
+
           <p>
             <em>Aadhaar </em>laid the foundation for a proliferation of ADMS and
             algorithmic tools within government welfare schemes &ndash; from
@@ -389,6 +381,15 @@
       </b-modal>
     </div>
 
+    <div>
+      <b-img
+        center
+        style="width:100%"
+        src="../../public/pimg2.png"
+        fluid
+        alt="till link do us apart"
+      ></b-img>
+    </div>
     <!-- second heading -->
 
     <h2>The Regulatory Landscape of ADMS in India</h2>
@@ -496,8 +497,8 @@
     </p>
     <div>
       <b-button class="modal-button" v-b-modal="'case-study-12'"
-        >[Case Study: India’s privacy law needs to incorporate rights against the
-        machine]</b-button
+        >[Case Study: India’s privacy law needs to incorporate rights against
+        the machine]</b-button
       >
       <b-modal id="case-study-12" size="xl" hide-footer>
         <div></div>

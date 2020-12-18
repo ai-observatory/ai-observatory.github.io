@@ -12,4 +12,5 @@ git add -A
 git commit -m 'deploy'
 # git push -f git@github.com:ai-observatory/ai-observatory.github.io.git master:gh-pages
 git push -f https://github.com/ai-observatory/ai-observatory.github.io.git master:gh-pages
+# git push -f https://github.com/ai-observatory/algosite.git master:gh-pages
 cd -
