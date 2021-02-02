@@ -1,7 +1,11 @@
 <template>
   <div>
     <h1
-      style="font-family: 'Big Shoulders Inline Text', cursive; font-weight:700; font-size:80px"
+      style="
+        font-family: 'Big Shoulders Inline Text', cursive;
+        font-weight: 700;
+        font-size: 80px;
+      "
     >
       AI Observatory
     </h1>
@@ -40,14 +44,14 @@
     <div>
       <b-img
         center
-        style="width:100%;"
+        style="width: 100%"
         src="../../public/animation.gif"
         fluid
         alt="ml and big data walk into a bar"
       ></b-img>
     </div>
 
-    <div>
+    <div class="modal-button-container">
       <b-button squared class="modal-button" v-b-modal="'illustration-legend'"
         >Map_Territories and Learning_Knowing
       </b-button>
@@ -87,7 +91,7 @@
             interests represented without the crown, the ones with crowns are
             state bodies, often constituted by an electoral process directly or
             indirectly. <br /><br />The colour
-            <span style="color:red"> red</span> is used often to indicate
+            <span style="color: red"> red</span> is used often to indicate
             something that manifests in a tangible form: subject/citizens of a
             state, infrastructure that allows for participation/ interaction.
           </p>
@@ -97,11 +101,11 @@
             moderation, paperwork and supervised/ unsupervised learning models.
           </p>
           <p>
-            A mix of <span style="color:red"> red</span>,
-            <span style="color:blue; background-color:white"> blue</span> and
-            <span style="color:yellow"> yellow</span> indicates an extraction of
-            behaviour that has been quantified in one or more ways, often under
-            the label of "raw data''. Though while drawing these,
+            A mix of <span style="color: red"> red</span>,
+            <span style="color: blue; background-color: white"> blue</span> and
+            <span style="color: yellow"> yellow</span> indicates an extraction
+            of behaviour that has been quantified in one or more ways, often
+            under the label of "raw data''. Though while drawing these,
             <em>rawness</em> points more towards a metaphor for vegetables
             and<em> uncooked-ness</em> as opposed to referring to data as oil,
             from crude to pure.
@@ -151,7 +155,7 @@
       understand and mitigate these harms using participatory legal processes
       and principles for design and regulation.&nbsp;
     </p>
-    <div>
+    <div class="modal-button-container">
       <b-button squared class="modal-button" v-b-modal="'note-method'"
         >Brief Note on Method
       </b-button>

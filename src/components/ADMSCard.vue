@@ -32,7 +32,7 @@
           </div>
         </b-card-text>
 
-        <div>
+        <div class="modal-button-container">
           <b-button
             class="modal-button"
             v-b-modal="'card-details'"
