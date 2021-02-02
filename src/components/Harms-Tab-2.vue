@@ -3,7 +3,7 @@
     <div>
       <b-img
         center
-        style="width:100%; height: 650px; object-fit:cover"
+        style="width: 100%; height: 650px; object-fit: cover"
         src="../../public/pimg9.png"
         fluid
         alt="surveillance and profiling harms"
@@ -27,10 +27,13 @@
       order to draw usable relationships between them through computation. The
       necessity for huge volumes of data is routinely invoked as a critical
       first step for the development of Artificial Intelligence and related
-      technologies. ADMS and &lsquo;AI&rsquo; are therefore providing the
-      imperative for amassing vast amounts of data in ways which allow for their
-      algorithmic computation (discussed in the section on &lsquo;data and
-      databases in ADMS&rsquo;).
+      technologies.<sup
+        ><a href="#sdfootnote1sym" name="sdfootnote1anc"><sup>1</sup></a></sup
+      >
+      ADMS and &lsquo;AI&rsquo; are therefore providing the imperative for
+      amassing vast amounts of data in ways which allow for their algorithmic
+      computation (discussed in the section on &lsquo;data and databases in
+      ADMS&rsquo;).
     </p>
     <p>
       ADMS themselves are utilised for the explicit purpose of surveillance
@@ -44,7 +47,9 @@
       surveillance itself &ndash; what kind of information to acquire, and what
       kind of behaviour it reveals &ndash; becomes automated, continuous and
       cumulative &ndash; bounded by the logic of the particular algorithmic
-      system.
+      system.<sup
+        ><a href="#sdfootnote2sym" name="sdfootnote2anc"><sup>2</sup></a></sup
+      >
     </p>
     <p>
       Automated surveillance technologies, like social media surveillance
@@ -58,15 +63,13 @@
       well as social media surveillance.
     </p>
 
-    <div>
+    <div class="modal-button-container">
       <b-button class="modal-button" v-b-modal="'case-study-3'"
         >Case Study: Facial Recognition Systems in India</b-button
       >
       <b-modal id="case-study-3" size="xl" hide-footer>
         <div class="d-block text-left">
-          <h3>
-            Case Study: Facial Recognition Systems in India
-          </h3>
+          <h3>Case Study: Facial Recognition Systems in India</h3>
           <p>
             One of the primary modalities of automated surveillance in India
             today is through the use of Facial Recognition Technologies (FRT).
@@ -81,7 +84,7 @@
             cameras, particularly within urban centres and &lsquo;smart
             cities&rsquo;. Police agencies in India have claimed to employ FRT
             for purposes ranging from tracking missing children, to identifying
-            protestors and &lsquo;rowdy elements&rsquo;.&nbsp;
+            protestors and &lsquo;rowdy elements&rsquo;.
           </p>
           <p>
             Automated Facial Recognition is one of many technologies integrated
@@ -93,7 +96,7 @@
             of India has also attempted to create a &lsquo;national&rsquo;
             Automated Facial Recognition System which will attempt to be a
             centralised FRT system, built upon CCTNS infrastructure, for all
-            state and central policing and intelligence forces to utilise.&nbsp;
+            state and central policing and intelligence forces to utilise.
           </p>
           <p>
             Although the utility and accuracy of these systems is often
@@ -103,10 +106,10 @@
             and ubiquitous mass surveillance with very little justification.
           </p>
           <p>
-            <br />Read more
+            Read more
             <a
               href="https://medium.com/dfrlab/op-ed-the-global-ai-industry-is-intensifying-mass-surveillance-in-india-5c79ebc1bde2"
-              >here</a
+              ><u>here</u></a
             >
             about how Facial Recognition Technologies are intensifying mass
             surveillance in India.
@@ -124,7 +127,16 @@
       individuals and groups. The information generated through profiling may be
       inaccurate or incomplete, or, even when accurate, may reveal information
       contrary to an individual&rsquo;s agency and self-determination. Further,
-      this inferred information is subsequently used to make decisions
+      this inferred information is
+      <a
+        href="http://privacyinternational.org/report/1718/data-power-profiling-and-automated-decision-making-gdpr"
+        >subsequently</a
+      >
+      used to make
+      <a
+        href="https://www.law.ox.ac.uk/business-law-blog/blog/2018/10/right-reasonable-inferences-re-thinking-data-protection-law-age-big"
+        >decisions</a
+      >
       concerning individuals.
     </p>
 
@@ -138,7 +150,7 @@
     <div>
       <b-img
         center
-        style="width:100%; height: 650px; object-fit:cover"
+        style="width: 100%; height: 650px; object-fit: cover"
         src="../../public/icon1.png"
         fluid
         alt="icon 1"
@@ -147,12 +159,18 @@
     <p>
       Profiling through automated means are now a common feature of our online
       lives &ndash; programmatic and behavioral targeting of advertisements on
-      social media, for example, attempts to identify attributes about consumer
-      behaviour in order to send relevant advertisements. Perhaps more
-      concerning, some cases of profiling are explicitly used to aid in the
-      political manipulation of the subjects of profiling, for example, the
-      revelations made about the firm Cambridge Analytica attempting to
-      manipulate voter behaviour on Facebook.
+      social media, for
+      <a
+        href="https://medium.com/swlh/ai-advertising-a-consumer-perspective-f8cd0fb6893"
+        >example</a
+      >, attempts to identify attributes about consumer behaviour in order to
+      send relevant advertisements. Perhaps more concerning, some cases of
+      profiling are explicitly used to aid in the political manipulation of the
+      subjects of profiling, for example, the revelations made about the firm
+      Cambridge Analytica attempting to manipulate voter behaviour on
+      Facebook.<sup
+        ><a href="#sdfootnote3sym" name="sdfootnote3anc"><sup>3</sup></a></sup
+      >
     </p>
     <p>
       The ADMS documented in this project exhibit forms of behavioural profiling
@@ -166,14 +184,16 @@
       enforcement and other government authorities.
     </p>
 
-    <div>
+    <div class="modal-button-container">
       <b-button class="modal-button" v-b-modal="'case-study-4'"
-        >[Case Study: Social Media Surveillance and Profiling in India&rsquo;s Policing Agencies]</b-button
+        >[Case Study: Social Media Surveillance and Profiling in India&rsquo;s
+        Policing Agencies]</b-button
       >
       <b-modal id="case-study-4" size="xl" hide-footer>
         <div class="d-block text-left">
           <h3>
-            Case Study: Social Media Surveillance and Profiling in India&rsquo;s Policing Agencies
+            Case Study: Social Media Surveillance and Profiling in India&rsquo;s
+            Policing Agencies
           </h3>
           <p>
             The surveillance capabilities of government agencies and law
@@ -182,10 +202,17 @@
             particular, has emerged as a space for gaining all kinds of insights
             into the behaviours of groups and individuals, which are used to aid
             policing and law enforcement. Even though these systems rely largely
-            on information which is &lsquo;open&rsquo; and available online,
-            (referred to by law enforcement as Open Source Intelligence or
+            on information which is
+            <a
+              href="https://scroll.in/article/893015/40-government-departments-are-using-a-social-media-surveillance-tool-and-little-is-known-of-it"
+              >&lsquo;open&rsquo; and available online</a
+            >, (referred to by law enforcement as Open Source Intelligence or
             OSINT), these systems jeopardise expectations of privacy because
-            information is used in contexts for which it was not intended.
+            information is used in contexts for which it was not intended.<sup
+              ><a href="#sdfootnote4sym" name="sdfootnote4anc"
+                ><sup>4</sup></a
+              ></sup
+            >
           </p>
           <p>
             Social media surveillance systems are widely used in both law
@@ -197,23 +224,69 @@
             these terms are found, and can also be used to flag what kind of
             behaviour such speech indicates (&lsquo;violent&rsquo;,
             &lsquo;anti-national&rsquo;, &lsquo;anti-social&rsquo;). Social
-            Network Analysis Tools like &lsquo;X1 Social Discovery&rsquo; allows
-            law enforcement to automate the process of surveilling particular
-            individuals, and generating profiles of their social networks or
-            &lsquo;associates&rsquo;.&nbsp;
+            Network Analysis Tools like &lsquo;<a
+              href="https://www.x1.com/products/x1-social-discovery/"
+              >X1 Social Discovery</a
+            >&rsquo; allows law enforcement to automate the process of
+            surveilling particular individuals, and generating profiles of their
+            social networks or &lsquo;associates&rsquo;.
           </p>
           <p>
-            <br />Algorithmic surveillance flips presumptions of innocence, and
+            Algorithmic surveillance flips presumptions of innocence, and
             requirements for specificity or justification in targeting
             individuals or groups for surveillance, by roping every individual
             and every action into a matrix of probability which is used to
             decide undesirable or unlawful behaviour. Ultimately, it is
             transforming the relationship between the state and the citizen
             &ndash; where all citizens are presumed to be located on this scale
-            of probable guilt, and subject to invasive surveillance.
+            of probable guilt, and subject to invasive surveillance.<sup
+              ><a href="#sdfootnote5sym" name="sdfootnote5anc"
+                ><sup>5</sup></a
+              ></sup
+            >
           </p>
         </div>
       </b-modal>
+    </div>
+    <div class="footnotes">
+      <div>
+        <p>
+          <a href="#sdfootnote1anc" name="sdfootnote1sym">1</a> Committee of
+          Experts on Non Personal Data Governance Framework, <em>supra</em>
+        </p>
+      </div>
+      <div>
+        <p>
+          <a href="#sdfootnote2anc" name="sdfootnote2sym">2</a> Andrejevic M and
+          Gates K, &lsquo;Big Data Surveillance: Introduction&rsquo; (2014) 12
+          Surveillance &amp; Society 185
+        </p>
+      </div>
+      <div>
+        <p>
+          <a href="#sdfootnote3anc" name="sdfootnote3sym">3</a> Hu M,
+          &lsquo;Cambridge Analytica&rsquo;s Black Box&rsquo; (2020) 7 Big Data
+          &amp; Society
+        </p>
+      </div>
+      <div>
+        <p>
+          <a href="#sdfootnote4anc" name="sdfootnote4sym">4</a> Nissenbaum, H.,
+          &lsquo;A Contextual Approach to Privacy Online&rsquo;, D&aelig;dalus
+          Journal of the American Academy of Arts &amp; Sciences, 2011 &lt;<a
+            href="https://www.amacad.org/publication/contextual-approach-privacy-online"
+            ><u
+              >https://www.amacad.org/publication/contextual-approach-privacy-online</u
+            ></a
+          >&gt;
+        </p>
+      </div>
+      <div>
+        <p>
+          <a href="#sdfootnote5anc" name="sdfootnote5sym">5</a> Goldenfein, J.,
+          Monitoring Laws, (Cambridge University Press, 2020)
+        </p>
+      </div>
     </div>
   </b-tab>
 </template>

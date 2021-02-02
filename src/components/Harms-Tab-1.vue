@@ -14,12 +14,12 @@
 
     <div
       class=""
-      style="display: flex;  align-items: center;  justify-content: center;"
+      style="display: flex; align-items: center; justify-content: center"
     >
       <div>
         <b-img
           center
-          style="margin: auto;"
+          style="margin: auto"
           src="../../public/pimg7.png"
           fluid
           alt="black box problems"
@@ -57,6 +57,25 @@
       always be obvious or accessible to users or affected persons.
     </p>
     <p>
+      The technical opacity of ADMS is a well-known phenomenon. As explained
+      previously, computer algorithms within ADMS are essentially
+      &lsquo;models&rsquo; or abstractions of the decision-making metrics which
+      are employed by human beings. However, in the process of creating these
+      algorithmic models, many aspects of the decision-making logic may be
+      altered. One area where technical opacity arises is from the inability to
+      be able to read or parse the computer programme and understand how this
+      decision-making logic has been altered in its translation to software or
+      code.<sup
+        ><a href="#sdfootnote1sym" name="sdfootnote1anc"><sup>1</sup></a></sup
+      >
+      Given that not everyone is able to understand how the decision-making
+      logic is reflected in source code, even where the source code of a
+      computer programme and algorithm is made available, the logic always be
+      obvious or accessible to users or affected persons.<sup
+        ><a href="#sdfootnote2sym" name="sdfootnote2anc"><sup>2</sup></a></sup
+      >
+    </p>
+    <p>
       With the increasing scale and complexity of algorithmic tools, which rely
       on processing hundreds or thousands of inputs through myriad statistical
       or mathematical processes, the logic of decision-making employed within
@@ -66,7 +85,9 @@
       the algorithmic system can produce accurate outputs, but using metrics
       which have been &lsquo;learned&rsquo; by the system, that are so
       abstracted from the initial logic of the designers of the algorithm, as to
-      be technically un-interpretable by humans.
+      be technically un-interpretable by humans.<sup
+        ><a href="#sdfootnote3sym" name="sdfootnote3anc"><sup>3</sup></a></sup
+      >
     </p>
     <p>
       Another source of the opacity of ADMS is institutional &ndash; caused by
@@ -85,7 +106,9 @@
       the norms of transparency &ndash; from public and transparent by default,
       as recognised under a right to information, to private and protected by
       default, protected both by laws like trade secrets, as well as by the
-      forms and governance practices of private companies.
+      forms and governance practices of private companies.<sup
+        ><a href="#sdfootnote4sym" name="sdfootnote4anc"><sup>4</sup></a></sup
+      >
     </p>
     <blockquote cite="http://">
       With governments increasingly outsourcing important infrastructure,
@@ -95,7 +118,7 @@
       protected by default, protected both by laws like trade secrets, as well
       as by the forms and governance practices of private companies.
     </blockquote>
-    <div>
+    <div class="modal-button-container">
       <b-button class="modal-button" v-b-modal="'case-study-1'"
         >[Case Study: RTI and Algorithmic Systems]</b-button
       >
@@ -103,7 +126,7 @@
         <div>
           <b-img
             center
-            style="width:100%"
+            style="width: 100%"
             src="../../public/img1.png"
             fluid
             alt="RTI and Algorithmic Systems"
@@ -115,7 +138,6 @@
         </div>
         <div class="d-block text-left">
           <h3>Case Study: RTI and Algorithmic Systems</h3>
-
           <p>
             The Right to Information Act in India was a landmark moment which
             made concrete the constitutional right to information, recognising
@@ -156,10 +178,12 @@
       particular, it is necessary to understand what forms of transparency can
       lead to better democratic participation and outcomes, and how transparency
       can be balanced against other legitimate considerations like privacy, or
-      the need to prevent unintended uses of algorithmic systems.
+      the need to prevent unintended uses of algorithmic systems.<sup
+        ><a href="#sdfootnote5sym" name="sdfootnote5anc"><sup>5</sup></a></sup
+      >
     </p>
-    <h2>Accountability</h2>
 
+    <h2>Accountability</h2>
     <p>
       An important and related concern to the transparency of ADMS in India is
       the lack of clear systems of accountability for the failures or harms
@@ -177,7 +201,9 @@
       attributing agency and culpability for an outcome of the system to a human
       actor or institution who did not have control or agency over the decision,
       or even leading to circumstances where the absence of responsibility
-      implies no accountability or redress for affected persons.
+      implies no accountability or redress for affected persons.<sup
+        ><a href="#sdfootnote6sym" name="sdfootnote6anc"><sup>6</sup></a></sup
+      >
     </p>
     <p>
       Another reason that ADMS obscures clear accountability is due to the
@@ -192,12 +218,12 @@
 
     <div
       class=""
-      style="display: flex;  align-items: center;  justify-content: center;"
+      style="display: flex; align-items: center; justify-content: center"
     >
       <div>
         <b-img
           center
-          style="width:100%;"
+          style="width: 100%"
           src="../../public/pimg8.png"
           fluid
           alt="algo vagueness"
@@ -222,49 +248,59 @@
       attribution of responsibility difficult.
     </blockquote>
 
-    <p>
-      This is particularly true for contemporary machine learning systems which
-      may make non-intuitive decisions, the logic of which would be difficult to
-      comprehend (as explained in the section above).
-    </p>
-
-    <div>
+    <div class="modal-button-container">
       <b-button class="modal-button" v-b-modal="'case-study-2'"
         >[Case Study: Aadhaar and Unaccountable Authentication
         Failures]</b-button
       >
       <b-modal id="case-study-2" size="xl" hide-footer>
         <div class="d-block text-left">
-          <h3>
-            Case Study: Aadhaar and Unaccountable Authentication Failures
-          </h3>
+          <h3>Case Study: Aadhaar and Unaccountable Authentication Failures</h3>
           <p>
-            The Government of India’s Aadhaar Unique Identification system
+            The Government of India&rsquo;s Aadhaar Unique Identification system
             consists of various assemblages of algorithms, including algorithmic
-            systems which identify individuals, known as ‘authentication’.
-            Biometric authentication has a documented high failure rate and the
-            failure of identification, or incorrect identification can have
-            devastating consequences for an individual – including the denial of
-            essential public services like ration. Biometric systems are
-            essentially probabilistic, which means that there is always a chance
-            of an error in the matching – and that a mathematical algorithmic
-            threshold must be established for what percentage error is
-            acceptable and what is not. Given this error-prone nature of
-            biometric algorithms, and the consequences of its failure, clear
-            accountability becomes particularly essential.
+            systems which identify individuals, known as
+            &lsquo;authentication&rsquo;. Biometric authentication has a
+            documented high failure rate<sup
+              ><a href="#sdfootnote7sym" name="sdfootnote7anc"
+                ><sup>7</sup></a
+              ></sup
+            >
+            and the failure of identification, or incorrect identification can
+            have devastating consequences for an individual &ndash; including
+            the denial of essential public services like ration. Biometric
+            systems are essentially probabilistic, which means that there is
+            always a chance of an error in the matching &ndash; and that a
+            mathematical algorithmic threshold must be established for what
+            percentage error is acceptable and what is not. Given this
+            error-prone nature of biometric algorithms, and the consequences of
+            its failure, clear accountability becomes particularly
+            essential.<sup
+              ><a href="#sdfootnote8sym" name="sdfootnote8anc"
+                ><sup>8</sup></a
+              ></sup
+            >
           </p>
           <p>
             However, this measure of accountability has not been forthcoming
-            from the Government of India or the agency responsible for Aadhaar –
-            the Unique Identification Authority of India (UIDAI). The
+            from the Government of India or the agency responsible for Aadhaar
+            &ndash; the Unique Identification Authority of India (UIDAI). The
             legislation governing Aadhaar does not specifically detail who is
             responsible to resolve failures of the biometric matching algorithm,
             or how such resolution should occur. While some circulars issued by
             the UIDAI specify that government agencies should incorporate
-            ‘exception handling measures’ in case of biometric failures, it has
-            been observed that these measures are often not made available.
+            &lsquo;exception handling measures&rsquo; in case of biometric
+            failures, it has been observed that these measures are often
+            <a
+              href="https://uidai.gov.in/about-uidai/legal-framework/circulars/12135-exception-handling-in-public-distribution-services-and-other-welfare-schemes-2.html"
+              >not made available.</a
+            >
             Moreover, alternatives apart, no clear system of accountability has
-            been framed for the failure of the biometric algorithms.
+            been framed for the failure of the biometric algorithms.<sup
+              ><a href="#sdfootnote9sym" name="sdfootnote9anc"
+                ><sup>9</sup></a
+              ></sup
+            >
           </p>
           <p>
             Aadhaar still remains an outlier, in that its use is governed by a
@@ -276,6 +312,81 @@
           </p>
         </div>
       </b-modal>
+    </div>
+
+    <div class="footnotes">
+      <div>
+        <p>
+          <a href="#sdfootnote1anc" name="sdfootnote1sym">1</a> Citron DK,
+          &lsquo;Technological Due Process&rsquo; 85 Wash U L. Rev., 1249 (2008)
+        </p>
+      </div>
+      <div>
+        <p>
+          <a href="#sdfootnote2anc" name="sdfootnote2sym">2</a> Ananny M and
+          Crawford K, &lsquo;Seeing without Knowing: Limitations of the
+          Transparency Ideal and Its Application to Algorithmic
+          Accountability&rsquo; (2018) 20 New Media &amp; Society 973
+        </p>
+      </div>
+      <div>
+        <p>
+          <a href="#sdfootnote3anc" name="sdfootnote3sym">3</a>Burrell J,
+          &lsquo;How the Machine &ldquo;Thinks&rdquo;: Understanding Opacity in
+          Machine Learning Algorithms&rsquo; (2016) 3 Big Data &amp; Society
+        </p>
+      </div>
+      <div>
+        <p>
+          <a href="#sdfootnote4anc" name="sdfootnote4sym">4</a> Pasquale F.,
+          Black Box Society, (Harvard University Press, 2016); Brauneis R.,
+          &amp; Goodman E., Algorithmic Transparency for the Smart City, 20 Yale
+          J.L. &amp; Tec.
+        </p>
+      </div>
+      <div>
+        <p>
+          <a href="#sdfootnote5anc" name="sdfootnote5sym">5</a> Ananny M and
+          Crawford K, &lsquo;Seeing without Knowing: Limitations of the
+          Transparency Ideal and Its Application to Algorithmic
+          Accountability&rsquo; (2018) 20 New Media &amp; Society 973
+        </p>
+      </div>
+      <div>
+        <p>
+          <a href="#sdfootnote6anc" name="sdfootnote6sym">6</a>Elish, M.C.,
+          &lsquo;Moral Crumple Zones: Cautionary Tales in Human-Robot
+          Interaction&rsquo;, Engaging Science,
+        </p>
+        <p>
+          Technology, and Society 5 (2019); &lsquo;Responsibility and AI&rsquo;,
+          Council of Europe DG (2019) 05
+          &lt;https://rm.coe.int/responsability-and-ai-en/168097d9c5&gt;
+        </p>
+      </div>
+      <div>
+        <p>
+          <a href="#sdfootnote7anc" name="sdfootnote7sym">7</a> &lsquo;Failure
+          Rate of Biometric Identification&rsquo;, Rajya Sabha Unstarred
+          Question No. 400 of 2018.
+        </p>
+      </div>
+      <div>
+        <p>
+          <a href="#sdfootnote8anc" name="sdfootnote8sym">8</a> Khera R and
+          Patibandla V, &lsquo;Does IT Work? Information Technology (IT) in
+          Welfare in India&rsquo;, W. P. No. 2019-04-01,
+          &lt;https://web.iima.ac.in/assets/snippets/workingpaperpdf/981901012019-04-01.pdf&gt;
+        </p>
+      </div>
+      <div>
+        <p>
+          <a href="#sdfootnote9anc" name="sdfootnote9sym">9</a> Kheera, R.,
+          &lsquo;Aadhaar Failures: A Tragedy of Errors&rsquo;, 54(14) Economic
+          and Political Weekly (2019)
+          &lt;https://www.epw.in/engage/article/aadhaar-failures-food-services-welfare&gt;
+        </p>
+      </div>
     </div>
   </b-tab>
 </template>

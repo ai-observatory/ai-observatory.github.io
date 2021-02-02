@@ -3,13 +3,15 @@
     <p>
       An algorithm, in its essence, is a set of rules, or a series of steps, to
       be followed in any method for reaching a particular output from a given
-      starting point. This toolkit documents and analyses computational
-      algorithms &ndash; methods and processes followed within computational
-      processing of data to generate outputs, which are ultimately used within
-      Automated Decision Making Systems, to make consequential decisions. While
-      algorithms vary in form and nature, there are some general characteristics
-      of algorithms which can inform the approaches we take towards addressing
-      the concerns of ADMS use in India.
+      starting point. This toolkitdocuments andanalyses computational algorithms
+      &ndash; methods and processes followed within computational processing of
+      data to generate outputs, which are ultimately used within Automated
+      Decision Making Systems, to make consequential decisions. While algorithms
+      vary in form and nature, there are some general characteristics of
+      algorithms which can inform the approaches we take towards addressing the
+      concerns of ADMS use in India.<sup
+        ><a href="#sdfootnote1sym" name="sdfootnote1anc"><sup>1</sup></a></sup
+      >
     </p>
 
     <blockquote cite="http://">
@@ -26,6 +28,16 @@
     </blockquote>
 
     <p>
+      Algorithmic systems encode particular forms of knowledge and logic,
+      including biases and assumptions about the behaviour of individuals and
+      society. These systems are particularly important to study because these
+      logics become embedded within computational and networked infrastructure
+      which is replicated and operates at scale and speed &ndash; affecting
+      large populations and creating systemic changes, often without the
+      foresight or caution to understand and mitigate their potential harmful
+      consequences.
+    </p>
+    <p>
       The &lsquo;worldview&rsquo; of an algorithm is context-specific,
       inheriting the knowledge and biases of the designers of the technology.
       Notwithstanding claims of &lsquo;general artificial intelligence&rsquo;
@@ -37,7 +49,8 @@
       &lsquo;technological solutionism&rsquo; within institutions of law and
       governance.
     </p>
-    <div>
+
+    <div class="modal-button-container">
       <b-button class="modal-button" v-b-modal="'case-study-15'"
         >[Case Study: Automated Censorship In Online Platforms]</b-button
       >
@@ -46,37 +59,46 @@
           <h3>Case Study: Automated Censorship In Online Platforms</h3>
           <p>
             In December, 2018, the Government of India made public draft rules
-            for regulating online platforms, the draft &lsquo;Intermediary
-            Guidelines Rules, 2018&rsquo;. Among other things, the rules
-            contained one particularly concerning mandate &ndash; Rule 3(9)
-            requires all intermediaries to deploy &lsquo;technology based
-            automated tools&rsquo; to proactively identify and disable
-            &lsquo;unlawful information&rsquo;. Besides being vague and
-            over-broad, the rule indicates the increasing proclivity of public
-            agencies to assume that &lsquo;automated tools&rsquo; &ndash;
-            essentially, algorithmic systems &ndash; are capable of performing
-            complex tasks which inherently involve human judgement &ndash;
-            including the ability to identify information which may be unlawful.
-            The problem with these assumptions is the failure to recognise the
-            limitations of algorithmic systems operating in complex, human,
-            contexts.&nbsp;
+            for regulating online platforms, the draft &lsquo;<a
+              href="https://www.meity.gov.in/writereaddata/files/Draft_Intermediary_Amendment_24122018.pdf"
+              >Intermediary Guidelines Rules, 2018</a
+            >&rsquo;. Among other things, the rules contained one particularly
+            concerning mandate &ndash; Rule 3(9) requires all intermediaries to
+            deploy &lsquo;technology based automated tools&rsquo; to proactively
+            identify and disable &lsquo;unlawful information&rsquo;. Besides
+            being vague and over-broad, the rule indicates the increasing
+            proclivity of public agencies to assume that &lsquo;automated
+            tools&rsquo; &ndash; essentially, algorithmic systems &ndash; are
+            capable of performing complex tasks which inherently involve human
+            judgement &ndash; including the ability to identify information
+            which may be unlawful. The problem with these assumptions is the
+            failure to recognise the limitations of algorithmic systems
+            operating in complex, human, contexts.
           </p>
           <p>
-            <br />Determining the legality of information requires understanding
-            the context in which it appears &ndash; whether it is intended as a
+            Determining the legality of information requires understanding the
+            context in which it appears &ndash; whether it is intended as a
             parody, is a quotation, or if its meaning depends on the group that
             uses it &ndash; contexts which algorithmic models today, cannot
-            understand. Instead, most contemporary algorithmic filters merely
-            look for particular phrases, combinations of words or images, and
+            understand.<sup
+              ><a href="#sdfootnote2sym" name="sdfootnote2anc"
+                ><sup>2</sup></a
+              ></sup
+            >
+            Instead, most contemporary algorithmic filters merely look for
+            particular phrases, combinations of words or images, and
             automatically flag or censor any information which matches these
             &ndash; a process known as &lsquo;fingerprinting&rsquo;. This is not
             the first time that public agencies have attempted to use
             algorithmic systems to censor online content. In 2018, the Central
             Bureau of Investigation requested social media platforms to deploy
-            an automated content identification system called PhotoDNA, which
-            uses fingerprinting technology to identify photographs and disable
-            their access. While fingerprinting can work in specific, limited
-            contexts &ndash; for example, in preventing child sexual
+            an automated content identification system called
+            <a
+              href="https://indianexpress.com/article/india/cbi-surveillance-photodna-microsoft-facebook-youtube-twitter-5516347/"
+              >PhotoDNA</a
+            >, which uses fingerprinting technology to identify photographs and
+            disable their access. While fingerprinting can work in specific,
+            limited contexts &ndash; for example, in preventing child sexual
             exploitation images &ndash; its use across contexts risks the
             pre-censorship of legitimate and lawful speech. Ultimately, the
             failure to recognise the limitations of &lsquo;AI&rsquo; tools and
@@ -107,7 +129,9 @@
       to determine what qualities of an individual can be mathematically
       calculated in order to identify their &lsquo;criminality&rsquo;, which
       necessarily incorporates subjective judgements about people&rsquo;s
-      behaviour.
+      behaviour.<sup
+        ><a href="#sdfootnote3sym" name="sdfootnote3anc"><sup>3</sup></a></sup
+      >
     </p>
     <p>
       The <strong>nature of the algorithm</strong> used indicates the kind of
@@ -118,12 +142,17 @@
       public agencies were &lsquo;logic based&rsquo; expert systems, which were
       programmes in the form of &lsquo;if/then&rsquo; statements, or
       deterministic paths to follow from a particular input. On the other hand,
-      many contemporary algorithmic models utilise machine learning.
+      many contemporary algorithmic models utilise machine learning.<sup
+        ><a href="#sdfootnote4sym" name="sdfootnote4anc"><sup>4</sup></a></sup
+      >
     </p>
     <p>
       Machine learning is a set of algorithmic systems, which recognises
       underlying patterns in data to understand correlations between data, or to
-      model and &lsquo;predict&rsquo; the behaviour of future instances of data.
+      model and &lsquo;predict&rsquo; the behaviour of future instances of
+      data.<sup
+        ><a href="#sdfootnote5sym" name="sdfootnote5anc"><sup>5</sup></a></sup
+      >
       Machine learning algorithms are some of the most widely used in ADMS
       today, including the systems documented here. Machine learning systems, in
       particular, are increasingly popular as methods to sort through vast
@@ -145,15 +174,17 @@
       independent variables, may be easier to explain to users of the system,
       than those which utilise multi-layered neural network models, such as
       those seen in contemporary facial recognition systems, including those
-      widely used by law enforcement in India. In the previous example of an
-      algorithm for determining fraudulent tax payments, a series of legal rules
-      may be encoded into an expert system which determines whether the input
-      data, as processed by the rules provided to it, indicate fraud.
-      Alternatively, in the case of a machine learning system, the algorithm may
-      be &lsquo;trained&rsquo; on previously established cases of
-      &lsquo;frauds&rsquo; to find patterns and correlations which can be
-      applied to subsequent cases in order to classify them as
-      &lsquo;fraud&rsquo; or &lsquo;not fraud&rsquo;.&nbsp;
+      widely used by law enforcement in India.<sup
+        ><a href="#sdfootnote6sym" name="sdfootnote6anc"><sup>6</sup></a></sup
+      >
+      In the previous example of an algorithm for determining fraudulent tax
+      payments, a series of legal rules may be encoded into an expert system
+      which determines whether the input data, as processed by the rules
+      provided to it, indicate fraud. Alternatively, in the case of a machine
+      learning system, the algorithm may be &lsquo;trained&rsquo; on previously
+      established cases of &lsquo;frauds&rsquo; to find patterns and
+      correlations which can be applied to subsequent cases in order to classify
+      them as &lsquo;fraud&rsquo; or &lsquo;not fraud&rsquo;.
     </p>
     <p>
       The task of selecting the algorithm to be applied for a particular problem
@@ -161,7 +192,7 @@
       (false positives or false negatives in the output) are acceptable given
       the constraints of computing power and time? What is a suitable threshold
       for statistical bias and variance exhibited by a machine learning
-      algorithm?&nbsp;
+      algorithm?
     </p>
     <p>
       A second important component of algorithmic design is
@@ -170,12 +201,12 @@
       structured and organised. Some of the forms of data and databases used in
       ADMS in India have been discussed here. As discussed previously, for data
       to be suitable for computation, data must be classified, structured and
-      organised in particular ways.&nbsp;
+      organised in particular ways.
     </p>
     <div>
       <b-img
         center
-        style="width:100%"
+        style="width: 100%"
         src="../../public/pimg5.png"
         fluid
         alt="out of the box ml"
@@ -198,6 +229,22 @@
       </p>
     </blockquote>
     <p>
+      Various kinds of databases can go into the operation of a single ADMS. In
+      a Machine Learning system, one database from which the algorithmic model
+      &lsquo;learns&rsquo; is known as a training database. The &lsquo;trained
+      model&rsquo; is often evaluated against a different database to judge its
+      efficacy, through a &lsquo;benchmark database&rsquo;. Finally, the model
+      operates on &lsquo;new&rsquo; databases which it has not previously
+      encountered, at the point of deployment. Each of these databases
+      ultimately impacts how an algorithm performs, as well as how it is
+      evaluated or audited. For example, when a Machine Learning process is
+      identified as being &lsquo;accurate&rsquo;, it is essential to understand
+      the conditions and context in which the algorithm has been tested, and
+      against what kinds of benchmark datasets.<sup
+        ><a href="#sdfootnote7sym" name="sdfootnote7anc"><sup>7</sup></a></sup
+      >
+    </p>
+    <p>
       Reliance on algorithms for decision-making can reproduce and magnify
       inaccuracies or biases at scale, particularly when these algorithms are
       deployed by public agencies which interface with large populations. Even
@@ -209,7 +256,7 @@
       difficult to understand or study.
     </p>
 
-    <div>
+    <div class="modal-button-container">
       <b-button class="modal-button" v-b-modal="'case-study-16'"
         >[Case Study: Algorithmic Assemblages and the Ghosts in India’s Welfare
         Machine]</b-button
@@ -217,7 +264,8 @@
       <b-modal id="case-study-16" size="xl" hide-footer>
         <div class="d-block text-left">
           <h3>
-            Case Study: Algorithmic Assemblages and the Ghosts in India’s Welfare Machine
+            Case Study: Algorithmic Assemblages and the Ghosts in India’s
+            Welfare Machine
           </h3>
           <p>
             The <em>Aadhaar </em>Unique ID project of the Government of India is
@@ -245,30 +293,37 @@
             at any point, to the data stored in the central biometric database.
             While the UIDAI claims that its biometric matching algorithms are
             highly efficient and accurate, by the government&rsquo;s own
-            admission, the &lsquo;failure rate&rsquo; of the system is as high
-            as 12%, although it is not clear whether this is attributable to how
-            the data is measured, or how it is matched with other entries in the
-            database.&nbsp;
+            <a
+              href="https://www.thequint.com/news/india/uidai-ceo-admits-aadhaar-authentication-failure-rate-12"
+              >admission</a
+            >, the &lsquo;failure rate&rsquo; of the system is as high as 12%,
+            although it is not clear whether this is attributable to how the
+            data is measured, or how it is matched with other entries in the
+            database.
           </p>
           <div>
             <b-img
               center
-              style="width:100%"
+              style="width: 100%"
               src="../../public/pimg6.png"
               fluid
               alt="seeding the raw data begun"
             ></b-img>
           </div>
+
           <p>
             Another algorithmic component of Aadhaar has been the
             &lsquo;seeding&rsquo; of Aadhaar numbers within multiple other
             databases, in order to identify and remove duplicates &ndash; in a
             process known as &lsquo;de-duplication&rsquo;. According to the
-            UIDAI, the authority in charge of Aadhaar,
+            <a
+              href="http://www.dematerialisedid.com/PDFs/role_of_biometric_technology_in_aadhaar_jan21_2012.pdf"
+              >UIDAI</a
+            >, the authority in charge of Aadhaar,
             <em
               >&ldquo;De-duplication is the process of using the Demographic and
               Biometric data collected from an enrollee to check against rest of
-              the data so as to avoid duplicate enrolments.&rdquo;</em
+              the data so as to avoid duplicate enrolments.&rdquo; </em
             >De-duplication algorithms perform &lsquo;inorganic&rsquo; seeding
             by matching names in various welfare beneficiary databases to the
             Aadhaar numbers database. If the algorithm does not find a match, it
@@ -276,7 +331,9 @@
             &lsquo;fake&rsquo;, if there is more than one match, the beneficiary
             is assumed to be a &lsquo;duplicate&rsquo;, and consequently,
             removed from the list of beneficiaries. The output of the
-            algorithmic computation, then, is privileged over the&nbsp;
+            algorithmic computation, then, is privileged over the claims of the
+            affected persons, or even the administrative officials on the
+            ground.
           </p>
           <p>
             Every stage of Aadhaar&rsquo;s decision-making process relies on the
@@ -293,6 +350,63 @@
           </p>
         </div>
       </b-modal>
+    </div>
+    <div class="footnotes">
+      <div>
+        <p>
+          <a href="#sdfootnote1anc" name="sdfootnote1sym">1</a> Gillespie T,
+          &lsquo;The Relevance of Algorithms&rsquo; in Tarleton Gillespie, Pablo
+          J Boczkowski and Kirsten A Foot (eds), Media Technologies (The MIT
+          Press 2014)
+          &lt;http://mitpress.universitypressscholarship.com/view/10.7551/mitpress/9780262525374.001.0001/upso-9780262525374-chapter-9&gt;
+        </p>
+      </div>
+      <div>
+        <p>
+          <a href="#sdfootnote2anc" name="sdfootnote2sym">2</a> Llans&oacute;
+          EJ, &lsquo;No Amount of &ldquo;AI&rdquo; in Content Moderation Will
+          Solve Filtering&rsquo;s Prior-Restraint Problem&rsquo; (2020) 7 Big
+          Data &amp; Society.
+        </p>
+      </div>
+      <div>
+        <p>
+          <a href="#sdfootnote3anc" name="sdfootnote3sym">3</a> Barocas S and
+          Selbst AD, &lsquo;Big Data&rsquo;s Disparate Impact&rsquo;,
+          <a href="https://papers.ssrn.com/sol3/papers.cfm?abstract_id=2477899#"
+            >104 California Law Review 671 (2016)</a
+          >.
+        </p>
+      </div>
+      <div>
+        <p>
+          <a href="#sdfootnote4anc" name="sdfootnote4sym">4</a> Lehr D and Ohm
+          P, &lsquo;Playing with the Data: What Legal Scholars Should Learn
+          About Machine Learning&rsquo; 51 UCD L. Rev., 651.
+        </p>
+      </div>
+      <div>
+        <p>
+          <a href="#sdfootnote5anc" name="sdfootnote5sym">5</a> Mitchell, T.,
+          &lsquo;Machine Learning&rsquo;, (McGraw Hill, 1997).
+        </p>
+      </div>
+      <div>
+        <p>
+          <a href="#sdfootnote6anc" name="sdfootnote6sym">6</a> Burrell J,
+          &lsquo;How the Machine &ldquo;Thinks&rdquo;: Understanding Opacity in
+          Machine Learning Algorithms&rsquo; (2016) 3 Big Data &amp; Society
+        </p>
+      </div>
+      <div>
+        <p>
+          <a href="#sdfootnote7anc" name="sdfootnote7sym">7</a> Buolamwini J and
+          Gebru T, &lsquo;Gender Shades: Intersectional Accuracy Disparities in
+          Commercial Gender Classiﬁcation&rsquo;, Proceedings of the 1st
+          Conference on Fairness, Accountability and Transparency, PMLR
+          81:77-91, 2018
+        </p>
+      </div>
     </div>
   </b-tab>
 </template>

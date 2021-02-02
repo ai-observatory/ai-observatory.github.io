@@ -18,13 +18,12 @@
     <div>
       <b-img
         center
-        style="width:100%; height: 650px; object-fit:cover"
+        style="width: 100%; height: 650px; object-fit: cover"
         src="../../public/icon7.png"
         fluid
         alt=""
       ></b-img>
     </div>
-
     <p>
       ADMS can be systematically biased against, or in favour of, groups of
       people who share particular attributes. Often, these biases reproduce
@@ -33,7 +32,9 @@
       ADMS are applied, these biases can quickly become pervasive and socially
       consequential. However, the sources of discrimination can be unaccounted
       for or overlooked, and often are obscured due to the challenges of
-      transparency in ADMS, making it difficult to identify or rectify.
+      transparency in ADMS, making it difficult to identify or rectify.<sup
+        ><a href="#sdfootnote1sym" name="sdfootnote1anc"><sup>1</sup></a></sup
+      >
     </p>
     <p>
       Multiple sources of bias can exist within ADMS, which can lead to
@@ -45,25 +46,30 @@
       police records over-represent particular communities along lines of class
       and caste, and an automated system relying upon such data is more likely
       to over-represent such communities, for example, in making decisions about
-      which areas to police.&nbsp;
+      which areas to police.
     </p>
     <p>
-      <br />Historical patterns of discrimination are particularly likely to be
+      Historical patterns of discrimination are particularly likely to be
       reproduced in the functioning of machine learning systems. Since these
       types of algorithmic systems learn patterns from underlying historical
       data and apply these patterns in making decisions about future behaviours
       or phenomenon, they are more likely to recognise and reproduce existing
       inequalities and discrimination, often in a way which is posited as
-      &lsquo;neutral&rsquo; or &lsquo;objective&rsquo;. Processes which have
-      relied upon machine learning, like modern image recognition and facial
-      recognition systems, or &lsquo;predictive policing&rsquo; systems have
-      been shown to reproduce such historical biases due to underlying biases
-      present in the datasets upon which they operate. For example, studies of
-      facial recognition technologies have consistently shown how their
-      performance varies according to ethnicity &ndash; in part because the
-      images on which they are &lsquo;trained&rsquo; are not diverse.
+      &lsquo;neutral&rsquo; or &lsquo;objective&rsquo;.<sup
+        ><a href="#sdfootnote2sym" name="sdfootnote2anc"><sup>2</sup></a></sup
+      >
+      Processes which have relied upon machine learning, like modern image
+      recognition and facial recognition systems, or &lsquo;predictive
+      policing&rsquo; systems have been shown to reproduce such historical
+      biases due to underlying biases present in the datasets upon which they
+      operate. For example, studies of facial recognition technologies have
+      consistently shown how their performance varies according to ethnicity
+      &ndash; in part because the images on which they are &lsquo;trained&rsquo;
+      are not diverse.<sup
+        ><a href="#sdfootnote3sym" name="sdfootnote3anc"><sup>3</sup></a></sup
+      >
     </p>
-    <div>
+    <div class="modal-button-container">
       <b-button class="modal-button" v-b-modal="'case-study-8'"
         >[Case Study: Automated Facial Recognition System and the NIST
         Standards]</b-button
@@ -118,7 +124,7 @@
           <div>
             <b-img
               center
-              style="width:100%; height: 650px; object-fit:cover"
+              style="width: 100%; height: 650px; object-fit: cover"
               src="../../public/icon6.png"
               fluid
               alt="surveillance and profiling harms"
@@ -144,27 +150,30 @@
       outputs of the algorithmic system. The choice of selecting particular data
       as relevant factors in classification or prediction is key to the task of
       algorithmic modelling, and can embed assumptions which lead to
-      discrimination. For example, a software known as COMPAS, used in the USA
-      to determine risk for releasing undertrial prisoners on bail, had been
-      shown to systematically discriminate against people of colour. One
-      possible reason for this discrimination could be the factors which were
-      chosen to indicate &lsquo;risk of re-offending&rsquo; &ndash; including
-      prior arrests and arrests of close families or friends. These data or
-      &lsquo;features&rsquo; were more likely to occur for people of colour, and
-      consequently, these factors could have influenced the algorithm to
-      systematically indicate higher risk for these groups. Similarly, a study
-      of the Delhi Police&rsquo;s &lsquo;Crime Mapping&rsquo; software C-MAPS
-      indicated that the filters used to identify areas for policing or crime
-      hotspots are classified using filters for immigrant settlements or
-      minority areas. Such biases may also be embedded within algorithmic design
-      unintentionally, through the lack of testing or considerations of diverse
-      populations. For example, the Aadhar systems fingerprinting and biometric
-      pattern matching algorithm has been shown to underperform on particular
-      demographics, including based on age and gender. Examples like this also
-      show how proxy characteristics &ndash; or indirect discrimination &ndash;
-      can be built into algorithmic systems, even if the algorithm does not
-      directly consider protected attributes like race or gender as an input in
-      making decisions.&nbsp;
+      discrimination. For example, a software known as
+      <a
+        href="https://www.propublica.org/article/machine-bias-risk-assessments-in-criminal-sentencing"
+        >COMPAS</a
+      >, used in the USA to determine risk for releasing undertrial prisoners on
+      bail, had been shown to systematically discriminate against people of
+      colour. One possible reason for this discrimination could be the factors
+      which were chosen to indicate &lsquo;risk of re-offending&rsquo; &ndash;
+      including prior arrests and arrests of close families or friends. These
+      data or &lsquo;features&rsquo; were more likely to occur for people of
+      colour, and consequently, these factors could have influenced the
+      algorithm to systematically indicate higher risk for these
+      groups.Similarly, a study of the Delhi Police&rsquo;s &lsquo;Crime
+      Mapping&rsquo; software C-MAPS indicated that the filters used to identify
+      areas for policing or crime hotspots are classified using filters for
+      immigrant settlements or minority areas. Such biases may also be embedded
+      within algorithmic design unintentionally, through the lack of testing or
+      considerations of diverse populations. For example, the Aadhar systems
+      fingerprinting and biometric pattern matching algorithm has been shown to
+      underperform on particular demographics, including based on age and
+      gender. Examples like this also show how proxy characteristics &ndash; or
+      indirect discrimination &ndash; can be built into algorithmic systems,
+      even if the algorithm does not directly consider protected attributes like
+      race or gender as an input in making decisions.&nbsp;
     </p>
     <p>
       The various sources of biases inherent withing ADMS, coupled with the
@@ -175,6 +184,115 @@
       discrimination can be resolved is antithetical to principles of
       substantive equality and non-discrimination that we value.
     </p>
+    <p>
+      Another source of discrimination is in the modelling of the algorithmic
+      system and the biases inherent in the task of selecting the inputs and
+      outputs of the algorithmic system. The choice of selecting particular data
+      as relevant factors in classification or prediction is key to the task of
+      algorithmic modelling, and can embed assumptions which lead to
+      discrimination. For example, a software known as
+      <a
+        href="https://www.propublica.org/article/machine-bias-risk-assessments-in-criminal-sentencing"
+        >COMPAS</a
+      >, used in the USA to determine risk for releasing undertrial prisoners on
+      bail, had been shown to systematically discriminate against people of
+      colour. One possible reason for this discrimination could be the factors
+      which were chosen to indicate &lsquo;risk of re-offending&rsquo; &ndash;
+      including prior arrests and arrests of close families or friends. These
+      data or &lsquo;features&rsquo; were more likely to occur for people of
+      colour, and consequently, these factors could have influenced the
+      algorithm to systematically indicate higher risk for these groups.
+      Similarly, a study of the Delhi Police&rsquo;s &lsquo;Crime Mapping&rsquo;
+      software C-MAPS indicated that the filters used to identify areas for
+      policing or crime hotspots are classified using filters for immigrant
+      settlements or minority areas.<sup
+        ><a href="#sdfootnote4sym" name="sdfootnote4anc"><sup>4</sup></a></sup
+      >
+      Such biases may also be embedded within algorithmic design
+      unintentionally, through the lack of testing or considerations of diverse
+      populations.<sup
+        ><a href="#sdfootnote5sym" name="sdfootnote5anc"><sup>5</sup></a></sup
+      >
+      For example, the Aadhar systems fingerprinting and biometric pattern
+      matching algorithm has been shown to underperform on particular
+      demographics, including based on age and gender.<sup
+        ><a href="#sdfootnote6sym" name="sdfootnote6anc"><sup>6</sup></a></sup
+      >Examples like this also show how proxy characteristics &ndash; or
+      indirect discrimination &ndash; can be built into algorithmic systems,
+      even if the algorithm does not directly consider protected attributes like
+      race or gender as an input in making decisions.
+    </p>
+    <p>
+      The various sources of biases inherent withing ADMS, coupled with the
+      failures of accountability and transparency outlined in this toolkit, make
+      discrimination within the large technological systems used by public
+      agencies difficult to uncover and challenge. Moving ahead with governance
+      through ADMS without critically reflecting on how these challenges of
+      discrimination can be resolved is antithetical to principles of
+      substantive equality and non-discrimination that we value.
+    </p>
+    <div class="footnotes">
+      <div>
+        <p>
+          <a href="#sdfootnote1anc" name="sdfootnote1sym">1</a> Barocas S and
+          Selbst AD, &lsquo;Big Data&rsquo;s Disparate Impact&rsquo;,
+          <a href="https://papers.ssrn.com/sol3/papers.cfm?abstract_id=2477899#"
+            >104 California Law Review 671 (2016)</a
+          >.
+        </p>
+      </div>
+      <div>
+        <p>
+          <a href="#sdfootnote2anc" name="sdfootnote2sym">2</a> Chouldechova,
+          A., &lsquo;Fair prediction with disparate impact: A study of bias in
+          recidivism prediction instruments&rsquo;, 5(2) Big Data,
+          153&ndash;163, 2017.
+        </p>
+      </div>
+      <div>
+        <p>
+          <a href="#sdfootnote3anc" name="sdfootnote3sym">3</a> Buolamwini J and
+          Gebru T, &lsquo;Gender Shades: Intersectional Accuracy Disparities in
+          Commercial Gender Classification&rsquo;, Proceedings of the 1st
+          Conference on Fairness, Accountability and Transparency, PMLR
+          81:77-91, 2018
+        </p>
+      </div>
+      <div>
+        <p>
+          <a href="#sdfootnote4anc" name="sdfootnote4sym">4</a> Narayan, S, and
+          Marda, V, &lsquo;Data in New Delhi&rsquo;s Predictive Policing System,
+          Proceedings of the 2020 Conference on Fairness, Accountability, and
+          Transparency, &lt;<a
+            href="https://dl.acm.org/doi/abs/10.1145/3351095.3372865"
+            ><u>https://dl.acm.org/doi/abs/10.1145/3351095.3372865</u></a
+          >&gt;
+        </p>
+      </div>
+      <div>
+        <p>
+          <a href="#sdfootnote5anc" name="sdfootnote5sym">5</a> Drozdowski P and
+          others, &lsquo;Demographic Bias in Biometrics: A Survey on an Emerging
+          Challenge&rsquo; [2020]
+          <a
+            href="https://ieeexplore.ieee.org/xpl/RecentIssue.jsp?punumber=8566059"
+            >IEEE Transactions on Technology and Society</a
+          >
+          ( Volume: 1,
+          <a
+            href="https://ieeexplore.ieee.org/xpl/tocresult.jsp?isnumber=9107511"
+            >Issue: 2</a
+          >, June 2020)
+        </p>
+      </div>
+      <div>
+        <p>
+          <a href="#sdfootnote6anc" name="sdfootnote6sym">6</a> Rao U and Nair
+          V, &lsquo;Aadhaar: Governing with Biometrics&rsquo; (2019) 42 South
+          Asia: Journal of South Asian Studies 469
+        </p>
+      </div>
+    </div>
   </b-tab>
 </template>
 

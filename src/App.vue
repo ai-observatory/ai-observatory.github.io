@@ -8,13 +8,19 @@
     <router-view />
 
     <div
-      style="display: flex; padding-top: 20px; padding-bottom: 10px; flex-direction: column; align-items: center;"
+      style="
+        display: flex;
+        padding-top: 20px;
+        padding-bottom: 10px;
+        flex-direction: column;
+        align-items: center;
+      "
     >
       <div class="">
         <a rel="license" href="http://creativecommons.org/licenses/by/4.0/"
           ><img
             alt="Creative Commons License"
-            style="border-width:0"
+            style="border-width: 0"
             src="https://i.creativecommons.org/l/by/4.0/88x31.png"
         /></a>
       </div>
@@ -35,8 +41,8 @@ import Header from "@/components/Header.vue";
 export default {
   name: "Home",
   components: {
-    Header: Header
-  }
+    Header: Header,
+  },
 };
 </script>
 
@@ -94,11 +100,15 @@ h4 {
   }
 }
 .modal-button {
-  margin-top: 20px;
-  margin-bottom: 20px;
-  width: 100%;
-  background-color: black;
+  // margin-top: 20px;
+  // margin-bottom: 20px;
+  // width: 100%;
+  // margin: auto !important;
+  padding: 15px;
+  background-color: #072c00;
+  background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='120' height='120' viewBox='0 0 120 120'%3E%3Cpolygon fill='%23000' fill-opacity='.1' points='120 0 120 60 90 30 60 0 0 0 0 0 60 60 0 120 60 120 90 90 120 60 120 0'/%3E%3C/svg%3E");
 }
+
 strong {
   color: #f95d23;
 }
@@ -149,8 +159,18 @@ blockquote {
   padding-left: 15px;
   border-left: 5px solid #e7a201;
 }
-.data-modal-button{
+.data-modal-button {
   background-color: #fff5dc;
   color: #2c3e50;
+}
+
+.modal-button-container {
+  display: flex;
+  justify-content: center;
+  margin: 20px 0px;
+}
+
+.footnotes{
+  font-size: 12px;
 }
 </style>

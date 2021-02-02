@@ -6,7 +6,7 @@
       unjust dispossession. This section explains why, and how, ADMS are being
       used to determine people&rsquo;s legal entitlements in India, and how it
       is facilitating the dispossession of their legitimate claims to state
-      welfare and access to public goods.&nbsp;
+      welfare and access to public goods.
     </p>
     <p>
       Algorithmic systems are widely used by public agencies in India, in order
@@ -37,20 +37,28 @@
       assumption that biometric identification is accurate across populations,
       even as the Government has itself claimed that the biometric
       authentication mechanism fails at multiple levels. The Government of India
-      is now attempting to utilise iris scanning and facial recognition
+      is now attempting to utilise<a
+        href="https://economictimes.indiatimes.com/industry/banking/finance/banking/facial-recognition-iris-scans-may-be-used-for-welfare-scheme-payouts/articleshow/77755102.cms?from=mdr"
+      >
+        iris scanning and facial recognition</a
+      >
       technologies for biometric authentication within the Aadhaar system, each
       of which come with their own biases and points of failure.
     </p>
-    <p><strong>Eligibility, Screening and Prioritisation&nbsp;</strong></p>
+    <p><strong>Eligibility, Screening and Prioritisation </strong></p>
     <p>
       Welfare systems across the world, including in India, depend extensively
       on filtering and classifying individuals in order to ensure that benefits
       are claimed according to particular socio-economic circumstances. For
       example, the eligibility of individuals to central and state government
       welfare schemes like PDS or is often determined against the enumeration of
-      individuals and households done through the Socio-Economic and Caste
-      Census (last conducted in 2011), or through household surveys conducted at
-      the state level.
+      individuals and households done through the
+      <a
+        href="https://economictimes.indiatimes.com/news/politics-and-nation/government-to-use-secc-data-for-effectiveness-of-welfare-schemes/articleshow/57001274.cms?utm_source=contentofinterest&amp;utm_medium=text&amp;utm_campaign=cppst"
+        >Socio-Economic and Caste Census</a
+      >
+      (last conducted in 2011), or through household surveys conducted at the
+      state level.
     </p>
     <p>
       Increasingly, however, classifications created by algorithmic systems are
@@ -59,7 +67,7 @@
       entitlements. This is done both to determine their entry into the welfare
       system (whether they are considered &lsquo;eligible beneficiaries&rsquo;),
       as well as to classify and sort beneficiaries among themselves, according
-      to some criterion for priority.&nbsp;
+      to some criterion for priority.
     </p>
     <p>
       For example, the Government of Telangana&rsquo;s &lsquo;Samagra
@@ -86,7 +94,7 @@
     <div>
       <b-img
         center
-        style="width:100%; height: 650px; object-fit:cover"
+        style="width: 100%; height: 650px; object-fit: cover"
         src="../../public/icon2.png"
         fluid
         alt="surveillance and profiling harms"
@@ -102,31 +110,37 @@
       spaces by screening attendees &ndash; including political rallies. In New
       Delhi, the Delhi Police&rsquo;s Automated Facial Recognition System was
       used to screen persons who were identified as &lsquo;habitual
-      protestors&rsquo;, and disallow them from attending a political rally
-      organised by Prime Minister Narendra Modi.
+      protestors&rsquo;, and
+      <a
+        href="https://thewire.in/government/delhi-police-is-now-using-facial-recognition-software-to-screen-habitual-protestors"
+        >disallow</a
+      >
+      them from attending a political rally organised by Prime Minister Narendra
+      Modi.
     </p>
 
-    <div>
+    <div class="modal-button-container">
       <b-button class="modal-button" v-b-modal="'case-study-5'"
-        >[Case Study: Algorithmic Health Screening Through Aarogya Setu]</b-button
+        >[Case Study: Algorithmic Health Screening Through Aarogya
+        Setu]</b-button
       >
       <b-modal id="case-study-5" size="xl" hide-footer>
         <div class="d-block text-left">
-          <h3>
-            Case Study: Algorithmic Health Screening Through Aarogya Setu
-          </h3>
+          <h3>Case Study: Algorithmic Health Screening Through Aarogya Setu</h3>
           <p>
             Automated screening tools have been widely utilised to prevent
             potential outbreaks or contagion during the CoVID-19 pandemic. One
             such tool has been Aarogya Setu, an ADMS deployed by the Government
             of India, which is expected to track a person&rsquo;s movement and
             their associations with other people, in order to model their risk
-            of infection of COVID-19.
+            of infection of COVID-19.<sup
+              ><a href="#sdfootnote1sym" name="sdfootnote1anc">1</a></sup
+            >
           </p>
           <div>
             <b-img
               center
-              style="width:100%; height: 650px; object-fit:cover"
+              style="width: 100%; height: 650px; object-fit: cover"
               src="../../public/icon3.png"
               fluid
               alt="aarogya setu"
@@ -140,7 +154,7 @@
             changed. Government notifications made the use of Aarogya Setu
             mandatory for accessing public spaces and services, including for
             employees to access their workspaces, as well as for the use of
-            public transport &ndash; from flights to trains.&nbsp;
+            public transport &ndash; from flights to trains.
           </p>
           <p>
             The tool quickly transformed into an automated screening system
@@ -150,7 +164,7 @@
             Access to public spaces was then mediated based on the values
             assigned to individual users &ndash; without individuals being made
             aware of the specific reason for the value, nor any mechanism to
-            challenge or appeal the decision made by the tool.&nbsp;
+            challenge or appeal the decision made by the tool.
           </p>
           <p>
             The example of Aarogya Setu should caution us not only to the
@@ -177,9 +191,10 @@
       entitlements like ration or credit, to voting rights.
     </p>
 
-    <div>
+    <div class="modal-button-container">
       <b-button class="modal-button" v-b-modal="'case-study-6'"
-        >[Case Study: Disenfranchising Voters Through Algorithmic Purification]</b-button
+        >[Case Study: Disenfranchising Voters Through Algorithmic
+        Purification]</b-button
       >
       <b-modal id="case-study-6" size="xl" hide-footer>
         <div class="d-block text-left">
@@ -197,13 +212,13 @@
             names from voter lists &ndash; and consequently, disenfranchising
             voters from exercising their right to vote. From Bihar to Telangana
             &ndash; the implementation of the NERPAP ADMS has resulted in the
-            wide-scale disenfranchisement.&nbsp;
+            wide-scale disenfranchisement.
           </p>
 
           <div>
             <b-img
               center
-              style="width:100%; height: 650px; object-fit:cover"
+              style="width: 100%; height: 650px; object-fit: cover"
               src="../../public/icon5.png"
               fluid
               alt="voters"
@@ -211,7 +226,7 @@
           </div>
 
           <p>
-            <br />The NERPAP programme identified potential duplicate or
+            The NERPAP programme identified potential duplicate or
             &lsquo;fraudulent&rsquo; voters through the process of matching
             names in voter databases (the Electoral Photo ID Card or EPIC
             database), to citizen databases which were linked with an Aadhaar
@@ -221,10 +236,14 @@
             programme assumed fraud if indicated by the name-deletion algorithm,
             and placed the burden of responding to the deletion on citizens,
             after the fact. While the algorithmic &lsquo;seeding&rsquo; of
-            Aadhaar with NERPAP was finally halted through the intervention of
-            the Supreme Court of India, the lasting damage to the exercise of a
-            right to democratic participation has neither been acknowledged nor
-            mitigated by the agencies responsible for the system. Rather,
+            Aadhaar with NERPAP was finally halted through the
+            <a
+              href="https://rti.eci.nic.in/public/images/cpio_uploaded/3769/13.08.2015(NERPAP-ban%20on%20Aadhaar%20linking%20with%20ER%20database).pdf"
+              >intervention</a
+            >
+            of the Supreme Court of India, the lasting damage to the exercise of
+            a right to democratic participation has neither been acknowledged
+            nor mitigated by the agencies responsible for the system. Rather,
             according to reports, the Government of India is intending to give
             legal sanctity to the system through amendments to the law.
           </p>
@@ -242,14 +261,16 @@
       across a range of databases, from government databases to social media.
     </p>
 
-    <div>
+    <div class="modal-button-container">
       <b-button class="modal-button" v-b-modal="'case-study-7'"
-        >[Case Study: Automated Fraud Detection in the Ayushman Bharat Universal Health Scheme]</b-button
+        >[Case Study: Automated Fraud Detection in the Ayushman Bharat Universal
+        Health Scheme]</b-button
       >
       <b-modal id="case-study-7" size="xl" hide-footer>
         <div class="d-block text-left">
           <h3>
-            [Case Study: Automated Fraud Detection in the Ayushman Bharat Universal Health Scheme]
+            [Case Study: Automated Fraud Detection in the Ayushman Bharat
+            Universal Health Scheme]
           </h3>
           <p>
             Ayushman Bharat is the Government of India&rsquo;s ambitious
@@ -260,34 +281,38 @@
             obstacle, the National Health Authority, responsible for the
             administration of Ayushman Bharat, has implemented a &lsquo;Fraud
             Analytics Control and Tracking System&rsquo;, developed by the firm
-            SAS.&nbsp;
+            SAS.
           </p>
 
           <div>
             <b-img
               center
-              style="width:100%; height: 650px; object-fit:cover"
+              style="width: 100%; height: 650px; object-fit: cover"
               src="../../public/icon4.png"
               fluid
               alt=""
             ></b-img>
           </div>
-          
+
           <p>
-            According to the NHA, the FACTS system will use Artificial
-            Intelligence and Machine Learning in order to
+            According to the
+            <a
+              href="https://pmjay.gov.in/sites/default/files/2019-09/Annual%20Report%20-%20PMJAY%20small%20version_1.pdf"
+              >NHA</a
+            >, the FACTS system will use Artificial Intelligence and Machine
+            Learning in order to
             <em
               >&ldquo;identify suspect transactions &amp; entities. Using
               advanced tools such as Natural Language Processing and Optical
               Character Recognition and Image Analytics, unstructured data such
               as images, documents and clinical notes submitted are analysed to
-              detect cases of potential fraud and abuse.&rdquo;</em
+              detect cases of potential fraud and abuse.&rdquo; </em
             >As per the Anti-Fraud Guidelines issued by the National Health
             Authority, the fraud identification software will be retrospective
             &ndash; to assess patterns of fraud from historical claims, as well
             as assessing claims on a case-by-case basis. Therefore, the software
             is possibly being leveraged to accept or deny insurance claims under
-            the scheme.It is as yet unclear what particular algorithmic models
+            the scheme. It is as yet unclear what particular algorithmic models
             or datasets will be utilised in the fraud analytics software.
           </p>
           <p>
@@ -297,22 +322,26 @@
             been notified is supposed to ascertain whether there is
             <em>prima facie </em>evidence of fraud, and if this is found, then
             to conduct a full investigation which can result in the rejection of
-            an insurance claim and disciplinary action.&nbsp;
+            an insurance claim and disciplinary action.
           </p>
           <p>
-            <br />Systems like FACTS appear to be effective methods of achieving
-            a legitimate aim &ndash; of curtailing fraudulent behaviour.
-            However, in the absence of transparent processes and accountability
-            measures where wrong decisions can be challenged, these systems can
-            result in individuals becoming embroiled in invasive surveillance
-            and pecuniary processes, at times when they are most vulnerable
-            &ndash; such as during a medical emergency. These systems can
-            compromise important democratic values and human rights &ndash;
-            including the right to privacy and the right to challenge an adverse
-            decision. Recognising this, a similar fraud analytics system, known
-            as the System Risk Indicator or SyRI, was struck down on grounds of
+            Systems like FACTS appear to be effective methods of achieving a
+            legitimate aim &ndash; of curtailing fraudulent behaviour. However,
+            in the absence of transparent processes and accountability measures
+            where wrong decisions can be challenged, these systems can result in
+            individuals becoming embroiled in invasive surveillance and
+            pecuniary processes, at times when they are most vulnerable &ndash;
+            such as during a medical emergency. These systems can compromise
+            important democratic values and human rights &ndash; including the
+            right to privacy and the right to challenge an adverse decision.
+            Recognising this, a similar fraud analytics system, known as the
+            System Risk Indicator or SyRI, was struck down on grounds of
             violating the European Convention on Human Rights by a Dutch Court
-            in the Hague.
+            in the Hague.<sup
+              ><a href="#sdfootnote2sym" name="sdfootnote2anc"
+                ><sup>2</sup></a
+              ></sup
+            >
           </p>
         </div>
       </b-modal>
@@ -328,6 +357,25 @@
       particularly to populations who are the most dependent on the state for
       their social security and safety.
     </p>
+
+    <div class="footnotes">
+      <div>
+      <p>
+        <a href="#sdfootnote1anc" name="sdfootnote1sym">1</a> Joshi, D., Mohan,
+        S., &lsquo;A Legal Framework for Digital Surveillance in the COVID-19
+        Pandemic&rsquo;, Medianama, (July 14, 2020)
+      </p>
+    </div>
+    <div>
+      <p>
+        <a href="#sdfootnote2anc" name="sdfootnote2sym">2</a> Meuwese, A.
+        (2020). Regulating algorithmic decision-making one case at the time.
+        Case note on: District Courtof The Hague , 5/02/20,
+        ECLI:NL:RBDHA:2020:865 (NJCM vs the Netherlands (SyRI)). European Review
+        of Digital Administration &amp; Law, 1(1), 209-211.
+      </p>
+    </div>
+    </div>
   </b-tab>
 </template>
 
