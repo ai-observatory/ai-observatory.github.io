@@ -16,7 +16,7 @@
     <div>
       <b-img
         center
-        style="width:80%; height: 660px; object-fit:cover"
+        style="width: 80%; height: 660px; object-fit: cover"
         src="../../public/pimg1.png"
         fluid
         alt="ml and big data walk into a bar"
@@ -77,20 +77,21 @@
       deeply about community infrastructures, digital rights and feminism. Find
       her at @praymurray on Twitter.
     </p>
-    <p><br /><br /></p>
+
     <p><strong>Paulanthony George (illustrations)</strong></p>
     <p>
       Paul aka
       <a href="https://www.instagram.com/memewhile.mp3/">@memewhile.mp3</a> does
       research on internet memes, spreadable media, online behaviours, and draws
       comics as a part of this research, while writing bios in the third person,
-      taking care of cats and gardening.<br /><br />
+      taking care of cats and gardening.
     </p>
     <p><strong>Pratyush Raman (fullstack development)</strong></p>
     <p>
-      Pratyush <a href="https://www.instagram.com/prtyshrmn/">(prtyshrmn)</a> is a teaching-artist, engaging in the confluence of art and
-      technology. He cooks food and makes music for his soul, keeping
-      aspirations of being a polymath.
+      Pratyush <a href="https://www.instagram.com/prtyshrmn/">(prtyshrmn)</a> is
+      a teaching-artist, engaging in the confluence of art and technology. He
+      cooks food and makes music for his soul, keeping aspirations of being a
+      polymath.
     </p>
     <p><strong>Senjuti Sangia (typesetting)</strong></p>
     <p>
@@ -104,12 +105,21 @@
       individual memory in relation to the collective, the politics of identity,
       and oral cultures.
     </p>
+
+    <p>
+      <strong>
+        <a href="https://github.com/ai-observatory/ai-observatory.github.io">
+          GitHub link
+        </a>
+        for the website</strong
+      >
+    </p>
     <p>Supported by:</p>
 
     <div>
       <b-img
         left
-        style="width:20%"
+        style="width: 20%"
         src="../../public/logo1.png"
         fluid
         alt="Mozilla Logo"

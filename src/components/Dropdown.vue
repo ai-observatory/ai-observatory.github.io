@@ -169,7 +169,7 @@
               {{ modalContent["Proposed or Implemented"] }}
             </p>
             <p>
-              <strong>Databases Relied On Training or Matching </strong>:&nbsp;
+              <strong>Databases</strong>:&nbsp;
               {{ modalContent["Databases Relied On Training or Matching"] }}
             </p>
 
