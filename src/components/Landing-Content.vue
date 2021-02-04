@@ -1,14 +1,6 @@
 <template>
   <div>
-    <h1
-      style="
-        font-family: 'Big Shoulders Inline Text', cursive;
-        font-weight: 700;
-        font-size: 80px;
-      "
-    >
-      AI Observatory
-    </h1>
+    <h1 class="header-big">AI Observatory</h1>
 
     <p>
       &lsquo;Artificial Intelligence&rsquo;, &lsquo;Machine Learning&rsquo;,

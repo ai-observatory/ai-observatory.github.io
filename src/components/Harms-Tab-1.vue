@@ -12,14 +12,11 @@
       what their consequences are.
     </p>
 
-    <div
-      class=""
-      style="display: flex; align-items: center; justify-content: center"
-    >
+    <div class="img-flex">
       <div>
         <b-img
           center
-          style="margin: auto"
+          style="margin: auto;"
           src="../../public/pimg7.png"
           fluid
           alt="black box problems"
@@ -217,8 +214,7 @@
     </p>
 
     <div
-      class=""
-      style="display: flex; align-items: center; justify-content: center"
+      class="img-flex"
     >
       <div>
         <b-img

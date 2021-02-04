@@ -150,7 +150,7 @@
     <div>
       <b-img
         center
-        style="width: 100%; height: 650px; object-fit: cover"
+        style="width: 100%; height: 650px; object-fit: cover;"
         src="../../public/icon1.png"
         fluid
         alt="icon 1"

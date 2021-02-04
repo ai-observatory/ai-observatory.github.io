@@ -2,8 +2,6 @@
   <div id="app">
     <div id="nav">
       <Header></Header>
-      <!-- <router-link to="/">Home</router-link> | -->
-      <!-- <router-link to="/about">About</router-link> -->
     </div>
     <router-view />
 
@@ -36,7 +34,6 @@
 </template>
 
 <script>
-// @ is an alias to /src
 import Header from "@/components/Header.vue";
 export default {
   name: "Home",
@@ -170,7 +167,32 @@ blockquote {
   margin: 20px 0px;
 }
 
-.footnotes{
+.footnotes {
   font-size: 12px;
+}
+
+.header-big {
+  font-family: "Big Shoulders Inline Text", cursive;
+  font-weight: 700;
+  font-size: 7rem;
+}
+
+.img-flex {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+@media only screen and (max-width: 1081px) and (orientation: portrait) {
+  blockquote {
+    margin-left: 10px;
+  }
+
+  .header-big {
+    font-size: 4rem;
+  }
+  .img-flex {
+    flex-direction: column;
+  }
 }
 </style>
