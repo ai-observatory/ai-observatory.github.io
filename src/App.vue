@@ -1,5 +1,10 @@
 <template>
   <div id="app">
+    <img
+      style="position: absolute; z-index: -10; left: -300px; opacity: 0.7;"
+      src="../public/pimg8-narrow.png"
+      alt=""
+    />
     <div id="nav">
       <Header></Header>
     </div>
@@ -59,7 +64,10 @@ $primary: #000000;
 // #fff5dc, #e7a201, #72cb79, #f95d23, #ffffff, #6eb5ef
 body {
   background-color: #fff5dc;
+
+  // background-blend-mode: luminosity;
 }
+
 #app {
   font-family: "Open Sans", sans-serif;
   -webkit-font-smoothing: antialiased;
@@ -69,6 +77,7 @@ body {
   color: #2c3e50;
   font-size: 20px;
   max-width: 940px;
+  position: relative;
 }
 
 p,
@@ -114,7 +123,8 @@ a {
   position: relative;
   overflow: hidden;
   text-decoration: none;
-  color: #72cb79;
+  // color: #72cb79;
+  color: #3e6b41;
   &:hover {
     color: #6eb5ef;
   }
