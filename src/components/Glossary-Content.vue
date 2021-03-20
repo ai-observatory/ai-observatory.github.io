@@ -18,6 +18,15 @@
       &lsquo;algorithms&rsquo; are the instructions or logic which is used by a
       computer to perform a specific task.&nbsp;
     </p>
+    <div>
+      <b-img
+        center
+        style="width: 90%"
+        src="../../public/glossary.png"
+        fluid
+        alt="till link do us apart"
+      ></b-img>
+    </div>
     <p>
       Within many Automated Decision-Making Systems, the algorithm is part of
       the specific software or computer programme used to process information

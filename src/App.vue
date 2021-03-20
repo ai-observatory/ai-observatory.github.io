@@ -1,10 +1,5 @@
 <template>
   <div id="app">
-    <img
-      style="position: absolute; z-index: -10; left: -300px; opacity: 0.7;"
-      src="../public/pimg8-narrow.png"
-      alt=""
-    />
     <div id="nav">
       <Header></Header>
     </div>
@@ -78,6 +73,10 @@ body {
   font-size: 20px;
   max-width: 940px;
   position: relative;
+  background-image: url("../public/margin.png");
+  background-repeat: repeat-y;
+  background-position: -100px 200px;
+  padding: 0px 20px;
 }
 
 p,

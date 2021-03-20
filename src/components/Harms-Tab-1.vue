@@ -12,31 +12,18 @@
       what their consequences are.
     </p>
 
-    <div class="img-flex">
-      <div>
-        <b-img
-          center
-          style="margin: auto;"
-          src="../../public/pimg7.png"
-          fluid
-          alt="black box problems"
-        ></b-img>
-      </div>
-
-      <div class="">
-        <p>
-          Transparency is an essential element of a democratic society. Without
-          adequate information about decisions that affect their lives, people
-          cannot comprehend how these decisions are made, how they may affect
-          them, or how they can participate in, and if possible, change such
-          decisions. Similarly, it is impossible to hold the use of ADMS
-          accountable to any legal standard or guiding principles if the
-          mechanisms by which it functions are unknown. Many ADMS pose
-          challenges to these ideals, both by being technically opaque, as well
-          as due to the institutional opacity which often surrounds these
-          systems.
-        </p>
-      </div>
+    <div class="">
+      <p>
+        Transparency is an essential element of a democratic society. Without
+        adequate information about decisions that affect their lives, people
+        cannot comprehend how these decisions are made, how they may affect
+        them, or how they can participate in, and if possible, change such
+        decisions. Similarly, it is impossible to hold the use of ADMS
+        accountable to any legal standard or guiding principles if the
+        mechanisms by which it functions are unknown. Many ADMS pose challenges
+        to these ideals, both by being technically opaque, as well as due to the
+        institutional opacity which often surrounds these systems.
+      </p>
     </div>
 
     <p>
@@ -107,6 +94,7 @@
         ><a href="#sdfootnote4sym" name="sdfootnote4anc"><sup>4</sup></a></sup
       >
     </p>
+
     <blockquote cite="http://">
       With governments increasingly outsourcing important infrastructure,
       including ADMS infrastructure, to private firms, there is correspondingly
@@ -213,27 +201,13 @@
       explained in the section above).
     </p>
 
-    <div
-      class="img-flex"
-    >
-      <div>
-        <b-img
-          center
-          style="width: 100%"
-          src="../../public/pimg8.png"
-          fluid
-          alt="algo vagueness"
-        ></b-img>
-      </div>
-
-      <div class="">
-        <p>
-          Accounting for accountability requires providing clear lines of
-          responsibility for the harms or failures caused by ADMS, including
-          establishing clear liability for the damage caused by ADMS, and clear
-          channels of redress to affected persons.
-        </p>
-      </div>
+    <div class="">
+      <p>
+        Accounting for accountability requires providing clear lines of
+        responsibility for the harms or failures caused by ADMS, including
+        establishing clear liability for the damage caused by ADMS, and clear
+        channels of redress to affected persons.
+      </p>
     </div>
 
     <blockquote cite="http://">
