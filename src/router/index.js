@@ -3,7 +3,7 @@ import VueRouter from "vue-router";
 import Home from "../views/Home.vue";
 
 Vue.use(VueRouter);
-
+// history: createWebHistory(),
 const routes = [
   {
     path: "/",
@@ -17,37 +17,37 @@ const routes = [
     // this generates a separate chunk (about.[hash].js) for this route
     // which is lazy-loaded when the route is visited.
     component: () =>
-    import(/* webpackChunkName: "about" */ "../views/About.vue")
+      import(/* webpackChunkName: "about" */ "../views/About.vue")
   },
   {
     path: "/database",
     name: "Database",
     component: () =>
-    import(/* webpackChunkName: "database" */ "../views/Database.vue")
+      import(/* webpackChunkName: "database" */ "../views/Database.vue")
   },
   {
     path: "/glossary",
     name: "Glossary",
     component: () =>
-    import(/* webpackChunkName: "aiobservatory" */ "../views/Glossary.vue")
+      import(/* webpackChunkName: "aiobservatory" */ "../views/Glossary.vue")
   },
   {
     path: "/context",
     name: "Context",
     component: () =>
-    import(/* webpackChunkName: "Context" */ "../views/Context.vue")
+      import(/* webpackChunkName: "Context" */ "../views/Context.vue")
   },
   {
     path: "/admsharms",
     name: "Admsharms",
     component: () =>
-    import(/* webpackChunkName: "Admsharms" */ "../views/Admsharms.vue")
+      import(/* webpackChunkName: "Admsharms" */ "../views/Admsharms.vue")
   },
   {
     path: "/takeaction",
     name: "Takeaction",
     component: () =>
-    import(/* webpackChunkName: "Takeaction" */ "../views/Takeaction.vue")
+      import(/* webpackChunkName: "Takeaction" */ "../views/Takeaction.vue")
   }
 ];
 
