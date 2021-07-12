@@ -12,7 +12,8 @@
           <b-nav-item to="/context">Context</b-nav-item>
           <b-nav-item to="/admsharms">Harms</b-nav-item>
           <b-nav-item to="/glossary">Glossary</b-nav-item>
-          <b-nav-item to="/takeaction" disabled>Take Action</b-nav-item>
+          <b-nav-item to="/reclaiming">Reclaiming AI Futures</b-nav-item>
+          <!-- <b-nav-item to="/takeaction" disabled>Take Action</b-nav-item> -->
           <!-- <router-link to="/">Home</router-link>
           <router-link to="/about">About</router-link> -->
           <!-- <b-nav-item href="#" disabled>Disabled</b-nav-item> -->

@@ -44,6 +44,12 @@ const routes = [
       import(/* webpackChunkName: "Admsharms" */ "../views/Admsharms.vue")
   },
   {
+    path: "/reclaiming",
+    name: "Reclaiming AI Futures",
+    component: () =>
+      import(/* webpackChunkName: "Reclaiming AI Futures" */ "../views/Reclaiming.vue")
+  },
+  {
     path: "/takeaction",
     name: "Takeaction",
     component: () =>
